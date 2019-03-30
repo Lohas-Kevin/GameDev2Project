@@ -1,0 +1,1237 @@
+﻿Log file open, 03/26/19 14:40:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MarshMellow
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.301529
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.125s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.26-18.40.10:435][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.26-18.40.10:435][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.26-18.40.10:461][  0]LogHAL: Display: Platform has ~ 16 GB [16751534080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.26-18.40.10:462][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.26-18.40.10:462][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.26-18.40.10:462][  0]LogInit: Computer: JESSIES-LAPTOP
+[2019.03.26-18.40.10:462][  0]LogInit: User: jessielichter
+[2019.03.26-18.40.10:462][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.26-18.40.10:462][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2019.03.26-18.40.10:462][  0]LogMemory: Memory total: Physical=15.6GB (16GB approx)
+[2019.03.26-18.40.10:462][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.26-18.40.10:462][  0]LogMemory: Process Physical Memory: 100.20 MB used, 100.20 MB peak
+[2019.03.26-18.40.10:462][  0]LogMemory: Process Virtual Memory: 91.29 MB used, 91.29 MB peak
+[2019.03.26-18.40.10:462][  0]LogMemory: Physical Memory: 11535.21 MB used,  4440.30 MB free, 15975.51 MB total
+[2019.03.26-18.40.10:462][  0]LogMemory: Virtual Memory: 4640.70 MB used,  4440.30 MB free, 134217728.00 MB total
+[2019.03.26-18.40.10:488][  0]LogInit: Using OS detected language (en-US).
+[2019.03.26-18.40.10:488][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.26-18.40.10:489][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.26-18.40.10:911][  0]LogStreaming: Display: Took  0.423s to InitEngineTextLocalization.
+[2019.03.26-18.40.10:911][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.26-18.40.10:965][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.26-18.40.10:965][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.26-18.40.11:218][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.26-18.40.11:218][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.26-18.40.11:284][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.03.26-18.40.11:284][  0]LogD3D11RHI:       2010/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.26-18.40.11:296][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.03.26-18.40.11:296][  0]LogD3D11RHI:       128/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.26-18.40.11:298][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.26-18.40.11:298][  0]LogD3D11RHI:       0/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.26-18.40.11:298][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.26-18.40.11:348][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.26-18.40.11:349][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.03.26-18.40.11:349][  0]LogWindows: EnumDisplayDevices:
+[2019.03.26-18.40.11:349][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.03.26-18.40.11:349][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.26-18.40.11:349][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.26-18.40.11:349][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.26-18.40.11:349][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.03.26-18.40.11:349][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.26-18.40.11:349][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.26-18.40.11:349][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.03.26-18.40.11:390][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.26-18.40.11:408][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.26-18.40.11:409][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Intermediate/Shaders/WorkingDirectory/63284/).
+[2019.03.26-18.40.11:410][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jessie lichter/AppData/Local/Temp/UnrealShaderWorkingDir/D5696E6F413C841FEC1AA1988AA84CB0/'.
+[2019.03.26-18.40.11:751][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.26-18.40.11:766][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.26-18.40.11:780][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.26-18.40.11:796][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.26-18.40.11:810][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.26-18.40.11:826][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.26-18.40.11:840][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.26-18.40.11:855][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.26-18.40.11:863][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.26-18.40.11:954][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.26-18.40.12:021][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.26-18.40.12:021][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.26-18.40.12:048][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.26-18.40.12:048][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.26-18.40.12:062][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.26-18.40.12:075][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.26-18.40.12:089][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.26-18.40.12:102][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.26-18.40.12:113][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.26-18.40.12:113][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.26-18.40.12:186][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.26-18.40.12:186][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.26-18.40.12:186][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.26-18.40.13:099][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.26-18.40.13:157][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.26-18.40.13:158][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.26-18.40.13:158][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.26-18.40.13:158][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.26-18.40.13:158][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.26-18.40.13:158][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.26-18.40.13:176][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.26-18.40.13:189][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jessie lichter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.26-18.40.13:189][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.26-18.40.13:189][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.26-18.40.13:210][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.26-18.40.13:211][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.26-18.40.13:212][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.26-18.40.13:293][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2019.03.26-18.40.13:667][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.26-18.40.13:832][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.26-18.40.13:836][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.26-18.40.13:836][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.26-18.40.13:837][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.26-18.40.13:837][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.26-18.40.13:854][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.03.26-18.40.14:504][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.139485 seconds
+[2019.03.26-18.40.14:510][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.26-18.40.14:510][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.26-18.40.14:510][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.26-18.40.15:531][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.26-18.40.15:546][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.26-18.40.15:713][  0]SourceControl: Source control is disabled
+[2019.03.26-18.40.15:713][  0]SourceControl: Source control is disabled
+[2019.03.26-18.40.15:715][  0]SourceControl: Source control is disabled
+[2019.03.26-18.40.15:716][  0]SourceControl: Source control is disabled
+[2019.03.26-18.40.15:898][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.26-18.40.16:100][  0]LogOcInput: OculusInput pre-init called
+[2019.03.26-18.40.16:175][  0]LogEngine: Initializing Engine...
+[2019.03.26-18.40.16:176][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.26-18.40.16:178][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.26-18.40.16:178][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.26-18.40.16:178][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.26-18.40.16:178][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.26-18.40.16:422][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.26-18.40.16:438][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.26-18.40.16:507][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-18.40.16:544][  0]LogInit: FAudioDevice initialized.
+[2019.03.26-18.40.16:545][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.26-18.40.16:594][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.26-18.40.16:607][  0]LogInit: Texture streaming: Enabled
+[2019.03.26-18.40.16:627][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.26-18.40.16:653][  0]LogInit: Transaction tracking system initialized
+[2019.03.26-18.40.16:693][  0]BlueprintLog: New page: Editor Load
+[2019.03.26-18.40.16:798][  0]LocalizationService: Localization service is disabled
+[2019.03.26-18.40.17:120][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.26-18.40.17:120][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.26-18.40.17:120][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.26-18.40.17:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.26-18.40.17:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.26-18.40.17:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.26-18.40.17:120][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.26-18.40.17:271][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/' took 0.06s
+[2019.03.26-18.40.17:281][  0]SourceControl: Source control is disabled
+[2019.03.26-18.40.17:281][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.26-18.40.17:290][  0]LightingResults: New page: Lighting Build
+[2019.03.26-18.40.17:293][  0]MapCheck: New page: Map Check
+[2019.03.26-18.40.17:293][  0]LightingResults: New page: Lighting Build
+[2019.03.26-18.40.17:805][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2019.03.26-18.40.17:805][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.03.26-18.40.17:805][  0]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
+[2019.03.26-18.40.17:887][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2019.03.26-18.40.17:887][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading ../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2019.03.26-18.40.17:887][  0]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
+[2019.03.26-18.40.17:891][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2019.03.26-18.40.17:892][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2019.03.26-18.40.17:892][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2019.03.26-18.40.17:892][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2019.03.26-18.40.17:977][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2019.03.26-18.40.17:978][  0]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2019.03.26-18.40.17:978][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2019.03.26-18.40.17:978][  0]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2019.03.26-18.40.18:227][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.26-18.40.18:257][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.26-18.40.18:286][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.26-18.40.18:403][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 116.125ms to complete.
+[2019.03.26-18.40.18:403][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.121
+[2019.03.26-18.40.18:543][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.40.18:554][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.40.18:566][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.40.18:577][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-18.40.18:587][  0]LogCollectionManager: Loaded 0 collections in 0.002825 seconds
+[2019.03.26-18.40.18:631][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Collections/' took 0.01s
+[2019.03.26-18.40.18:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/Developers/jessielichter/Collections/' took 0.01s
+[2019.03.26-18.40.18:632][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/Collections/' took 0.01s
+[2019.03.26-18.40.18:632][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.26-18.40.18:646][  0]LogContentBrowser: Native class hierarchy populated in 0.0142 seconds. Added 2572 classes and 603 folders.
+[2019.03.26-18.40.18:658][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.03.26-18.40.18:728][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.26-18.40.18:738][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2019.03.26-18.40.18:748][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.03.26-18.40.18:846][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.26-18.40.18:850][  0]LogSlate: Took 0.000276 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.26-18.40.18:860][  0]LogSlate: Took 0.000369 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.26-18.40.18:985][  0]LogRenderer: Reallocating scene render targets to support 864x508 Format 10 NumSamples 1 (Frame:1).
+[2019.03.26-18.40.19:199][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.26-18.40.19:199][  0]LogLoad: (Engine Initialization) Total time: 11.02 seconds
+[2019.03.26-18.40.19:199][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.26-18.40.19:218][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.26-18.40.19:240][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.26-18.40.19:245][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-18.40.19:312][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.26-18.40.42:035][326]LogAssetRegistry: Asset discovery search completed in 28.7650 seconds
+[2019.03.26-18.40.42:038][326]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.26-18.40.42:038][326]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000116 seconds (updated 0 objects)
+[2019.03.26-18.40.44:465][471]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-18.40.44:472][471]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-18.40.45:473][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.41.19:854][423]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.26-18.41.19:880][423]LogSlate: Took 0.000346 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.26-18.41.26:937][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.26-18.41.28:910][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-18.41.32:330][ 94]LogSlate: Took 0.005768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.26-18.41.36:325][330]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.03.26-18.45.52:014][960]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Models/testingMod.fbx)
+[2019.03.26-18.45.52:054][960]LogFbx: Loading FBX Scene from ../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Models/testingMod.fbx
+[2019.03.26-18.45.52:086][960]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.26-18.51.16:870][960]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.26-19.33.11:346][ 99]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/testingAsOBJ.fbx)
+[2019.03.26-19.33.11:387][ 99]LogFbx: Loading FBX Scene from ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/testingAsOBJ.fbx
+[2019.03.26-19.33.11:452][ 99]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.26-19.33.52:608][ 99]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.26-19.33.52:669][ 99]LogFbx: =================================================
+[2019.03.26-19.33.52:669][ 99]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.33.52:669][ 99]LogFbx: 	Total Deformer Count 1459635720.
+[2019.03.26-19.33.52:669][ 99]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.33.52:669][ 99]LogFbx: =================================================
+[2019.03.26-19.33.52:669][ 99]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.33.52:670][ 99]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.33.52:670][ 99]LogFbx: Dumping Node END [default]
+[2019.03.26-19.33.52:670][ 99]LogFbx: =================================================
+[2019.03.26-19.33.52:670][ 99]LogFbx: Dumping Node START [marshi:eyes_nurbsSphere4] 
+[2019.03.26-19.33.52:670][ 99]LogFbx: 	Total Deformer Count 1459971296.
+[2019.03.26-19.33.52:670][ 99]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.33.52:670][ 99]LogFbx: =================================================
+[2019.03.26-19.33.52:670][ 99]LogFbx: 	Attribute (marshi:eyes_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.33.52:670][ 99]LogFbx: 		[Node Attribute Child 1] marshi:eyes_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.33.52:670][ 99]LogFbx: Dumping Node END [marshi:eyes_nurbsSphere4]
+[2019.03.26-19.33.52:670][ 99]LogFbx: =================================================
+[2019.03.26-19.33.52:670][ 99]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.33.52:670][ 99]LogFbx: 	Total Deformer Count 1459636056.
+[2019.03.26-19.33.52:670][ 99]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.33.52:670][ 99]LogFbx: =================================================
+[2019.03.26-19.33.52:670][ 99]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.33.52:670][ 99]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.33.52:670][ 99]LogFbx: Dumping Node END [default]
+[2019.03.26-19.33.52:671][ 99]LogFbx: =================================================
+[2019.03.26-19.33.52:672][ 99]LogFbx: Dumping Node START [marshi:eyes_nurbsSphere4] 
+[2019.03.26-19.33.52:672][ 99]LogFbx: 	Total Deformer Count 1459969504.
+[2019.03.26-19.33.52:672][ 99]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.33.52:672][ 99]LogFbx: =================================================
+[2019.03.26-19.33.52:672][ 99]LogFbx: 	Attribute (marshi:eyes_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.33.52:672][ 99]LogFbx: 		[Node Attribute Child 1] marshi:eyes_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.33.52:672][ 99]LogFbx: Dumping Node END [marshi:eyes_nurbsSphere4]
+[2019.03.26-19.33.52:676][ 99]LogFbx: Valid bind pose for Pose (BindPose) - marshi:eyes_nurbsSphere4
+[2019.03.26-19.33.52:678][ 99]LogFbx: Triangulating skeletal mesh marshi:eyes_nurbsSphere4
+[2019.03.26-19.33.53:824][ 99]LogFbx: Warning: Bones digested - 57  Depth of hierarchy - 12
+[2019.03.26-19.33.54:565][ 99]LogSkeletalMesh: Section 0: 16844 vertices, 46 active bones
+[2019.03.26-19.33.54:569][ 99]LogSkeletalMesh: Section 0: Material=0, 28125 triangles
+[2019.03.26-19.33.54:575][ 99]LogSkeletalMesh: Building Skeletal Mesh testingAsOBJ...
+[2019.03.26-19.34.06:500][ 99]LogSkeletalMesh: Built Skeletal Mesh [11.93s] /Game/TestingModels/testingAsOBJ.testingAsOBJ
+[2019.03.26-19.34.06:946][ 99]LogLinker: Can't find file '/Game/TestingModels/testingAsOBJ_Skeleton'
+[2019.03.26-19.34.06:947][ 99]LogLinker: Can't find file '/Game/TestingModels/testingAsOBJ_Skeleton'
+[2019.03.26-19.34.06:962][ 99]LogLinker: Can't find file '/Game/TestingModels/testingAsOBJ_PhysicsAsset'
+[2019.03.26-19.34.06:963][ 99]LogLinker: Can't find file '/Game/TestingModels/testingAsOBJ_PhysicsAsset'
+[2019.03.26-19.34.07:048][ 99]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_2:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.03.26-19.34.07:085][ 99]LogFbx: =================================================
+[2019.03.26-19.34.07:085][ 99]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.34.07:085][ 99]LogFbx: 	Total Deformer Count 1459645912.
+[2019.03.26-19.34.07:085][ 99]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.34.07:085][ 99]LogFbx: =================================================
+[2019.03.26-19.34.07:085][ 99]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.34.07:085][ 99]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.34.07:085][ 99]LogFbx: Dumping Node END [default]
+[2019.03.26-19.34.07:085][ 99]LogFbx: =================================================
+[2019.03.26-19.34.07:085][ 99]LogFbx: Dumping Node START [marshi:eyes_nurbsSphere4] 
+[2019.03.26-19.34.07:085][ 99]LogFbx: 	Total Deformer Count 1440962048.
+[2019.03.26-19.34.07:085][ 99]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.34.07:085][ 99]LogFbx: =================================================
+[2019.03.26-19.34.07:085][ 99]LogFbx: 	Attribute (marshi:eyes_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.34.07:085][ 99]LogFbx: 		[Node Attribute Child 1] marshi:eyes_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.34.07:085][ 99]LogFbx: Dumping Node END [marshi:eyes_nurbsSphere4]
+[2019.03.26-19.34.07:086][ 99]LogFbx: =================================================
+[2019.03.26-19.34.07:086][ 99]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.34.07:086][ 99]LogFbx: 	Total Deformer Count 1459644120.
+[2019.03.26-19.34.07:086][ 99]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.34.07:086][ 99]LogFbx: =================================================
+[2019.03.26-19.34.07:086][ 99]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.34.07:086][ 99]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.34.07:086][ 99]LogFbx: Dumping Node END [default]
+[2019.03.26-19.34.07:086][ 99]LogFbx: =================================================
+[2019.03.26-19.34.07:086][ 99]LogFbx: Dumping Node START [marshi:eyes_nurbsSphere4] 
+[2019.03.26-19.34.07:086][ 99]LogFbx: 	Total Deformer Count 1440969216.
+[2019.03.26-19.34.07:086][ 99]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.34.07:086][ 99]LogFbx: =================================================
+[2019.03.26-19.34.07:086][ 99]LogFbx: 	Attribute (marshi:eyes_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.34.07:086][ 99]LogFbx: 		[Node Attribute Child 1] marshi:eyes_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.34.07:086][ 99]LogFbx: Dumping Node END [marshi:eyes_nurbsSphere4]
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(0) Hips
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(1) Spine
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(2) Spine1
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(3) Spine2
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(4) Neck
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(5) Head
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(8) LeftArm
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(10) LeftHand
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.03.26-19.34.07:089][ 99]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(27) RightShoulder
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(28) RightArm
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(29) RightForeArm
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(30) RightHand
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(31) RightHandThumb1
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(32) RightHandThumb2
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(33) RightHandThumb3
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(34) RightHandThumb4
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(35) RightHandIndex1
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(36) RightHandIndex2
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(37) RightHandIndex3
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(38) RightHandIndex4
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(39) RightHandMiddle1
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(40) RightHandMiddle2
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(41) RightHandMiddle3
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(42) RightHandMiddle4
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(43) RightHandRing1
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(44) RightHandRing2
+[2019.03.26-19.34.07:090][ 99]LogFbx: SortedLinks :(45) RightHandRing3
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(46) RightHandRing4
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(47) LeftUpLeg
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(48) LeftLeg
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(49) LeftFoot
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(50) LeftToeBase
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(51) LeftToe_End
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(52) RightUpLeg
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(53) RightLeg
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(54) RightFoot
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(55) RightToeBase
+[2019.03.26-19.34.07:091][ 99]LogFbx: SortedLinks :(56) RightToe_End
+[2019.03.26-19.34.07:098][ 99]LogSkeletalMesh: Building Skeletal Mesh testingAsOBJ...
+[2019.03.26-19.34.18:863][ 99]LogSkeletalMesh: Built Skeletal Mesh [11.77s] /Game/TestingModels/testingAsOBJ.testingAsOBJ
+[2019.03.26-19.34.19:313][ 99]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.03.26-19.34.19:314][ 99]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.26-19.34.19:314][ 99]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.03.26-19.34.19:314][ 99]FBXImport: Warning: Animation Stack mixamo.com does not contain any valid key. Try different time options when import. 
+[2019.03.26-19.34.19:314][ 99]FBXImport: Warning: This does not contain any valid animation takes. 
+[2019.03.26-19.34.19:345][ 99]LogSkeletalMesh: Building Skeletal Mesh testingAsOBJ...
+[2019.03.26-19.34.31:388][ 99]LogSkeletalMesh: Built Skeletal Mesh [12.04s] /Game/TestingModels/testingAsOBJ.testingAsOBJ
+[2019.03.26-19.34.32:123][100]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.040
+[2019.03.26-19.34.32:129][100]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/testingAsOBJ] ([1] browsable assets)...
+[2019.03.26-19.34.32:191][100]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/TestingModels/testingAsOBJ.testingAsOBJ]
+[2019.03.26-19.34.32:191][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/testingAsOBJ]
+[2019.03.26-19.34.32:255][100]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/testingAsOBJ_Auto123E7E8684AB19DB421BF5098BC375F5E.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/testingAsOBJ_Auto1.uasset'
+[2019.03.26-19.34.32:257][100]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestingModels/testingAsOBJ_Skeleton] ([1] browsable assets)...
+[2019.03.26-19.34.32:257][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/testingAsOBJ_Skeleton]
+[2019.03.26-19.34.32:267][100]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/testingAsOBJ_Skeleton_Auto1DA1368AF4A54EDC6CC7E4C994490D4C1.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/testingAsOBJ_Skeleton_Auto1.uasset'
+[2019.03.26-19.34.32:269][100]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/testingAsOBJ_PhysicsAsset] ([1] browsable assets)...
+[2019.03.26-19.34.32:309][100]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/TestingModels/testingAsOBJ_PhysicsAsset.testingAsOBJ_PhysicsAsset]
+[2019.03.26-19.34.32:309][100]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/testingAsOBJ_PhysicsAsset]
+[2019.03.26-19.34.32:329][100]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/testingAsOBJ_PhysicsAsset_Auto1771108FD4D455290794DE5AA1FF08BEE.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/testingAsOBJ_PhysicsAsset_Auto1.uasset'
+[2019.03.26-19.34.32:331][100]LogFileHelpers: Auto-saving content packages took 0.206
+[2019.03.26-19.35.01:818][780]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-19.35.01:823][780]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-19.35.16:069][ 43]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/Zombie Running (1).fbx)
+[2019.03.26-19.35.16:111][ 43]LogFbx: Loading FBX Scene from ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/Zombie Running (1).fbx
+[2019.03.26-19.35.16:229][ 43]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.26-19.35.47:492][ 43]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.26-19.35.47:522][ 43]LogFbx: =================================================
+[2019.03.26-19.35.47:522][ 43]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.35.47:522][ 43]LogFbx: 	Total Deformer Count 48430264.
+[2019.03.26-19.35.47:522][ 43]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.35.47:522][ 43]LogFbx: =================================================
+[2019.03.26-19.35.47:522][ 43]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.35.47:522][ 43]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.35.47:522][ 43]LogFbx: Dumping Node END [default]
+[2019.03.26-19.35.47:522][ 43]LogFbx: =================================================
+[2019.03.26-19.35.47:522][ 43]LogFbx: Dumping Node START [eyes1_nurbsSphere4] 
+[2019.03.26-19.35.47:522][ 43]LogFbx: 	Total Deformer Count 1446682464.
+[2019.03.26-19.35.47:522][ 43]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.35.47:522][ 43]LogFbx: =================================================
+[2019.03.26-19.35.47:523][ 43]LogFbx: 	Attribute (eyes1_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.35.47:523][ 43]LogFbx: 		[Node Attribute Child 1] eyes1_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.35.47:523][ 43]LogFbx: Dumping Node END [eyes1_nurbsSphere4]
+[2019.03.26-19.35.47:523][ 43]LogFbx: =================================================
+[2019.03.26-19.35.47:523][ 43]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.35.47:523][ 43]LogFbx: 	Total Deformer Count 48430768.
+[2019.03.26-19.35.47:523][ 43]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.35.47:523][ 43]LogFbx: =================================================
+[2019.03.26-19.35.47:523][ 43]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.35.47:523][ 43]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.35.47:523][ 43]LogFbx: Dumping Node END [default]
+[2019.03.26-19.35.47:523][ 43]LogFbx: =================================================
+[2019.03.26-19.35.47:523][ 43]LogFbx: Dumping Node START [eyes1_nurbsSphere4] 
+[2019.03.26-19.35.47:523][ 43]LogFbx: 	Total Deformer Count 1446675168.
+[2019.03.26-19.35.47:523][ 43]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.35.47:524][ 43]LogFbx: =================================================
+[2019.03.26-19.35.47:524][ 43]LogFbx: 	Attribute (eyes1_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.35.47:524][ 43]LogFbx: 		[Node Attribute Child 1] eyes1_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.35.47:524][ 43]LogFbx: Dumping Node END [eyes1_nurbsSphere4]
+[2019.03.26-19.35.47:527][ 43]LogFbx: Valid bind pose for Pose (BindPose) - eyes1_nurbsSphere4
+[2019.03.26-19.35.47:530][ 43]LogFbx: Triangulating skeletal mesh eyes1_nurbsSphere4
+[2019.03.26-19.35.48:966][ 43]LogFbx: Warning: Bones digested - 57  Depth of hierarchy - 12
+[2019.03.26-19.35.49:794][ 43]LogSkeletalMesh: Section 0: 16844 vertices, 46 active bones
+[2019.03.26-19.35.49:797][ 43]LogSkeletalMesh: Section 0: Material=0, 28125 triangles
+[2019.03.26-19.35.49:800][ 43]LogSkeletalMesh: Building Skeletal Mesh Zombie_Running__1_...
+[2019.03.26-19.36.02:376][ 43]LogSkeletalMesh: Built Skeletal Mesh [12.58s] /Game/TestingModels/Zombie_Running__1_.Zombie_Running__1_
+[2019.03.26-19.36.02:797][ 43]LogLinker: Can't find file '/Game/TestingModels/Zombie_Running__1__PhysicsAsset'
+[2019.03.26-19.36.02:798][ 43]LogLinker: Can't find file '/Game/TestingModels/Zombie_Running__1__PhysicsAsset'
+[2019.03.26-19.36.02:818][ 43]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.03.26-19.36.02:830][ 43]LogFbx: =================================================
+[2019.03.26-19.36.02:830][ 43]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.36.02:830][ 43]LogFbx: 	Total Deformer Count 48427016.
+[2019.03.26-19.36.02:830][ 43]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.36.02:830][ 43]LogFbx: =================================================
+[2019.03.26-19.36.02:830][ 43]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.36.02:830][ 43]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.36.02:830][ 43]LogFbx: Dumping Node END [default]
+[2019.03.26-19.36.02:830][ 43]LogFbx: =================================================
+[2019.03.26-19.36.02:830][ 43]LogFbx: Dumping Node START [eyes1_nurbsSphere4] 
+[2019.03.26-19.36.02:830][ 43]LogFbx: 	Total Deformer Count 42181408.
+[2019.03.26-19.36.02:830][ 43]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.36.02:830][ 43]LogFbx: =================================================
+[2019.03.26-19.36.02:830][ 43]LogFbx: 	Attribute (eyes1_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.36.02:830][ 43]LogFbx: 		[Node Attribute Child 1] eyes1_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.36.02:830][ 43]LogFbx: Dumping Node END [eyes1_nurbsSphere4]
+[2019.03.26-19.36.02:830][ 43]LogFbx: =================================================
+[2019.03.26-19.36.02:830][ 43]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.36.02:830][ 43]LogFbx: 	Total Deformer Count 48427128.
+[2019.03.26-19.36.02:830][ 43]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.36.02:830][ 43]LogFbx: =================================================
+[2019.03.26-19.36.02:830][ 43]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.36.02:830][ 43]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.36.02:830][ 43]LogFbx: Dumping Node END [default]
+[2019.03.26-19.36.02:830][ 43]LogFbx: =================================================
+[2019.03.26-19.36.02:830][ 43]LogFbx: Dumping Node START [eyes1_nurbsSphere4] 
+[2019.03.26-19.36.02:830][ 43]LogFbx: 	Total Deformer Count 42180736.
+[2019.03.26-19.36.02:831][ 43]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.36.02:831][ 43]LogFbx: =================================================
+[2019.03.26-19.36.02:831][ 43]LogFbx: 	Attribute (eyes1_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.36.02:831][ 43]LogFbx: 		[Node Attribute Child 1] eyes1_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.36.02:831][ 43]LogFbx: Dumping Node END [eyes1_nurbsSphere4]
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(0) Hips
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(1) Spine
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(2) Spine1
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(3) Spine2
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(4) Neck
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(5) Head
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(6) HeadTop_End
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(7) LeftShoulder
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(8) LeftArm
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(9) LeftForeArm
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(10) LeftHand
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(11) LeftHandThumb1
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(12) LeftHandThumb2
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(13) LeftHandThumb3
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(14) LeftHandThumb4
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(15) LeftHandIndex1
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(16) LeftHandIndex2
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(17) LeftHandIndex3
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(18) LeftHandIndex4
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(19) LeftHandMiddle1
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(20) LeftHandMiddle2
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(21) LeftHandMiddle3
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(22) LeftHandMiddle4
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(23) LeftHandRing1
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(24) LeftHandRing2
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(25) LeftHandRing3
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(26) LeftHandRing4
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(27) RightShoulder
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(28) RightArm
+[2019.03.26-19.36.02:832][ 43]LogFbx: SortedLinks :(29) RightForeArm
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(30) RightHand
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(31) RightHandThumb1
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(32) RightHandThumb2
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(33) RightHandThumb3
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(34) RightHandThumb4
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(35) RightHandIndex1
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(36) RightHandIndex2
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(37) RightHandIndex3
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(38) RightHandIndex4
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(39) RightHandMiddle1
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(40) RightHandMiddle2
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(41) RightHandMiddle3
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(42) RightHandMiddle4
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(43) RightHandRing1
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(44) RightHandRing2
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(45) RightHandRing3
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(46) RightHandRing4
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(47) LeftUpLeg
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(48) LeftLeg
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(49) LeftFoot
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(50) LeftToeBase
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(51) LeftToe_End
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(52) RightUpLeg
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(53) RightLeg
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(54) RightFoot
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(55) RightToeBase
+[2019.03.26-19.36.02:833][ 43]LogFbx: SortedLinks :(56) RightToe_End
+[2019.03.26-19.36.02:849][ 43]LogFbx: Parsing AnimStack mixamo.com
+[2019.03.26-19.36.02:852][ 43]LogLinker: Can't find file '/Game/TestingModels/Zombie_Running__1__Anim'
+[2019.03.26-19.36.02:853][ 43]LogLinker: Can't find file '/Game/TestingModels/Zombie_Running__1__Anim'
+[2019.03.26-19.36.03:060][ 43]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/TestingModels/Zombie_Running__1__Anim.Zombie_Running__1__Anim
+[2019.03.26-19.36.03:062][ 43]LogAnimationCompression: Recompressing (AnimSequence /Engine/Transient.Zombie_Running__1__Anim) using current/default (AnimCompress_BitwiseCompressOnly_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2019.03.26-19.36.03:077][ 43]LogSkeletalMesh: Building Skeletal Mesh Zombie_Running__1_...
+[2019.03.26-19.36.16:376][ 43]LogSkeletalMesh: Built Skeletal Mesh [13.30s] /Game/TestingModels/Zombie_Running__1_.Zombie_Running__1_
+[2019.03.26-19.36.16:792][ 43]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.03.26-19.36.16:792][ 43]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.26-19.36.16:793][ 43]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.03.26-19.36.16:810][ 43]LogSkeletalMesh: Building Skeletal Mesh Zombie_Running__1_...
+[2019.03.26-19.36.29:969][ 43]LogSkeletalMesh: Built Skeletal Mesh [13.16s] /Game/TestingModels/Zombie_Running__1_.Zombie_Running__1_
+[2019.03.26-19.37.31:743][462]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-19.37.31:752][462]LogSlate: Window 'Message Log' being destroyed
+[2019.03.26-19.37.33:834][577]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/TestingModels/Zombie_Running__1_.Zombie_Running__1_
+[2019.03.26-19.37.33:895][577]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2019.03.26-19.37.34:241][577]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.26-19.37.34:251][577]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0005 seconds. Added 1 classes and 0 folders.
+[2019.03.26-19.37.34:382][577]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.26-19.37.34:801][577]LogSlate: Took 0.007033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.26-19.37.34:862][577]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0009 seconds. Added 1 classes and 0 folders.
+[2019.03.26-19.37.46:502][137]LogRenderer: Reallocating scene render targets to support 912x712 Format 10 NumSamples 1 (Frame:648).
+[2019.03.26-19.38.02:749][562]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/TestingModels/testingAsOBJ.testingAsOBJ
+[2019.03.26-19.38.02:864][562]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.26-19.38.03:056][562]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_10:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.26-19.38.45:197][947]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/testingAsOBJ4F2F230341569792469212B4FAFE39CA.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/TestingModels/testingAsOBJ.uasset'
+[2019.03.26-19.44.32:704][105]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.033
+[2019.03.26-19.44.32:706][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/Zombie_Running__1_] ([1] browsable assets)...
+[2019.03.26-19.44.32:750][105]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/TestingModels/Zombie_Running__1_.Zombie_Running__1_]
+[2019.03.26-19.44.32:750][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/Zombie_Running__1_]
+[2019.03.26-19.44.32:817][105]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Zombie_Running__1__Auto2FF8D6E074D8B9CC530D1618D379AD0AF.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/Zombie_Running__1__Auto2.uasset'
+[2019.03.26-19.44.32:820][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/Zombie_Running__1__PhysicsAsset] ([1] browsable assets)...
+[2019.03.26-19.44.32:863][105]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/TestingModels/Zombie_Running__1__PhysicsAsset.Zombie_Running__1__PhysicsAsset]
+[2019.03.26-19.44.32:863][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/Zombie_Running__1__PhysicsAsset]
+[2019.03.26-19.44.32:886][105]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Zombie_Running__1__PhysicsAsset_0FEC503E4608EA7AD74B5D9EDC98D535.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/Zombie_Running__1__PhysicsAsset_Auto2.uasset'
+[2019.03.26-19.44.32:889][105]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/Zombie_Running__1__Anim] ([1] browsable assets)...
+[2019.03.26-19.44.32:933][105]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/TestingModels/Zombie_Running__1__Anim.Zombie_Running__1__Anim]
+[2019.03.26-19.44.32:933][105]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/Zombie_Running__1__Anim]
+[2019.03.26-19.44.32:964][105]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Zombie_Running__1__Anim_Auto2E1EB9E854A1F1D0387D8438125FA74CF.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/Zombie_Running__1__Anim_Auto2.uasset'
+[2019.03.26-19.44.32:965][105]LogFileHelpers: Auto-saving content packages took 0.261
+[2019.03.26-19.45.14:104][635]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.03.26-19.45.14:976][635]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 116 classes and 0 folders.
+[2019.03.26-19.45.43:557][422]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton testingAsOBJ_Skeleton, removing AnimBP from actor.
+[2019.03.26-19.45.43:558][422]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton testingAsOBJ_Skeleton, removing AnimBP from actor.
+[2019.03.26-19.45.43:559][422]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton testingAsOBJ_Skeleton, removing AnimBP from actor.
+[2019.03.26-19.45.43:559][422]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton testingAsOBJ_Skeleton, removing AnimBP from actor.
+[2019.03.26-19.46.22:516][510]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.26-19.46.22:681][510]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.26-19.46.34:332][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-19.46.40:849][500]LogEditorTransaction: Undo Modify Component(s)
+[2019.03.26-19.46.41:055][500]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_9:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.26-19.46.44:730][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-19.48.58:177][505]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-19.50.38:710][969]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-19.50.43:487][173]LogSlate: Window 'Zombie_Running__1_*' being destroyed
+[2019.03.26-19.54.24:963][439]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/tryingAgain.fbx)
+[2019.03.26-19.54.24:999][439]LogFbx: Loading FBX Scene from ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/tryingAgain.fbx
+[2019.03.26-19.54.25:055][439]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.26-19.55.00:306][439]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.26-19.55.42:461][468]LogSlate: Window 'Message' being destroyed
+[2019.03.26-19.55.42:475][468]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/testingAsOBJ.fbx)
+[2019.03.26-19.55.42:483][468]LogEditorFactories: Performing atomic reimport of [C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/testingAsOBJ.fbx]
+[2019.03.26-19.55.42:607][468]LogFbx: Loading FBX Scene from C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/testingAsOBJ.fbx
+[2019.03.26-19.55.42:692][468]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.26-19.55.42:699][468]LogFbx: =================================================
+[2019.03.26-19.55.42:699][468]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.55.42:699][468]LogFbx: 	Total Deformer Count -1885551880.
+[2019.03.26-19.55.42:699][468]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.55.42:699][468]LogFbx: =================================================
+[2019.03.26-19.55.42:699][468]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.55.42:699][468]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.55.42:699][468]LogFbx: Dumping Node END [default]
+[2019.03.26-19.55.42:699][468]LogFbx: =================================================
+[2019.03.26-19.55.42:699][468]LogFbx: Dumping Node START [marshi:eyes_nurbsSphere4] 
+[2019.03.26-19.55.42:699][468]LogFbx: 	Total Deformer Count -1624141520.
+[2019.03.26-19.55.42:699][468]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.55.42:700][468]LogFbx: =================================================
+[2019.03.26-19.55.42:700][468]LogFbx: 	Attribute (marshi:eyes_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.55.42:700][468]LogFbx: 		[Node Attribute Child 1] marshi:eyes_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.55.42:700][468]LogFbx: Dumping Node END [marshi:eyes_nurbsSphere4]
+[2019.03.26-19.55.42:700][468]LogFbx: =================================================
+[2019.03.26-19.55.42:700][468]LogFbx: Dumping Node START [default] 
+[2019.03.26-19.55.42:700][468]LogFbx: 	Total Deformer Count -1885548296.
+[2019.03.26-19.55.42:700][468]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.55.42:700][468]LogFbx: =================================================
+[2019.03.26-19.55.42:700][468]LogFbx: 	Attribute (defaultmesh) Type (4).
+[2019.03.26-19.55.42:700][468]LogFbx: 		[Node Attribute Child 1] default (Type Mesh).
+[2019.03.26-19.55.42:700][468]LogFbx: Dumping Node END [default]
+[2019.03.26-19.55.42:700][468]LogFbx: =================================================
+[2019.03.26-19.55.42:700][468]LogFbx: Dumping Node START [marshi:eyes_nurbsSphere4] 
+[2019.03.26-19.55.42:701][468]LogFbx: 	Total Deformer Count -1624134016.
+[2019.03.26-19.55.42:701][468]LogFbx: 		[Node 1] Skin (Type Skin).
+[2019.03.26-19.55.42:701][468]LogFbx: =================================================
+[2019.03.26-19.55.42:701][468]LogFbx: 	Attribute (marshi:eyes_nurbsSphere4mesh) Type (4).
+[2019.03.26-19.55.42:701][468]LogFbx: 		[Node Attribute Child 1] marshi:eyes_nurbsSphere4 (Type Mesh).
+[2019.03.26-19.55.42:701][468]LogFbx: Dumping Node END [marshi:eyes_nurbsSphere4]
+[2019.03.26-19.55.42:704][468]LogFbx: Valid bind pose for Pose (BindPose) - marshi:eyes_nurbsSphere4
+[2019.03.26-19.55.42:708][468]LogFbx: Triangulating skeletal mesh marshi:eyes_nurbsSphere4
+[2019.03.26-19.55.44:564][468]LogFbx: Warning: Bones digested - 57  Depth of hierarchy - 12
+[2019.03.26-19.55.45:543][468]LogSkeletalMesh: Section 0: 16844 vertices, 46 active bones
+[2019.03.26-19.55.45:549][468]LogSkeletalMesh: Section 0: Material=0, 28125 triangles
+[2019.03.26-19.55.45:553][468]LogSkeletalMesh: Building Skeletal Mesh testingAsOBJ...
+[2019.03.26-19.55.58:192][468]LogSkeletalMesh: Built Skeletal Mesh [12.64s] /Game/TestingModels/testingAsOBJ.testingAsOBJ
+[2019.03.26-19.55.58:204][468]LogEditorFactories: -- imported successfully
+[2019.03.26-19.55.58:227][468]FBXImport: Warning: Ignoring mesh default because it but no weights. 
+[2019.03.26-19.55.58:227][468]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.26-19.55.58:610][468]LogSkeletalMesh: Building Skeletal Mesh testingAsOBJ...
+[2019.03.26-19.56.11:064][468]LogSkeletalMesh: Built Skeletal Mesh [12.47s] /Game/TestingModels/testingAsOBJ.testingAsOBJ
+[2019.03.26-19.56.11:527][468]LogSkeletalMesh: Building Skeletal Mesh testingAsOBJ...
+[2019.03.26-19.56.24:079][468]LogSkeletalMesh: Built Skeletal Mesh [12.55s] /Game/TestingModels/testingAsOBJ.testingAsOBJ
+[2019.03.26-19.56.25:114][469]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ThirdPersonExampleMap_Auto3A6EAC36C438E26527B9216BCC63903CF.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2019.03.26-19.56.25:124][469]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.421
+[2019.03.26-19.56.25:124][469]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.421
+[2019.03.26-19.56.25:129][469]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.03.26-19.56.25:166][469]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2019.03.26-19.56.25:166][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.03.26-19.56.25:242][469]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ThirdPersonCharacter_Auto34363D9234F823D344D7F77A770C2DBB7.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto3.uasset'
+[2019.03.26-19.56.25:244][469]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/testingAsOBJ] ([1] browsable assets)...
+[2019.03.26-19.56.25:282][469]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/TestingModels/testingAsOBJ.testingAsOBJ]
+[2019.03.26-19.56.25:282][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/testingAsOBJ]
+[2019.03.26-19.56.25:346][469]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/testingAsOBJ_Auto39C158256484366B1DB620DB92E5954C4.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/testingAsOBJ_Auto3.uasset'
+[2019.03.26-19.56.25:347][469]LogFileHelpers: Auto-saving content packages took 0.221
+[2019.03.26-19.56.35:014][ 18]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.03.26-19.57.03:410][602]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-19.57.32:184][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-19.57.37:417][465]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-19.57.37:449][465]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-19.57.37:451][465]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.03.26-19.57.37:471][465]LogPlayLevel: [PlayLevel] Compiling ThirdPersonCharacter before play...
+[2019.03.26-19.57.37:803][465]LogPlayLevel: PlayLevel: Blueprint regeneration took 352 ms (1 blueprints)
+[2019.03.26-19.57.37:833][465]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 26, 2019, 11:57:37 AM)
+[2019.03.26-19.57.37:834][465]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.26-19.57.37:859][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024562s)
+[2019.03.26-19.57.37:862][465]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.26-19.57.37:864][465]LogPlayLevel: PIE: World Init took: (0.005387s)
+[2019.03.26-19.57.37:865][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.030937s)
+[2019.03.26-19.57.37:948][465]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-19.57.38:002][465]LogInit: FAudioDevice initialized.
+[2019.03.26-19.57.38:094][465]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.26-19.57.38:103][465]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.03.26-15.57.38
+[2019.03.26-19.57.38:105][465]LogWorld: Bringing up level for play took: 0.008841
+[2019.03.26-19.57.38:160][465]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0024 seconds. Added 10 classes and 0 folders.
+[2019.03.26-19.57.38:164][465]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.5
+[2019.03.26-19.57.38:164][465]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-19.57.49:819][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-19.57.49:820][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-19.57.49:870][134]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-19.57.49:871][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-19.57.49:914][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-19.57.49:948][135]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.03.26-19.59.11:924][953]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.03.26-20.00.14:575][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-20.01.36:283][332]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.03.26-20.01.43:863][590]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-20.01.43:974][590]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.01.43:974][590]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-20.01.43:975][590]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 26, 2019, 12:01:43 PM)
+[2019.03.26-20.01.43:976][590]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.26-20.01.44:025][590]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048793s)
+[2019.03.26-20.01.44:029][590]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.26-20.01.44:031][590]LogPlayLevel: PIE: World Init took: (0.005774s)
+[2019.03.26-20.01.44:031][590]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.055488s)
+[2019.03.26-20.01.44:259][590]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-20.01.44:399][590]LogInit: FAudioDevice initialized.
+[2019.03.26-20.01.44:465][590]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.26-20.01.44:473][590]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.03.26-16.01.44
+[2019.03.26-20.01.44:475][590]LogWorld: Bringing up level for play took: 0.006660
+[2019.03.26-20.01.44:493][590]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.17
+[2019.03.26-20.01.44:494][590]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.03.10:406][990]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.03.10:406][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-20.03.10:461][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-20.03.10:461][990]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.03.10:523][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-20.03.10:618][991]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.03.26-20.08.04:637][630]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.26-20.08.04:964][630]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ThirdPersonExampleMap_Auto4AD9DBD2948849783DC4418BC22B2BE9C.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2019.03.26-20.08.04:970][630]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.309
+[2019.03.26-20.08.04:970][630]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.309
+[2019.03.26-20.08.04:973][630]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.03.26-20.08.05:036][630]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2019.03.26-20.08.05:036][630]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.03.26-20.08.05:116][630]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ThirdPersonCharacter_Auto443B2E0FB46E84E644E33F8BFC8B6F8C6.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto4.uasset'
+[2019.03.26-20.08.05:117][630]LogFileHelpers: Auto-saving content packages took 0.145
+[2019.03.26-20.16.34:569][519]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-20.16.34:686][525]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2019.03.26-20.16.38:920][746]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-20.16.38:970][746]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.16.38:970][746]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-20.16.38:973][746]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 26, 2019, 12:16:38 PM)
+[2019.03.26-20.16.38:973][746]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.26-20.16.39:004][746]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029533s)
+[2019.03.26-20.16.39:007][746]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.26-20.16.39:008][746]LogPlayLevel: PIE: World Init took: (0.005271s)
+[2019.03.26-20.16.39:009][746]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035604s)
+[2019.03.26-20.16.39:096][746]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-20.16.39:165][746]LogInit: FAudioDevice initialized.
+[2019.03.26-20.16.39:216][746]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.26-20.16.39:222][746]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.03.26-16.16.39
+[2019.03.26-20.16.39:223][746]LogWorld: Bringing up level for play took: 0.004926
+[2019.03.26-20.16.39:241][746]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.578
+[2019.03.26-20.16.39:242][746]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.16.48:821][222]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-20.16.48:950][227]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.16.48:951][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-20.16.49:035][227]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-20.16.49:036][227]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.16.49:122][227]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-20.16.49:227][228]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.03.26-20.16.51:203][342]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2019.03.26-20.16.51:212][342]LogSlate: Window 'ThirdPersonCharacter*' being destroyed
+[2019.03.26-20.16.52:804][425]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.03.26-20.16.58:570][758]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-20.17.19:404][937]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.03.26-20.17.25:224][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-20.17.25:374][269]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.26-20.17.25:398][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.17.25:398][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.26-20.17.25:398][269]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 26, 2019, 12:17:25 PM)
+[2019.03.26-20.17.25:398][269]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2019.03.26-20.17.25:416][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017592s)
+[2019.03.26-20.17.25:418][269]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.26-20.17.25:419][269]LogPlayLevel: PIE: World Init took: (0.002466s)
+[2019.03.26-20.17.25:419][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020458s)
+[2019.03.26-20.17.25:512][269]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.03.26-20.17.25:550][269]LogInit: FAudioDevice initialized.
+[2019.03.26-20.17.25:581][269]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.03.26-20.17.25:584][269]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2019.03.26-16.17.25
+[2019.03.26-20.17.25:585][269]LogWorld: Bringing up level for play took: 0.001582
+[2019.03.26-20.17.25:598][269]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.935
+[2019.03.26-20.17.25:599][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.17.44:282][373]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.17.44:283][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-20.17.44:317][373]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.26-20.17.44:318][373]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2019.03.26-20.17.44:360][373]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.26-20.17.44:422][374]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.03.26-20.17.49:361][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.26-20.18.34:841][809]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ThirdPersonExampleMap_Auto515625C4D4D95B50DCB4AA89F93237495.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2019.03.26-20.18.34:848][809]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.256
+[2019.03.26-20.18.34:848][809]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.256
+[2019.03.26-20.18.34:851][809]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter] ([1] browsable assets)...
+[2019.03.26-20.18.34:873][809]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter]
+[2019.03.26-20.18.34:873][809]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter]
+[2019.03.26-20.18.34:933][809]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ThirdPersonCharacter_Auto5DA7BA8804905D094F7EC8F8F52681D54.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter_Auto5.uasset'
+[2019.03.26-20.18.34:935][809]LogFileHelpers: Auto-saving content packages took 0.086
+[2019.03.26-20.23.01:868][740]LogSlate: Window 'Save Content' being destroyed
+[2019.03.26-20.23.02:026][740]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/testingAsOBJ9A9C90904DFE626AC8F4D5A01D2D1848.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/TestingModels/testingAsOBJ.uasset'
+[2019.03.26-20.23.02:064][740]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/testingAsOBJ_PhysicsAsset0D81B4C7441B4C3203CBEC81AB157F26.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/TestingModels/testingAsOBJ_PhysicsAsset.uasset'
+[2019.03.26-20.23.02:096][740]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/testingAsOBJ_Skeleton3E0A340F46347F3700B2219E7850E6E1.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/TestingModels/testingAsOBJ_Skeleton.uasset'
+[2019.03.26-20.23.02:195][740]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Zombie_Running__1_37B3B74848C78F2A83254E9AFE506F3C.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/TestingModels/Zombie_Running__1_.uasset'
+[2019.03.26-20.23.02:229][740]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Zombie_Running__1__Anim2C8E45674EA3E96CDB0CB8A8636C148D.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/TestingModels/Zombie_Running__1__Anim.uasset'
+[2019.03.26-20.23.02:262][740]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Zombie_Running__1__PhysicsAsset19A5572F45964BF7E71AC9BB4268B021.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/TestingModels/Zombie_Running__1__PhysicsAsset.uasset'
+[2019.03.26-20.23.02:350][740]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ThirdPersonCharacterE0CE2495461B81F7FE5A61A32B45679C.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2019.03.26-20.23.02:939][740]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ThirdPersonExampleMapE9B53C7D4E85A9A695E2F8A8D594C9EA.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2019.03.26-20.23.02:995][740]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.632
+[2019.03.26-20.23.03:097][740]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
+[2019.03.26-20.23.03:421][741]Cmd: QUIT_EDITOR
+[2019.03.26-20.23.04:415][741]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.26-20.23.04:443][741]LogExit: Preparing to exit.
+[2019.03.26-20.23.05:441][741]LogExit: Editor shut down
+[2019.03.26-20.23.05:445][741]LogExit: Transaction tracking system shut down
+[2019.03.26-20.23.06:407][741]LogExit: Object subsystem successfully closed.
+[2019.03.26-20.23.06:459][741]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.26-20.23.06:475][741]LogD3D11RHI: Shutdown
+[2019.03.26-20.23.06:476][741]LogD3D11RHI: CleanupD3DDevice
+[2019.03.26-20.23.06:534][741]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.26-20.23.06:609][741]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (624)
+[2019.03.26-20.23.06:609][741]LogModuleManager: Shutting down and abandoning module Voice (622)
+[2019.03.26-20.23.06:609][741]LogModuleManager: Shutting down and abandoning module BlueprintGraph (620)
+[2019.03.26-20.23.06:609][741]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (618)
+[2019.03.26-20.23.06:609][741]LogModuleManager: Shutting down and abandoning module PinnedCommandList (616)
+[2019.03.26-20.23.06:609][741]LogModuleManager: Shutting down and abandoning module SkeletonEditor (614)
+[2019.03.26-20.23.06:610][741]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.03.26-20.23.06:610][741]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.03.26-20.23.06:610][741]LogModuleManager: Shutting down and abandoning module WorldBrowser (608)
+[2019.03.26-20.23.06:610][741]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.03.26-20.23.06:626][741]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.03.26-20.23.06:626][741]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.03.26-20.23.06:626][741]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.03.26-20.23.06:627][741]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.03.26-20.23.06:629][741]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.03.26-20.23.06:629][741]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.03.26-20.23.06:630][741]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.03.26-20.23.06:630][741]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.03.26-20.23.06:630][741]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.03.26-20.23.06:630][741]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.03.26-20.23.06:631][741]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.03.26-20.23.06:631][741]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.03.26-20.23.06:631][741]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.03.26-20.23.06:631][741]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.03.26-20.23.06:631][741]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.03.26-20.23.06:632][741]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.03.26-20.23.06:632][741]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.03.26-20.23.06:632][741]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.03.26-20.23.06:633][741]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.03.26-20.23.06:636][741]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.03.26-20.23.06:636][741]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.03.26-20.23.06:637][741]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.03.26-20.23.06:638][741]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.03.26-20.23.06:638][741]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.03.26-20.23.06:638][741]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.03.26-20.23.06:638][741]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.03.26-20.23.06:639][741]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.03.26-20.23.06:640][741]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.03.26-20.23.06:641][741]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.03.26-20.23.06:642][741]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.03.26-20.23.06:643][741]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.03.26-20.23.06:643][741]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.03.26-20.23.06:643][741]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.03.26-20.23.06:644][741]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.03.26-20.23.06:644][741]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.03.26-20.23.06:644][741]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.03.26-20.23.08:289][741]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.03.26-20.23.08:289][741]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.03.26-20.23.08:289][741]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.03.26-20.23.08:289][741]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.03.26-20.23.08:290][741]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.03.26-20.23.08:290][741]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.03.26-20.23.08:290][741]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.03.26-20.23.08:291][741]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.03.26-20.23.08:291][741]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.03.26-20.23.08:291][741]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.03.26-20.23.08:292][741]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.03.26-20.23.08:292][741]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.03.26-20.23.08:292][741]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.03.26-20.23.08:292][741]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.03.26-20.23.08:293][741]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.03.26-20.23.08:294][741]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.03.26-20.23.08:294][741]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.03.26-20.23.08:295][741]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.03.26-20.23.08:295][741]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.03.26-20.23.08:296][741]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.03.26-20.23.08:296][741]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.03.26-20.23.08:296][741]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.03.26-20.23.08:352][741]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.03.26-20.23.08:353][741]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.03.26-20.23.08:353][741]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.03.26-20.23.08:354][741]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.03.26-20.23.08:354][741]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.03.26-20.23.08:354][741]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.03.26-20.23.08:355][741]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.03.26-20.23.08:355][741]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.03.26-20.23.08:356][741]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.03.26-20.23.08:356][741]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.03.26-20.23.08:365][741]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.03.26-20.23.08:365][741]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.03.26-20.23.08:368][741]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.03.26-20.23.08:368][741]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.03.26-20.23.08:369][741]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.03.26-20.23.08:370][741]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.03.26-20.23.08:370][741]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.03.26-20.23.08:370][741]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.03.26-20.23.08:371][741]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.03.26-20.23.08:372][741]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.03.26-20.23.08:372][741]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.03.26-20.23.08:372][741]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.03.26-20.23.08:372][741]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.03.26-20.23.08:373][741]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.03.26-20.23.08:488][741]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.03.26-20.23.08:488][741]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.03.26-20.23.08:488][741]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.03.26-20.23.08:489][741]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.03.26-20.23.08:491][741]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.03.26-20.23.08:491][741]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.03.26-20.23.08:491][741]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.03.26-20.23.08:491][741]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.03.26-20.23.08:498][741]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.03.26-20.23.08:499][741]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.03.26-20.23.08:499][741]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.03.26-20.23.08:500][741]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.03.26-20.23.08:500][741]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.03.26-20.23.08:501][741]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.03.26-20.23.08:501][741]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.03.26-20.23.08:501][741]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.03.26-20.23.08:501][741]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.03.26-20.23.08:501][741]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.03.26-20.23.08:501][741]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.03.26-20.23.08:501][741]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.03.26-20.23.08:502][741]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.03.26-20.23.08:503][741]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.03.26-20.23.08:504][741]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.03.26-20.23.08:504][741]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.03.26-20.23.08:504][741]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.03.26-20.23.08:504][741]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.03.26-20.23.08:504][741]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.03.26-20.23.08:505][741]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.03.26-20.23.08:506][741]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.03.26-20.23.08:506][741]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.03.26-20.23.08:506][741]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.03.26-20.23.08:506][741]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.03.26-20.23.08:506][741]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.03.26-20.23.08:507][741]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.03.26-20.23.08:507][741]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.03.26-20.23.08:507][741]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.03.26-20.23.08:507][741]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.26-20.23.08:507][741]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.26-20.23.08:609][741]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.26-20.23.08:710][741]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.26-20.23.08:710][741]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.26-20.23.08:710][741]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.26-20.23.08:710][741]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.26-20.23.08:710][741]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.26-20.23.08:711][741]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.26-20.23.08:711][741]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.26-20.23.08:716][741]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.26-20.23.08:716][741]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.26-20.23.08:717][741]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.26-20.23.08:717][741]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.26-20.23.08:719][741]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.26-20.23.08:721][741]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.26-20.23.08:722][741]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.26-20.23.08:722][741]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.26-20.23.08:722][741]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.26-20.23.08:722][741]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.26-20.23.08:722][741]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.26-20.23.08:725][741]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.26-20.23.08:732][741]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.26-20.23.08:732][741]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.26-20.23.08:733][741]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.26-20.23.08:733][741]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.26-20.23.08:733][741]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.26-20.23.08:733][741]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.26-20.23.08:733][741]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.26-20.23.08:733][741]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.26-20.23.08:734][741]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.26-20.23.08:734][741]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.26-20.23.08:735][741]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.26-20.23.08:735][741]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.26-20.23.08:736][741]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.26-20.23.08:736][741]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.26-20.23.08:737][741]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.26-20.23.08:738][741]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.26-20.23.08:739][741]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.26-20.23.08:739][741]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.26-20.23.08:740][741]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.26-20.23.08:740][741]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.26-20.23.08:747][741]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.26-20.23.08:748][741]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.26-20.23.08:748][741]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.26-20.23.08:748][741]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.26-20.23.08:749][741]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.26-20.23.08:749][741]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.26-20.23.08:749][741]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.26-20.23.08:750][741]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.26-20.23.08:750][741]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.26-20.23.08:752][741]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.26-20.23.08:772][741]LogDerivedDataCache: Shutdown
+[2019.03.26-20.23.08:772][741]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.26-20.23.08:773][741]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.26-20.23.08:774][741]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.26-20.23.08:774][741]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.26-20.23.08:774][741]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.26-20.23.08:774][741]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.26-20.23.08:775][741]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.26-20.23.08:775][741]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.26-20.23.08:775][741]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.26-20.23.08:775][741]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.26-20.23.08:775][741]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.26-20.23.08:776][741]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.26-20.23.08:776][741]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.26-20.23.08:776][741]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.26-20.23.08:776][741]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.26-20.23.08:777][741]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.26-20.23.08:777][741]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.26-20.23.08:777][741]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.26-20.23.08:778][741]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.26-20.23.08:778][741]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.26-20.23.08:779][741]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.26-20.23.08:779][741]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.26-20.23.08:779][741]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.26-20.23.08:800][741]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.26-20.23.08:800][741]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.26-20.23.08:809][741]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.26-20.23.08:810][741]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.26-20.23.08:881][741]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.26-20.23.08:881][741]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.26-20.23.08:881][741]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.26-20.23.08:881][741]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.26-20.23.08:881][741]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.26-20.23.08:882][741]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.26-20.23.08:883][741]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.26-20.23.08:883][741]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.26-20.23.08:883][741]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.26-20.23.08:883][741]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.26-20.23.08:884][741]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.26-20.23.08:886][741]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.26-20.23.08:896][741]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.26-20.23.08:896][741]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.26-20.23.08:896][741]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B59FA277D-41BF-03A6-7F86-AB8730DD4F08%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=52c8d69c47c3b558f96bdeaad69b44a8%7C1e4490187f7d4590821fe5ea33366920%7Ca0ac2db9-04c3-40ba-9c12-a7ac0bed75b1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.26-20.23.08:927][741]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.26-20.23.08:932][741]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.26-20.23.08:934][741]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.26-20.23.08:934][741]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.26-20.23.08:935][741]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.26-20.23.08:935][741]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.26-20.23.08:936][741]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.26-20.23.08:937][741]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.26-20.23.08:940][741]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.26-20.23.08:940][741]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.26-20.23.08:940][741]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.26-20.23.08:943][741]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.26-20.23.08:944][741]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.26-20.23.08:944][741]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.26-20.23.08:944][741]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.26-20.23.08:944][741]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.26-20.23.08:944][741]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.26-20.23.08:944][741]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.26-20.23.08:945][741]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.26-20.23.08:945][741]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.26-20.23.08:945][741]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.26-20.23.08:945][741]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.26-20.23.08:956][741]LogExit: Exiting.
+[2019.03.26-20.23.08:991][741]Log file closed, 03/26/19 16:23:08

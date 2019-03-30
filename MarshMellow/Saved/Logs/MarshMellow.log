@@ -1,4 +1,4 @@
-﻿Log file open, 03/23/19 23:31:35
+﻿Log file open, 03/29/19 14:42:25
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -8,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: MarshMellow
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.268412
+LogStats: Stats thread started at 0.409777
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.108s to configure plugins.
+LogStreaming: Display: Took  0.167s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,7 +116,7 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz, GPU: NVIDIA TITAN X (Pascal)
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
@@ -145,781 +145,617 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.24-03.31.35:882][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.24-03.31.35:882][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.24-03.31.35:901][  0]LogHAL: Display: Platform has ~ 16 GB [17120710656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.24-03.31.35:902][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.03.24-03.31.35:902][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.24-03.31.35:902][  0]LogInit: Computer: DESKTOP-I0Q4SH2
-[2019.03.24-03.31.35:902][  0]LogInit: User: LohasKevin
-[2019.03.24-03.31.35:902][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.24-03.31.35:902][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.03.24-03.31.35:902][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.03.24-03.31.35:902][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.24-03.31.35:902][  0]LogMemory: Process Physical Memory: 100.98 MB used, 100.98 MB peak
-[2019.03.24-03.31.35:902][  0]LogMemory: Process Virtual Memory: 89.41 MB used, 89.41 MB peak
-[2019.03.24-03.31.35:902][  0]LogMemory: Physical Memory: 7568.11 MB used,  8759.48 MB free, 16327.58 MB total
-[2019.03.24-03.31.35:902][  0]LogMemory: Virtual Memory: 4641.47 MB used,  8759.48 MB free, 134217728.00 MB total
-[2019.03.24-03.31.35:924][  0]LogInit: Using OS detected language (en-US).
-[2019.03.24-03.31.35:924][  0]LogInit: Using OS detected locale (en-US).
-[2019.03.24-03.31.35:925][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.03.24-03.31.36:211][  0]LogStreaming: Display: Took  0.287s to InitEngineTextLocalization.
-[2019.03.24-03.31.36:211][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.24-03.31.36:244][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.24-03.31.36:244][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.24-03.31.36:408][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.24-03.31.36:408][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.24-03.31.36:463][  0]LogD3D11RHI:    0. 'NVIDIA TITAN X (Pascal)' (Feature Level 11_0)
-[2019.03.24-03.31.36:463][  0]LogD3D11RHI:       12147/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.03.24-03.31.36:465][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.24-03.31.36:465][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.24-03.31.36:465][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.24-03.31.36:472][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.24-03.31.36:472][  0]LogD3D11RHI:     GPU DeviceId: 0x1b00 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.24-03.31.36:472][  0]LogWindows: EnumDisplayDevices:
-[2019.03.24-03.31.36:472][  0]LogWindows:    0. 'NVIDIA TITAN X (Pascal)' (P:1 D:1)
-[2019.03.24-03.31.36:472][  0]LogWindows:    1. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
-[2019.03.24-03.31.36:472][  0]LogWindows:    2. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
-[2019.03.24-03.31.36:472][  0]LogWindows:    3. 'NVIDIA TITAN X (Pascal)' (P:0 D:0)
-[2019.03.24-03.31.36:473][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.03.24-03.31.36:473][  0]LogD3D11RHI:     Adapter Name: NVIDIA TITAN X (Pascal)
-[2019.03.24-03.31.36:473][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
-[2019.03.24-03.31.36:473][  0]LogD3D11RHI:      Driver Date: 12-11-2018
-[2019.03.24-03.31.36:473][  0]LogRHI: Texture pool is 8502 MB (70% of 12147 MB)
-[2019.03.24-03.31.36:506][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.24-03.31.36:537][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2019.03.24-03.31.36:579][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (E:/GameDev2Project/MarshMellow/Intermediate/Shaders/WorkingDirectory/18756/).
-[2019.03.24-03.31.36:580][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Lohas_Kevin/AppData/Local/Temp/UnrealShaderWorkingDir/0F3281064B37C4FF1C9F8E9B6EE98E0B/'.
-[2019.03.24-03.31.36:825][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.24-03.31.36:835][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.24-03.31.36:846][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.24-03.31.36:856][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.24-03.31.36:866][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.24-03.31.36:876][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.24-03.31.36:886][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.24-03.31.36:897][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.24-03.31.36:902][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.24-03.31.36:963][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:964][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.24-03.31.36:965][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.24-03.31.37:020][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.24-03.31.37:020][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.24-03.31.37:039][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.24-03.31.37:039][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.24-03.31.37:049][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.24-03.31.37:059][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.24-03.31.37:071][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.24-03.31.37:082][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.24-03.31.37:089][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.24-03.31.37:089][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.24-03.31.37:138][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.24-03.31.37:138][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.24-03.31.37:138][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.24-03.31.37:798][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.24-03.31.37:856][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.24-03.31.37:856][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.03.24-03.31.37:856][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/GameDev2Project/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.24-03.31.37:856][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.24-03.31.37:856][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/GameDev2Project/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.24-03.31.37:856][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.24-03.31.37:868][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.24-03.31.37:881][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.24-03.31.37:881][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.24-03.31.37:881][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.24-03.31.37:896][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.24-03.31.37:897][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.24-03.31.37:897][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.24-03.31.37:961][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
-[2019.03.24-03.31.38:220][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.24-03.31.38:330][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.24-03.31.38:333][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.24-03.31.38:333][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.24-03.31.38:334][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.24-03.31.38:334][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.24-03.31.38:345][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
-[2019.03.24-03.31.38:806][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.092512 seconds
-[2019.03.24-03.31.38:813][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.03.24-03.31.38:813][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2019.03.24-03.31.38:813][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.24-03.31.39:523][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.24-03.31.39:548][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.24-03.31.39:691][  0]SourceControl: Source control is disabled
-[2019.03.24-03.31.39:691][  0]SourceControl: Source control is disabled
-[2019.03.24-03.31.39:693][  0]SourceControl: Source control is disabled
-[2019.03.24-03.31.39:694][  0]SourceControl: Source control is disabled
-[2019.03.24-03.31.39:881][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.24-03.31.39:944][  0]LogOcInput: OculusInput pre-init called
-[2019.03.24-03.31.39:998][  0]LogEngine: Initializing Engine...
-[2019.03.24-03.31.39:999][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.24-03.31.40:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.24-03.31.40:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.24-03.31.40:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.24-03.31.40:000][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.24-03.31.40:188][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.24-03.31.40:206][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.24-03.31.40:221][  0]LogInit: XAudio2 using 'Acer XB241H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.03.24-03.31.40:241][  0]LogInit: FAudioDevice initialized.
-[2019.03.24-03.31.40:241][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.24-03.31.40:298][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Lohas_Kevin/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.24-03.31.40:300][  0]LogInit: Texture streaming: Enabled
-[2019.03.24-03.31.40:314][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.24-03.31.40:330][  0]LogInit: Transaction tracking system initialized
-[2019.03.24-03.31.40:350][  0]BlueprintLog: New page: Editor Load
-[2019.03.24-03.31.40:467][  0]LocalizationService: Localization service is disabled
-[2019.03.24-03.31.40:701][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.24-03.31.40:701][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.24-03.31.40:701][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.24-03.31.40:701][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.24-03.31.40:701][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.24-03.31.40:701][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.24-03.31.40:701][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.24-03.31.40:819][  0]LogFileCache: Scanning file cache for directory 'E:/GameDev2Project/MarshMellow/Content/' took 0.01s
-[2019.03.24-03.31.40:826][  0]SourceControl: Source control is disabled
-[2019.03.24-03.31.40:828][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.20/FeaturePacks/StarterContent.upack)
-[2019.03.24-03.31.40:834][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
-[2019.03.24-03.31.40:841][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Floor_400x400.uasset"
-[2019.03.24-03.31.40:847][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Pillar_50x500.uasset"
-[2019.03.24-03.31.40:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
-[2019.03.24-03.31.40:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Wall_400x200.uasset"
-[2019.03.24-03.31.40:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Wall_400x300.uasset"
-[2019.03.24-03.31.40:872][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Wall_400x400.uasset"
-[2019.03.24-03.31.40:879][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Wall_500x500.uasset"
-[2019.03.24-03.31.40:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
-[2019.03.24-03.31.40:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
-[2019.03.24-03.31.40:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
-[2019.03.24-03.31.40:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
-[2019.03.24-03.31.40:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Collapse01.uasset"
-[2019.03.24-03.31.40:919][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Collapse02.uasset"
-[2019.03.24-03.31.40:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Collapse_Cue.uasset"
-[2019.03.24-03.31.40:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Explosion01.uasset"
-[2019.03.24-03.31.40:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Explosion02.uasset"
-[2019.03.24-03.31.40:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Explosion_Cue.uasset"
-[2019.03.24-03.31.40:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Fire01.uasset"
-[2019.03.24-03.31.40:952][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Fire01_Cue.uasset"
-[2019.03.24-03.31.40:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Fire_Sparks01.uasset"
-[2019.03.24-03.31.40:963][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
-[2019.03.24-03.31.40:970][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Light01.uasset"
-[2019.03.24-03.31.40:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Light01_Cue.uasset"
-[2019.03.24-03.31.40:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Light02.uasset"
-[2019.03.24-03.31.40:985][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Light02_Cue.uasset"
-[2019.03.24-03.31.40:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Smoke01.uasset"
-[2019.03.24-03.31.40:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Smoke01_Cue.uasset"
-[2019.03.24-03.31.41:002][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
-[2019.03.24-03.31.41:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Starter_Birds01.uasset"
-[2019.03.24-03.31.41:028][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Starter_Music01.uasset"
-[2019.03.24-03.31.41:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
-[2019.03.24-03.31.41:043][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Starter_Wind05.uasset"
-[2019.03.24-03.31.41:052][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Starter_Wind06.uasset"
-[2019.03.24-03.31.41:059][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Steam01.uasset"
-[2019.03.24-03.31.41:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Audio/Steam01_Cue.uasset"
-[2019.03.24-03.31.41:070][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
-[2019.03.24-03.31.41:076][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
-[2019.03.24-03.31.41:083][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
-[2019.03.24-03.31.41:089][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
-[2019.03.24-03.31.41:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
-[2019.03.24-03.31.41:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
-[2019.03.24-03.31.41:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
-[2019.03.24-03.31.41:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
-[2019.03.24-03.31.41:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
-[2019.03.24-03.31.41:146][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
-[2019.03.24-03.31.41:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
-[2019.03.24-03.31.41:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
-[2019.03.24-03.31.41:165][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
-[2019.03.24-03.31.41:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
-[2019.03.24-03.31.41:188][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
-[2019.03.24-03.31.41:191][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
-[2019.03.24-03.31.41:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
-[2019.03.24-03.31.41:359][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Maps/Advanced_Lighting.umap"
-[2019.03.24-03.31.41:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
-[2019.03.24-03.31.41:382][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Maps/Minimal_Default.umap"
-[2019.03.24-03.31.41:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
-[2019.03.24-03.31.41:399][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Maps/StarterMap.umap"
-[2019.03.24-03.31.41:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
-[2019.03.24-03.31.41:451][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_AssetPlatform.uasset"
-[2019.03.24-03.31.41:458][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Basic_Floor.uasset"
-[2019.03.24-03.31.41:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Basic_Wall.uasset"
-[2019.03.24-03.31.41:473][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
-[2019.03.24-03.31.41:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
-[2019.03.24-03.31.41:488][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
-[2019.03.24-03.31.41:496][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
-[2019.03.24-03.31.41:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
-[2019.03.24-03.31.41:534][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
-[2019.03.24-03.31.41:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
-[2019.03.24-03.31.41:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
-[2019.03.24-03.31.41:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
-[2019.03.24-03.31.41:565][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
-[2019.03.24-03.31.41:572][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
-[2019.03.24-03.31.41:579][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
-[2019.03.24-03.31.41:586][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
-[2019.03.24-03.31.41:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
-[2019.03.24-03.31.41:599][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Glass.uasset"
-[2019.03.24-03.31.41:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Ground_Grass.uasset"
-[2019.03.24-03.31.41:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
-[2019.03.24-03.31.41:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Ground_Moss.uasset"
-[2019.03.24-03.31.41:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
-[2019.03.24-03.31.41:638][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
-[2019.03.24-03.31.41:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
-[2019.03.24-03.31.41:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Metal_Copper.uasset"
-[2019.03.24-03.31.41:659][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Metal_Gold.uasset"
-[2019.03.24-03.31.41:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Metal_Rust.uasset"
-[2019.03.24-03.31.41:671][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Metal_Steel.uasset"
-[2019.03.24-03.31.41:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
-[2019.03.24-03.31.41:684][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
-[2019.03.24-03.31.41:690][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
-[2019.03.24-03.31.41:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Rock_Slate.uasset"
-[2019.03.24-03.31.41:704][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
-[2019.03.24-03.31.41:711][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
-[2019.03.24-03.31.41:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
-[2019.03.24-03.31.41:725][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Tech_Panel.uasset"
-[2019.03.24-03.31.41:732][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Water_Lake.uasset"
-[2019.03.24-03.31.41:771][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Water_Ocean.uasset"
-[2019.03.24-03.31.41:778][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
-[2019.03.24-03.31.41:785][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
-[2019.03.24-03.31.41:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Wood_Oak.uasset"
-[2019.03.24-03.31.41:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Wood_Pine.uasset"
-[2019.03.24-03.31.41:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
-[2019.03.24-03.31.41:809][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
-[2019.03.24-03.31.41:816][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/P_Explosion.uasset"
-[2019.03.24-03.31.41:822][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/P_Fire.uasset"
-[2019.03.24-03.31.41:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/P_Smoke.uasset"
-[2019.03.24-03.31.41:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/P_Sparks.uasset"
-[2019.03.24-03.31.41:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/P_Steam_Lit.uasset"
-[2019.03.24-03.31.41:849][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_Burst.uasset"
-[2019.03.24-03.31.41:855][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
-[2019.03.24-03.31.41:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
-[2019.03.24-03.31.41:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
-[2019.03.24-03.31.41:871][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
-[2019.03.24-03.31.41:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
-[2019.03.24-03.31.41:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
-[2019.03.24-03.31.41:891][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
-[2019.03.24-03.31.41:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
-[2019.03.24-03.31.41:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Particles/Materials/M_Spark.uasset"
-[2019.03.24-03.31.41:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/MaterialSphere.uasset"
-[2019.03.24-03.31.41:922][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Bush.uasset"
-[2019.03.24-03.31.41:929][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Chair.uasset"
-[2019.03.24-03.31.41:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_CornerFrame.uasset"
-[2019.03.24-03.31.41:945][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Couch.uasset"
-[2019.03.24-03.31.41:951][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Door.uasset"
-[2019.03.24-03.31.41:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_DoorFrame.uasset"
-[2019.03.24-03.31.41:969][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_GlassWindow.uasset"
-[2019.03.24-03.31.41:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
-[2019.03.24-03.31.41:983][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
-[2019.03.24-03.31.41:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
-[2019.03.24-03.31.42:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_PillarFrame.uasset"
-[2019.03.24-03.31.42:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_PillarFrame300.uasset"
-[2019.03.24-03.31.42:015][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Rock.uasset"
-[2019.03.24-03.31.42:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Shelf.uasset"
-[2019.03.24-03.31.42:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Stairs.uasset"
-[2019.03.24-03.31.42:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_Statue.uasset"
-[2019.03.24-03.31.42:065][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_TableRound.uasset"
-[2019.03.24-03.31.42:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/SM_WindowFrame.uasset"
-[2019.03.24-03.31.42:078][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_Bush.uasset"
-[2019.03.24-03.31.42:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_Chair.uasset"
-[2019.03.24-03.31.42:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_Door.uasset"
-[2019.03.24-03.31.42:097][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_Frame.uasset"
-[2019.03.24-03.31.42:102][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_Lamp.uasset"
-[2019.03.24-03.31.42:109][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
-[2019.03.24-03.31.42:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
-[2019.03.24-03.31.42:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_Rock.uasset"
-[2019.03.24-03.31.42:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_Shelf.uasset"
-[2019.03.24-03.31.42:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_Statue.uasset"
-[2019.03.24-03.31.42:143][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
-[2019.03.24-03.31.42:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Props/Materials/M_TableRound.uasset"
-[2019.03.24-03.31.42:157][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Cone.uasset"
-[2019.03.24-03.31.42:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Cube.uasset"
-[2019.03.24-03.31.42:173][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
-[2019.03.24-03.31.42:180][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
-[2019.03.24-03.31.42:186][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Pipe.uasset"
-[2019.03.24-03.31.42:192][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
-[2019.03.24-03.31.42:207][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
-[2019.03.24-03.31.42:214][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Plane.uasset"
-[2019.03.24-03.31.42:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
-[2019.03.24-03.31.42:227][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Sphere.uasset"
-[2019.03.24-03.31.42:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Torus.uasset"
-[2019.03.24-03.31.42:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Trim.uasset"
-[2019.03.24-03.31.42:246][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
-[2019.03.24-03.31.42:253][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
-[2019.03.24-03.31.42:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
-[2019.03.24-03.31.42:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Tube.uasset"
-[2019.03.24-03.31.42:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
-[2019.03.24-03.31.42:277][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
-[2019.03.24-03.31.42:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
-[2019.03.24-03.31.42:299][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
-[2019.03.24-03.31.42:316][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
-[2019.03.24-03.31.42:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
-[2019.03.24-03.31.42:341][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
-[2019.03.24-03.31.42:361][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
-[2019.03.24-03.31.42:378][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
-[2019.03.24-03.31.42:401][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
-[2019.03.24-03.31.42:416][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
-[2019.03.24-03.31.42:436][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
-[2019.03.24-03.31.42:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
-[2019.03.24-03.31.42:464][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
-[2019.03.24-03.31.42:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
-[2019.03.24-03.31.42:494][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
-[2019.03.24-03.31.42:502][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Burst_M.uasset"
-[2019.03.24-03.31.42:508][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Bush_D.uasset"
-[2019.03.24-03.31.42:515][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Bush_N.uasset"
-[2019.03.24-03.31.42:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
-[2019.03.24-03.31.42:528][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
-[2019.03.24-03.31.42:535][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Chair_M.uasset"
-[2019.03.24-03.31.42:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Chair_N.uasset"
-[2019.03.24-03.31.42:558][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
-[2019.03.24-03.31.42:576][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
-[2019.03.24-03.31.42:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
-[2019.03.24-03.31.42:606][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
-[2019.03.24-03.31.42:621][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
-[2019.03.24-03.31.42:636][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
-[2019.03.24-03.31.42:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
-[2019.03.24-03.31.42:715][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
-[2019.03.24-03.31.42:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
-[2019.03.24-03.31.42:760][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
-[2019.03.24-03.31.42:786][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
-[2019.03.24-03.31.42:800][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
-[2019.03.24-03.31.42:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
-[2019.03.24-03.31.42:838][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
-[2019.03.24-03.31.42:852][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
-[2019.03.24-03.31.42:868][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
-[2019.03.24-03.31.42:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
-[2019.03.24-03.31.42:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
-[2019.03.24-03.31.42:898][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
-[2019.03.24-03.31.42:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Door_M.uasset"
-[2019.03.24-03.31.42:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Door_N.uasset"
-[2019.03.24-03.31.42:920][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
-[2019.03.24-03.31.42:928][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
-[2019.03.24-03.31.42:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
-[2019.03.24-03.31.42:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
-[2019.03.24-03.31.42:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Frame_M.uasset"
-[2019.03.24-03.31.42:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Frame_N.uasset"
-[2019.03.24-03.31.42:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Gradinet_01.uasset"
-[2019.03.24-03.31.42:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
-[2019.03.24-03.31.43:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
-[2019.03.24-03.31.43:021][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
-[2019.03.24-03.31.43:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
-[2019.03.24-03.31.43:067][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
-[2019.03.24-03.31.43:082][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
-[2019.03.24-03.31.43:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Lamp_M.uasset"
-[2019.03.24-03.31.43:100][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Lamp_N.uasset"
-[2019.03.24-03.31.43:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_MacroVariation.uasset"
-[2019.03.24-03.31.43:134][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
-[2019.03.24-03.31.43:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
-[2019.03.24-03.31.43:167][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
-[2019.03.24-03.31.43:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
-[2019.03.24-03.31.43:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
-[2019.03.24-03.31.43:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
-[2019.03.24-03.31.43:218][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
-[2019.03.24-03.31.43:229][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
-[2019.03.24-03.31.43:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
-[2019.03.24-03.31.43:254][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_RockMesh_M.uasset"
-[2019.03.24-03.31.43:268][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_RockMesh_N.uasset"
-[2019.03.24-03.31.43:285][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
-[2019.03.24-03.31.43:300][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
-[2019.03.24-03.31.43:312][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
-[2019.03.24-03.31.43:329][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
-[2019.03.24-03.31.43:348][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
-[2019.03.24-03.31.43:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
-[2019.03.24-03.31.43:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
-[2019.03.24-03.31.43:405][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
-[2019.03.24-03.31.43:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Shelf_M.uasset"
-[2019.03.24-03.31.43:421][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Shelf_N.uasset"
-[2019.03.24-03.31.43:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
-[2019.03.24-03.31.43:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
-[2019.03.24-03.31.43:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
-[2019.03.24-03.31.43:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Spark_Core.uasset"
-[2019.03.24-03.31.43:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Statue_M.uasset"
-[2019.03.24-03.31.43:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Statue_N.uasset"
-[2019.03.24-03.31.43:495][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_TableRound_M.uasset"
-[2019.03.24-03.31.43:504][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_TableRound_N.uasset"
-[2019.03.24-03.31.43:512][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
-[2019.03.24-03.31.43:520][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
-[2019.03.24-03.31.43:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
-[2019.03.24-03.31.43:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
-[2019.03.24-03.31.43:561][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
-[2019.03.24-03.31.43:571][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
-[2019.03.24-03.31.43:581][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Water_M.uasset"
-[2019.03.24-03.31.43:600][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Water_N.uasset"
-[2019.03.24-03.31.43:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
-[2019.03.24-03.31.43:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
-[2019.03.24-03.31.43:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
-[2019.03.24-03.31.43:661][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
-[2019.03.24-03.31.43:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
-[2019.03.24-03.31.43:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
-[2019.03.24-03.31.43:705][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
-[2019.03.24-03.31.43:723][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
-[2019.03.24-03.31.43:738][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "E:/GameDev2Project/MarshMellow/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
-[2019.03.24-03.31.43:804][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
-[2019.03.24-03.31.43:855][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Architecture/Floor_400x400" FILE="E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Floor_400x400.uasset" SILENT=true
-[2019.03.24-03.31.43:874][  0]LogSavePackage: Moving 'E:/GameDev2Project/MarshMellow/Saved/Floor_400x400DA90D2D34A1ED1B1FD099DA645528D33.tmp' to 'E:/GameDev2Project/MarshMellow/Content/StarterContent/Architecture/Floor_400x400.uasset'
-[2019.03.24-03.31.43:879][  0]LogFeaturePack: Warning: Inserted 1 feature packs
-[2019.03.24-03.31.43:882][  0]Cmd: MAP LOAD FILE="E:/GameDev2Project/MarshMellow/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.24-03.31.43:883][  0]LightingResults: New page: Lighting Build
-[2019.03.24-03.31.43:885][  0]MapCheck: New page: Map Check
-[2019.03.24-03.31.43:885][  0]LightingResults: New page: Lighting Build
-[2019.03.24-03.31.44:274][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2019.03.24-03.31.44:288][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.24-03.31.44:308][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.24-03.31.44:379][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.487ms to complete.
-[2019.03.24-03.31.44:380][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.497
-[2019.03.24-03.31.44:508][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.24-03.31.44:515][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.24-03.31.44:520][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.24-03.31.44:526][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.24-03.31.44:538][  0]LogCollectionManager: Loaded 0 collections in 0.001503 seconds
-[2019.03.24-03.31.44:655][  0]LogFileCache: Scanning file cache for directory 'E:/GameDev2Project/MarshMellow/Saved/Collections/' took 0.01s
-[2019.03.24-03.31.44:655][  0]LogFileCache: Scanning file cache for directory 'E:/GameDev2Project/MarshMellow/Content/Developers/LohasKevin/Collections/' took 0.01s
-[2019.03.24-03.31.44:655][  0]LogFileCache: Scanning file cache for directory 'E:/GameDev2Project/MarshMellow/Content/Collections/' took 0.01s
-[2019.03.24-03.31.44:655][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.03.24-03.31.44:664][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2572 classes and 603 folders.
-[2019.03.24-03.31.44:672][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.03.24-03.31.44:714][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.03.24-03.31.44:722][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.03.24-03.31.44:758][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.24-03.31.44:760][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.24-03.31.44:771][  0]LogSlate: Took 0.004168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.24-03.31.44:840][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.03.24-03.31.44:894][  0]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.24-03.31.44:952][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.03.24-03.31.44:952][  0]LogLoad: (Engine Initialization) Total time: 10.68 seconds
-[2019.03.24-03.31.44:952][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.24-03.31.46:121][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.24-03.31.46:288][ 11]LogAssetRegistry: Asset discovery search completed in 8.3502 seconds
-[2019.03.24-03.31.46:290][ 11]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.03.24-03.31.46:290][ 11]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
-[2019.03.24-03.31.48:972][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.24-03.31.55:510][526]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
-[2019.03.24-03.31.55:511][526]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.03.24-03.31.55:517][526]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.03.24-03.31.55:680][527]Cmd: QUIT_EDITOR
-[2019.03.24-03.31.55:703][527]LogExit: Preparing to exit.
-[2019.03.24-03.31.56:640][527]LogExit: Editor shut down
-[2019.03.24-03.31.56:641][527]LogExit: Transaction tracking system shut down
-[2019.03.24-03.31.57:234][527]LogExit: Object subsystem successfully closed.
-[2019.03.24-03.31.57:252][527]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.03.24-03.31.57:254][527]LogD3D11RHI: Shutdown
-[2019.03.24-03.31.57:254][527]LogD3D11RHI: CleanupD3DDevice
-[2019.03.24-03.31.57:256][527]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.03.24-03.31.57:276][527]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
-[2019.03.24-03.31.57:276][527]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
-[2019.03.24-03.31.57:276][527]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
-[2019.03.24-03.31.57:276][527]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
-[2019.03.24-03.31.57:276][527]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
-[2019.03.24-03.31.57:276][527]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
-[2019.03.24-03.31.57:276][527]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
-[2019.03.24-03.31.57:276][527]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module BspMode (582)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module SessionServices (532)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
-[2019.03.24-03.31.57:277][527]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
-[2019.03.24-03.31.57:278][527]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
-[2019.03.24-03.31.57:278][527]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
-[2019.03.24-03.31.57:278][527]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module MergeActors (496)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
-[2019.03.24-03.31.57:519][527]LogModuleManager: Shutting down and abandoning module XmlParser (484)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module Blutility (482)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
-[2019.03.24-03.31.57:520][527]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module AutomationController (462)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module Layers (458)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module Persona (450)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module Kismet (444)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module Toolbox (438)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module OutputLog (432)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module GammaUI (430)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module Documentation (428)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
-[2019.03.24-03.31.57:575][527]LogModuleManager: Shutting down and abandoning module MovieScene (424)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module PortalServices (416)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module AIModule (410)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
-[2019.03.24-03.31.57:576][527]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module OculusInput (390)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module CableComponent (382)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
-[2019.03.24-03.31.57:737][527]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module BackChannel (356)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module AppleVision (354)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
-[2019.03.24-03.31.57:740][527]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module SourceControl (313)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
-[2019.03.24-03.31.57:741][527]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
-[2019.03.24-03.31.57:843][527]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module DataValidation (270)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module MainFrame (262)
-[2019.03.24-03.31.57:944][527]LogModuleManager: Shutting down and abandoning module HotReload (261)
-[2019.03.24-03.31.57:945][527]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
-[2019.03.24-03.31.57:945][527]LogModuleManager: Shutting down and abandoning module TreeMap (255)
-[2019.03.24-03.31.57:945][527]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
-[2019.03.24-03.31.57:945][527]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
-[2019.03.24-03.31.57:945][527]LogModuleManager: Shutting down and abandoning module Paper2D (248)
-[2019.03.24-03.31.57:945][527]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
-[2019.03.24-03.31.57:946][527]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
-[2019.03.24-03.31.57:947][527]LogModuleManager: Shutting down and abandoning module Media (243)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module Overlay (232)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module VREditor (228)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module UMG (214)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module Sequencer (212)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module MessageLog (209)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
-[2019.03.24-03.31.57:953][527]LogModuleManager: Shutting down and abandoning module Slate (202)
-[2019.03.24-03.31.57:954][527]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module MRMesh (198)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module Networking (190)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module Core (188)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
-[2019.03.24-03.31.57:955][527]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
-[2019.03.24-03.31.58:394][527]LogDerivedDataCache: Shutdown
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module XGEController (160)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
-[2019.03.24-03.31.58:394][527]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module Messaging (115)
-[2019.03.24-03.31.58:395][527]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
-[2019.03.24-03.31.58:396][527]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
-[2019.03.24-03.31.58:396][527]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module InputCore (88)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module Settings (86)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module SteamVR (82)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2019.03.24-03.31.58:401][527]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
-[2019.03.24-03.31.58:402][527]LogModuleManager: Shutting down and abandoning module XMPP (65)
-[2019.03.24-03.31.58:402][527]LogModuleManager: Shutting down and abandoning module WebSockets (64)
-[2019.03.24-03.31.58:428][527]LogModuleManager: Shutting down and abandoning module HTTP (61)
-[2019.03.24-03.31.58:428][527]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2019.03.24-03.31.58:429][527]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B00107A6B-4F56-3654-7236-B7940DC93168%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=157e2509421257fb9f3bbdbff5f08b03%7C20079c831a694bbd86d6153fd97feacd%7C3235aa97-86b4-44ca-943f-07a230d6e786&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module SSL (60)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
-[2019.03.24-03.31.58:440][527]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
-[2019.03.24-03.31.58:441][527]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2019.03.24-03.31.58:441][527]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2019.03.24-03.31.58:445][527]LogExit: Exiting.
-[2019.03.24-03.31.58:462][527]Log file closed, 03/23/19 23:31:58
+[2019.03.29-18.42.26:503][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.29-18.42.26:503][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.29-18.42.26:525][  0]LogHAL: Display: Platform has ~ 16 GB [16751534080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.29-18.42.26:525][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.29-18.42.26:525][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.29-18.42.26:530][  0]LogInit: Computer: JESSIES-LAPTOP
+[2019.03.29-18.42.26:530][  0]LogInit: User: jessielichter
+[2019.03.29-18.42.26:530][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.29-18.42.26:530][  0]LogInit: High frequency timer resolution =2.531248 MHz
+[2019.03.29-18.42.26:531][  0]LogMemory: Memory total: Physical=15.6GB (16GB approx)
+[2019.03.29-18.42.26:531][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.29-18.42.26:531][  0]LogMemory: Process Physical Memory: 100.23 MB used, 100.23 MB peak
+[2019.03.29-18.42.26:531][  0]LogMemory: Process Virtual Memory: 91.13 MB used, 91.13 MB peak
+[2019.03.29-18.42.26:531][  0]LogMemory: Physical Memory: 9380.36 MB used,  6595.15 MB free, 15975.51 MB total
+[2019.03.29-18.42.26:531][  0]LogMemory: Virtual Memory: 4640.70 MB used,  6595.15 MB free, 134217728.00 MB total
+[2019.03.29-18.42.26:570][  0]LogInit: Using OS detected language (en-US).
+[2019.03.29-18.42.26:570][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.29-18.42.26:573][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.29-18.42.27:119][  0]LogStreaming: Display: Took  0.549s to InitEngineTextLocalization.
+[2019.03.29-18.42.27:119][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.29-18.42.27:203][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.29-18.42.27:203][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.29-18.42.30:489][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.29-18.42.30:489][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.29-18.42.30:573][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.03.29-18.42.30:573][  0]LogD3D11RHI:       2010/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.29-18.42.30:587][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.03.29-18.42.30:587][  0]LogD3D11RHI:       128/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.03.29-18.42.30:590][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.29-18.42.30:590][  0]LogD3D11RHI:       0/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.29-18.42.30:590][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.29-18.42.30:640][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.29-18.42.30:640][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.03.29-18.42.30:640][  0]LogWindows: EnumDisplayDevices:
+[2019.03.29-18.42.30:640][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.03.29-18.42.30:641][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.29-18.42.30:641][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.03.29-18.42.30:641][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.03.29-18.42.30:641][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.03.29-18.42.30:641][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.03.29-18.42.30:641][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.03.29-18.42.30:641][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.03.29-18.42.30:683][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.29-18.42.30:702][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.29-18.42.30:703][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Intermediate/Shaders/WorkingDirectory/29204/).
+[2019.03.29-18.42.30:703][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jessie lichter/AppData/Local/Temp/UnrealShaderWorkingDir/BA19F910442BDDF8427B218D57B848F5/'.
+[2019.03.29-18.42.31:126][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.29-18.42.31:147][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.29-18.42.31:174][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.29-18.42.31:198][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.29-18.42.31:224][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.29-18.42.31:244][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.29-18.42.31:267][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.29-18.42.31:291][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.29-18.42.31:302][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:413][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.29-18.42.31:417][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.29-18.42.31:499][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.29-18.42.31:499][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.29-18.42.31:527][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.29-18.42.31:527][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.29-18.42.31:543][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.29-18.42.31:561][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.29-18.42.31:577][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.29-18.42.31:604][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.29-18.42.31:618][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.29-18.42.31:618][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.29-18.42.31:723][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.29-18.42.31:723][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.29-18.42.31:723][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.29-18.42.34:765][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.29-18.42.35:035][  0]LogDerivedDataCache: Loaded boot cache 0.27s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.29-18.42.35:035][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.29-18.42.35:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.29-18.42.35:036][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.29-18.42.35:036][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.29-18.42.35:036][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.29-18.42.35:053][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.29-18.42.35:066][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jessie lichter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.29-18.42.35:066][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.29-18.42.35:066][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.29-18.42.35:088][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.29-18.42.35:090][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.29-18.42.35:104][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.29-18.42.35:500][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
+[2019.03.29-18.42.35:952][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.29-18.42.36:172][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.29-18.42.36:178][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.29-18.42.36:178][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.29-18.42.36:178][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.29-18.42.36:178][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.29-18.42.36:194][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.03.29-18.42.36:922][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.162441 seconds
+[2019.03.29-18.42.36:930][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.29-18.42.36:930][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.03.29-18.42.36:930][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.29-18.42.44:116][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.29-18.42.44:129][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.29-18.42.44:370][  0]SourceControl: Source control is disabled
+[2019.03.29-18.42.44:370][  0]SourceControl: Source control is disabled
+[2019.03.29-18.42.44:373][  0]SourceControl: Source control is disabled
+[2019.03.29-18.42.44:375][  0]SourceControl: Source control is disabled
+[2019.03.29-18.42.44:608][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.29-18.42.44:994][  0]LogOcInput: OculusInput pre-init called
+[2019.03.29-18.42.45:080][  0]LogEngine: Initializing Engine...
+[2019.03.29-18.42.45:081][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.29-18.42.45:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.29-18.42.45:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.29-18.42.45:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.29-18.42.45:083][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.29-18.42.45:345][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.29-18.42.45:367][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.29-18.42.45:456][  0]LogInit: XAudio2 using 'Headphones (2- SRS-XB10 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.29-18.42.45:478][  0]LogInit: FAudioDevice initialized.
+[2019.03.29-18.42.45:478][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.29-18.42.45:568][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.29-18.42.45:589][  0]LogInit: Texture streaming: Enabled
+[2019.03.29-18.42.45:633][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.29-18.42.45:676][  0]LogInit: Transaction tracking system initialized
+[2019.03.29-18.42.45:729][  0]BlueprintLog: New page: Editor Load
+[2019.03.29-18.42.45:907][  0]LocalizationService: Localization service is disabled
+[2019.03.29-18.42.46:280][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.29-18.42.46:280][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.29-18.42.46:281][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.29-18.42.46:281][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.29-18.42.46:281][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.29-18.42.46:281][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.29-18.42.46:281][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.29-18.42.46:534][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/' took 0.06s
+[2019.03.29-18.42.46:534][  0]SourceControl: Source control is disabled
+[2019.03.29-18.42.46:534][  0]Cmd: MAP LOAD FILE="../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.29-18.42.46:540][  0]LightingResults: New page: Lighting Build
+[2019.03.29-18.42.46:545][  0]MapCheck: New page: Map Check
+[2019.03.29-18.42.46:545][  0]LightingResults: New page: Lighting Build
+[2019.03.29-18.42.47:075][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.03.29-18.42.47:113][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.29-18.42.47:139][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.29-18.42.47:230][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.083ms to complete.
+[2019.03.29-18.42.47:230][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.697
+[2019.03.29-18.42.47:406][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-18.42.47:418][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-18.42.47:428][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-18.42.47:440][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.29-18.42.47:462][  0]LogCollectionManager: Loaded 0 collections in 0.003567 seconds
+[2019.03.29-18.42.47:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Collections/' took 0.01s
+[2019.03.29-18.42.47:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/Developers/jessielichter/Collections/' took 0.01s
+[2019.03.29-18.42.47:522][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Content/Collections/' took 0.01s
+[2019.03.29-18.42.47:523][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.29-18.42.47:538][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2572 classes and 603 folders.
+[2019.03.29-18.42.47:557][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.29-18.42.47:983][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.29-18.42.48:000][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2019.03.29-18.42.48:018][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.29-18.42.48:190][  0]LogSlate: Took 0.007812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.29-18.42.48:200][  0]LogSlate: Took 0.007036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.29-18.42.48:217][  0]LogSlate: Took 0.006525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.29-18.42.48:402][  0]LogRenderer: Reallocating scene render targets to support 864x508 Format 10 NumSamples 1 (Frame:1).
+[2019.03.29-18.42.48:594][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.29-18.42.48:594][  0]LogLoad: (Engine Initialization) Total time: 27.66 seconds
+[2019.03.29-18.42.48:594][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.29-18.42.48:637][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.29-18.42.48:673][  0]LogSlate: Took 0.006520 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.29-18.42.48:967][  3]LogAssetRegistry: Asset discovery search completed in 13.4894 seconds
+[2019.03.29-18.42.48:970][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.29-18.42.48:970][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
+[2019.03.29-18.42.52:934][176]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-18.43.09:514][160]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.03.29-18.43.12:423][308]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-18.43.16:365][520]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.29-18.43.16:376][520]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter
+[2019.03.29-18.43.17:190][520]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.03.29-18.43.18:427][520]LogSlate: Took 0.003876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.29-18.43.19:354][521]LogSlate: Took 0.361900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.29-18.43.26:613][729]LogRenderer: Reallocating scene render targets to support 864x576 Format 10 NumSamples 1 (Frame:1).
+[2019.03.29-18.52.31:894][593]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.29-18.52.33:056][631]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-18.52.52:497][516]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.29-18.52.52:528][516]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/tester2.fbx)
+[2019.03.29-18.52.52:564][516]LogFbx: Loading FBX Scene from ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/Characters/tester2.fbx
+[2019.03.29-18.52.52:617][516]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.29-18.53.39:772][516]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.29-18.53.39:811][516]LogFbx: =================================================
+[2019.03.29-18.53.39:811][516]LogFbx: Dumping Node START [marshi:eyes_nurbsSphere4] 
+[2019.03.29-18.53.39:811][516]LogFbx: 	Total Deformer Count 78537840.
+[2019.03.29-18.53.39:811][516]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.29-18.53.39:811][516]LogFbx: =================================================
+[2019.03.29-18.53.39:811][516]LogFbx: 	Attribute () Type (4).
+[2019.03.29-18.53.39:811][516]LogFbx: 		[Node Attribute Child 1] marshi:eyes_nurbsSphere4 (Type Mesh).
+[2019.03.29-18.53.39:811][516]LogFbx: Dumping Node END [marshi:eyes_nurbsSphere4]
+[2019.03.29-18.53.39:811][516]LogFbx: =================================================
+[2019.03.29-18.53.39:811][516]LogFbx: Dumping Node START [marshi:eyes_nurbsSphere4] 
+[2019.03.29-18.53.39:811][516]LogFbx: 	Total Deformer Count 78537840.
+[2019.03.29-18.53.39:811][516]LogFbx: 		[Node 1]  (Type Skin).
+[2019.03.29-18.53.39:811][516]LogFbx: =================================================
+[2019.03.29-18.53.39:811][516]LogFbx: 	Attribute () Type (4).
+[2019.03.29-18.53.39:811][516]LogFbx: 		[Node Attribute Child 1] marshi:eyes_nurbsSphere4 (Type Mesh).
+[2019.03.29-18.53.39:811][516]LogFbx: Dumping Node END [marshi:eyes_nurbsSphere4]
+[2019.03.29-18.53.39:814][516]LogFbx: Valid bind pose for Pose (skinCluster1) - marshi:eyes_nurbsSphere4
+[2019.03.29-18.53.40:140][516]LogMaterial: Warning: Material /Game/TestingModels/lambert1.lambert1 needed to have new flag set bUsedWithSkeletalMesh !
+[2019.03.29-18.53.40:143][516]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.03.29-18.53.40:224][516]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.29-18.53.40:224][516]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.29-18.53.40:224][516]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.29-18.53.40:224][516]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.29-18.53.40:228][516]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.03.29-18.53.40:333][516]LogFbx: Warning: Bones digested - 57  Depth of hierarchy - 12
+[2019.03.29-18.53.41:440][516]LogSkeletalMesh: Section 0: 18266 vertices, 46 active bones
+[2019.03.29-18.53.41:445][516]LogSkeletalMesh: Section 0: Material=0, 28125 triangles
+[2019.03.29-18.53.41:448][516]LogSkeletalMesh: Building Skeletal Mesh tester2...
+[2019.03.29-18.53.54:047][516]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.03.29-18.53.54:047][516]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.03.29-18.53.54:047][516]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.29-18.53.54:047][516]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.29-18.53.54:047][516]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.29-18.53.54:047][516]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.29-18.53.54:047][516]LogSkeletalMesh: Built Skeletal Mesh [12.60s] /Game/TestingModels/tester2.tester2
+[2019.03.29-18.53.54:495][516]LogLinker: Can't find file '/Game/TestingModels/tester2_Skeleton'
+[2019.03.29-18.53.54:495][516]LogLinker: Can't find file '/Game/TestingModels/tester2_Skeleton'
+[2019.03.29-18.53.54:499][516]LogLinker: Can't find file '/Game/TestingModels/tester2_PhysicsAsset'
+[2019.03.29-18.53.54:499][516]LogLinker: Can't find file '/Game/TestingModels/tester2_PhysicsAsset'
+[2019.03.29-18.53.54:513][516]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
+[2019.03.29-18.53.54:532][516]LogSkeletalMesh: Building Skeletal Mesh tester2...
+[2019.03.29-18.54.07:786][516]LogSkeletalMesh: Built Skeletal Mesh [13.26s] /Game/TestingModels/tester2.tester2
+[2019.03.29-18.54.08:212][516]FBXImport: Warning: The following bones are missing from the bind pose:
+mixamorig:HeadTop_End  
+mixamorig:LeftHandThumb4  
+mixamorig:LeftHandIndex4  
+mixamorig:LeftHandMiddle4  
+mixamorig:LeftHandRing4  
+mixamorig:RightHandThumb4  
+mixamorig:RightHandIndex4  
+mixamorig:RightHandMiddle4  
+mixamorig:RightHandRing4  
+mixamorig:LeftToe_End  
+mixamorig:RightToe_End  
+
+This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
+please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
+[2019.03.29-18.54.08:228][516]LogSkeletalMesh: Building Skeletal Mesh tester2...
+[2019.03.29-18.54.20:356][516]LogSkeletalMesh: Built Skeletal Mesh [12.13s] /Game/TestingModels/tester2.tester2
+[2019.03.29-18.54.21:021][517]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.042
+[2019.03.29-18.54.21:024][517]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/tester2] ([1] browsable assets)...
+[2019.03.29-18.54.21:055][517]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/TestingModels/tester2.tester2]
+[2019.03.29-18.54.21:055][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/tester2]
+[2019.03.29-18.54.21:115][517]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/tester2_Auto10F9C0F7A4AD401E073B610ACCA5D2C52.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/tester2_Auto1.uasset'
+[2019.03.29-18.54.21:118][517]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/lambert1] ([1] browsable assets)...
+[2019.03.29-18.54.21:159][517]OBJ SavePackage:     Rendered thumbnail for [Material /Game/TestingModels/lambert1.lambert1]
+[2019.03.29-18.54.21:159][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/lambert1]
+[2019.03.29-18.54.21:192][517]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/lambert1_Auto165AD68A24D026DC53E10E0B45E1092A9.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/lambert1_Auto1.uasset'
+[2019.03.29-18.54.21:198][517]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TestingModels/tester2_Skeleton] ([1] browsable assets)...
+[2019.03.29-18.54.21:198][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/tester2_Skeleton]
+[2019.03.29-18.54.21:218][517]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/tester2_Skeleton_Auto14D390AC8402AF9030DC70199769F5BB8.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/tester2_Skeleton_Auto1.uasset'
+[2019.03.29-18.54.21:226][517]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TestingModels/tester2_PhysicsAsset] ([1] browsable assets)...
+[2019.03.29-18.54.21:284][517]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/TestingModels/tester2_PhysicsAsset.tester2_PhysicsAsset]
+[2019.03.29-18.54.21:284][517]OBJ SavePackage: Finished generating thumbnails for package [/Game/TestingModels/tester2_PhysicsAsset]
+[2019.03.29-18.54.21:317][517]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/tester2_PhysicsAsset_Auto109A45B4A4A88FC0AEF99C79C3F366967.tmp' to '../../../../../../Users/jessie lichter/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Autosaves/Game/TestingModels/tester2_PhysicsAsset_Auto1.uasset'
+[2019.03.29-18.54.21:319][517]LogFileHelpers: Auto-saving content packages took 0.297
+[2019.03.29-18.54.40:617][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-18.54.42:622][779]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-18.54.42:820][790]LogAssetEditorManager: Opening Asset editor for SkeletalMesh /Game/TestingModels/tester2.tester2
+[2019.03.29-18.54.42:848][790]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.29-18.54.43:149][790]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2019.03.29-18.54.43:156][790]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2019.03.29-18.54.43:229][790]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_8:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2019.03.29-18.54.43:598][790]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.03.29-18.54.43:634][791]LogRenderer: Reallocating scene render targets to support 912x712 Format 10 NumSamples 1 (Frame:1).
+[2019.03.29-18.54.58:156][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-18.55.00:200][637]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.03.29-18.55.00:206][637]LogSlate: Window 'ThirdPersonCharacter' being destroyed
+[2019.03.29-18.55.01:654][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.29-18.55.03:418][719]LogSlate: Window 'Save Content' being destroyed
+[2019.03.29-18.55.03:510][719]LogSlate: Window 'Message Log' being destroyed
+[2019.03.29-18.55.03:516][719]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
+[2019.03.29-18.55.03:743][720]Cmd: QUIT_EDITOR
+[2019.03.29-18.55.03:786][720]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.29-18.55.03:821][720]LogExit: Preparing to exit.
+[2019.03.29-18.55.04:590][720]LogExit: Editor shut down
+[2019.03.29-18.55.04:590][720]LogExit: Transaction tracking system shut down
+[2019.03.29-18.55.05:198][720]LogExit: Object subsystem successfully closed.
+[2019.03.29-18.55.05:221][720]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.29-18.55.05:225][720]LogD3D11RHI: Shutdown
+[2019.03.29-18.55.05:225][720]LogD3D11RHI: CleanupD3DDevice
+[2019.03.29-18.55.05:247][720]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.29-18.55.05:315][720]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (620)
+[2019.03.29-18.55.05:315][720]LogModuleManager: Shutting down and abandoning module PinnedCommandList (618)
+[2019.03.29-18.55.05:315][720]LogModuleManager: Shutting down and abandoning module SkeletonEditor (616)
+[2019.03.29-18.55.05:315][720]LogModuleManager: Shutting down and abandoning module BlueprintGraph (614)
+[2019.03.29-18.55.05:316][720]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.03.29-18.55.05:316][720]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.03.29-18.55.05:316][720]LogModuleManager: Shutting down and abandoning module WorldBrowser (608)
+[2019.03.29-18.55.05:316][720]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.03.29-18.55.05:317][720]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.03.29-18.55.05:318][720]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.03.29-18.55.05:318][720]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.03.29-18.55.05:318][720]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.03.29-18.55.05:318][720]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.03.29-18.55.05:318][720]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.03.29-18.55.05:319][720]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.03.29-18.55.05:320][720]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.03.29-18.55.05:321][720]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.03.29-18.55.05:379][720]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.03.29-18.55.05:379][720]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.03.29-18.55.05:379][720]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.03.29-18.55.05:379][720]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.03.29-18.55.05:380][720]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.03.29-18.55.05:435][720]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.03.29-18.55.05:439][720]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.03.29-18.55.05:439][720]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.03.29-18.55.05:439][720]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.03.29-18.55.05:439][720]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.03.29-18.55.05:439][720]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.03.29-18.55.05:439][720]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.03.29-18.55.05:439][720]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.03.29-18.55.05:439][720]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.03.29-18.55.05:440][720]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.03.29-18.55.05:448][720]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.03.29-18.55.05:452][720]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.03.29-18.55.05:452][720]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.03.29-18.55.05:452][720]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.03.29-18.55.05:452][720]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.03.29-18.55.05:452][720]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.03.29-18.55.05:452][720]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.03.29-18.55.05:452][720]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.03.29-18.55.05:452][720]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.03.29-18.55.05:453][720]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.03.29-18.55.05:454][720]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.03.29-18.55.05:556][720]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.03.29-18.55.05:656][720]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.03.29-18.55.05:656][720]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.03.29-18.55.05:656][720]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.03.29-18.55.05:656][720]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.03.29-18.55.05:656][720]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.03.29-18.55.05:656][720]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.03.29-18.55.05:656][720]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.03.29-18.55.05:658][720]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.03.29-18.55.05:658][720]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.03.29-18.55.05:658][720]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.03.29-18.55.05:659][720]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.03.29-18.55.05:660][720]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.03.29-18.55.05:662][720]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.03.29-18.55.05:662][720]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.03.29-18.55.05:662][720]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.03.29-18.55.05:662][720]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.03.29-18.55.05:662][720]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.03.29-18.55.05:662][720]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.03.29-18.55.05:677][720]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.03.29-18.55.05:684][720]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.03.29-18.55.05:685][720]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.03.29-18.55.05:686][720]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.03.29-18.55.05:686][720]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.03.29-18.55.05:686][720]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.03.29-18.55.05:686][720]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.03.29-18.55.05:686][720]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.03.29-18.55.05:686][720]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.03.29-18.55.05:686][720]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.03.29-18.55.05:687][720]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.03.29-18.55.05:691][720]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.03.29-18.55.05:691][720]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.03.29-18.55.05:691][720]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.03.29-18.55.05:691][720]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.03.29-18.55.05:691][720]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.03.29-18.55.05:691][720]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.03.29-18.55.05:691][720]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.03.29-18.55.05:692][720]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.03.29-18.55.05:723][720]LogDerivedDataCache: Shutdown
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.03.29-18.55.05:723][720]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.03.29-18.55.05:724][720]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.03.29-18.55.05:724][720]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.03.29-18.55.05:724][720]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.03.29-18.55.05:724][720]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.03.29-18.55.05:724][720]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.03.29-18.55.05:724][720]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.03.29-18.55.05:724][720]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.03.29-18.55.05:724][720]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.03.29-18.55.05:725][720]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.03.29-18.55.05:725][720]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.03.29-18.55.05:726][720]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.03.29-18.55.05:726][720]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.03.29-18.55.05:734][720]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.03.29-18.55.05:735][720]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.03.29-18.55.05:736][720]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.03.29-18.55.05:745][720]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.03.29-18.55.05:745][720]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.03.29-18.55.05:745][720]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8BD3E657-4F17-0612-103F-108876664F20%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=52c8d69c47c3b558f96bdeaad69b44a8%7C1e4490187f7d4590821fe5ea33366920%7Ca0ac2db9-04c3-40ba-9c12-a7ac0bed75b1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.03.29-18.55.05:758][720]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.03.29-18.55.05:760][720]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.03.29-18.55.05:760][720]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.03.29-18.55.05:761][720]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.03.29-18.55.05:761][720]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.03.29-18.55.05:761][720]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.03.29-18.55.05:761][720]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.03.29-18.55.05:761][720]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.03.29-18.55.05:761][720]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.03.29-18.55.05:761][720]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.03.29-18.55.05:761][720]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.03.29-18.55.05:762][720]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.03.29-18.55.05:774][720]LogExit: Exiting.
+[2019.03.29-18.55.05:800][720]Log file closed, 03/29/19 14:55:05
