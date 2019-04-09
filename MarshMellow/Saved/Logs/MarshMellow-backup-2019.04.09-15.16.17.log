@@ -1,0 +1,1283 @@
+﻿Log file open, 04/09/19 14:14:46
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MarshMellow
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.299742
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.118s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.09-18.14.46:835][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-18.14.46:835][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.09-18.14.46:850][  0]LogHAL: Display: Platform has ~ 16 GB [16919941120 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.09-18.14.46:850][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.09-18.14.46:850][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.09-18.14.46:850][  0]LogInit: Computer: DESKTOP-06E64QA
+[2019.04.09-18.14.46:850][  0]LogInit: User: thompz
+[2019.04.09-18.14.46:850][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.09-18.14.46:850][  0]LogInit: High frequency timer resolution =2.531253 MHz
+[2019.04.09-18.14.46:851][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.04.09-18.14.46:851][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.09-18.14.46:851][  0]LogMemory: Process Physical Memory: 101.53 MB used, 101.53 MB peak
+[2019.04.09-18.14.46:851][  0]LogMemory: Process Virtual Memory: 89.43 MB used, 89.43 MB peak
+[2019.04.09-18.14.46:851][  0]LogMemory: Physical Memory: 5013.44 MB used,  11122.68 MB free, 16136.11 MB total
+[2019.04.09-18.14.46:851][  0]LogMemory: Virtual Memory: 4638.86 MB used,  11122.68 MB free, 134217728.00 MB total
+[2019.04.09-18.14.46:882][  0]LogInit: Using OS detected language (en-US).
+[2019.04.09-18.14.46:882][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.09-18.14.46:883][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.09-18.14.47:323][  0]LogStreaming: Display: Took  0.441s to InitEngineTextLocalization.
+[2019.04.09-18.14.47:323][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.09-18.14.47:375][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.09-18.14.47:375][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.09-18.14.47:635][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-18.14.47:635][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.09-18.14.47:711][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.04.09-18.14.47:711][  0]LogD3D11RHI:       2010/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.09-18.14.47:723][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.04.09-18.14.47:723][  0]LogD3D11RHI:       128/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.09-18.14.47:726][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.09-18.14.47:726][  0]LogD3D11RHI:       0/0/8068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.09-18.14.47:726][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.09-18.14.47:765][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.09-18.14.47:765][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.04.09-18.14.47:765][  0]LogWindows: EnumDisplayDevices:
+[2019.04.09-18.14.47:765][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.09-18.14.47:765][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.09-18.14.47:765][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.09-18.14.47:766][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.09-18.14.47:766][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.04.09-18.14.47:766][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.09-18.14.47:766][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.09-18.14.47:766][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.04.09-18.14.47:813][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.09-18.14.47:831][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.04.09-18.14.47:832][  0]LogShaderCompilers: Guid format shader working directory is -29 characters bigger than the processId version (../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Intermediate/Shaders/WorkingDirectory/17488/).
+[2019.04.09-18.14.47:832][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/thompz/AppData/Local/Temp/UnrealShaderWorkingDir/FFE8DBAF4D6C434ED85F9786BAB5B577/'.
+[2019.04.09-18.14.48:172][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.09-18.14.48:187][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.09-18.14.48:202][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.09-18.14.48:216][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.09-18.14.48:231][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.09-18.14.48:246][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.09-18.14.48:260][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.09-18.14.48:275][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.09-18.14.48:282][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:371][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.09-18.14.48:372][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.09-18.14.48:436][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-18.14.48:436][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.09-18.14.48:462][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-18.14.48:463][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.09-18.14.48:477][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.09-18.14.48:492][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.09-18.14.48:505][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.09-18.14.48:519][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.09-18.14.48:530][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.09-18.14.48:530][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.09-18.14.48:597][  0]LogXGEController: Cleaning working directory: C:/Users/thompz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.09-18.14.48:597][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.09-18.14.48:597][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.09-18.14.48:597][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.09-18.14.49:466][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.09-18.14.49:526][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.09-18.14.49:527][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.09-18.14.49:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.09-18.14.49:527][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.09-18.14.49:527][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.09-18.14.49:527][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.09-18.14.49:544][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.09-18.14.49:557][  0]LogDerivedDataCache: Using Local data cache path C:/Users/thompz/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.09-18.14.49:557][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.09-18.14.49:557][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.09-18.14.49:577][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.09-18.14.49:579][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.09-18.14.49:580][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.09-18.14.49:662][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2019.04.09-18.14.50:041][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.09-18.14.50:191][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.09-18.14.50:195][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.09-18.14.50:195][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.09-18.14.50:195][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.09-18.14.50:195][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.09-18.14.50:214][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.04.09-18.14.50:819][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.124571 seconds
+[2019.04.09-18.14.50:826][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.09-18.14.50:826][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.09-18.14.50:826][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.09-18.14.51:776][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.09-18.14.51:790][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.09-18.14.51:946][  0]SourceControl: Source control is disabled
+[2019.04.09-18.14.51:946][  0]SourceControl: Source control is disabled
+[2019.04.09-18.14.51:948][  0]SourceControl: Source control is disabled
+[2019.04.09-18.14.51:949][  0]SourceControl: Source control is disabled
+[2019.04.09-18.14.52:127][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.09-18.14.52:227][  0]LogOcInput: OculusInput pre-init called
+[2019.04.09-18.14.52:297][  0]LogEngine: Initializing Engine...
+[2019.04.09-18.14.52:298][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.09-18.14.52:299][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-18.14.52:299][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-18.14.52:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-18.14.52:300][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-18.14.52:540][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.09-18.14.52:555][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.09-18.14.52:591][  0]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.09-18.14.52:615][  0]LogInit: FAudioDevice initialized.
+[2019.04.09-18.14.52:615][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.09-18.14.52:672][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/thompz/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.09-18.14.52:681][  0]LogInit: Texture streaming: Enabled
+[2019.04.09-18.14.52:699][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.09-18.14.52:714][  0]LogInit: Transaction tracking system initialized
+[2019.04.09-18.14.52:739][  0]BlueprintLog: New page: Editor Load
+[2019.04.09-18.14.52:829][  0]LocalizationService: Localization service is disabled
+[2019.04.09-18.14.52:892][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.04.09-18.14.52:892][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.04.09-18.14.52:893][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.04.09-18.14.53:220][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.09-18.14.53:220][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.09-18.14.53:220][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.09-18.14.53:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.09-18.14.53:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.09-18.14.53:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.09-18.14.53:220][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.09-18.14.53:358][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/' took 0.04s
+[2019.04.09-18.14.53:358][  0]SourceControl: Source control is disabled
+[2019.04.09-18.14.53:358][  0]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-18.14.53:359][  0]LightingResults: New page: Lighting Build
+[2019.04.09-18.14.53:363][  0]MapCheck: New page: Map Check
+[2019.04.09-18.14.53:363][  0]LightingResults: New page: Lighting Build
+[2019.04.09-18.14.53:801][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.09-18.14.53:812][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-18.14.53:838][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-18.14.53:923][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.783ms to complete.
+[2019.04.09-18.14.53:923][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.565
+[2019.04.09-18.14.54:046][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-18.14.54:059][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-18.14.54:069][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-18.14.54:078][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-18.14.54:085][  0]LogCollectionManager: Loaded 0 collections in 0.002044 seconds
+[2019.04.09-18.14.54:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Collections/' took 0.01s
+[2019.04.09-18.14.54:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Developers/thompz/Collections/' took 0.01s
+[2019.04.09-18.14.54:127][  0]LogFileCache: Scanning file cache for directory 'C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Collections/' took 0.01s
+[2019.04.09-18.14.54:127][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.09-18.14.54:137][  0]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 2572 classes and 603 folders.
+[2019.04.09-18.14.54:146][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.09-18.14.54:196][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.04.09-18.14.54:201][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.04.09-18.14.54:273][  0]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.09-18.14.54:276][  0]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.09-18.14.54:285][  0]LogSlate: Took 0.000860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.09-18.14.54:375][  0]LogRenderer: Reallocating scene render targets to support 796x480 Format 10 NumSamples 1 (Frame:1).
+[2019.04.09-18.14.54:567][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.09-18.14.54:567][  0]LogLoad: (Engine Initialization) Total time: 9.59 seconds
+[2019.04.09-18.14.54:567][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.09-18.14.54:586][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.09-18.14.54:620][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.09-18.14.54:671][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/' took 0.07s
+[2019.04.09-18.14.54:722][  2]LogAssetRegistry: Asset discovery search completed in 5.0827 seconds
+[2019.04.09-18.14.54:725][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.09-18.14.54:725][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2019.04.09-18.14.59:567][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-18.15.05:791][643]LogSlate: Took 0.000230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-18.15.29:349][409]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.09-18.15.29:372][409]LogFactory: FactoryCreateFile: FileMediaSource with WmfFileMediaSourceFactory (0 0 ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/SFX/MP3s/ammoPickUp.mp3)
+[2019.04.09-18.15.39:166][994]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/SFX/MP3s/ammoPickUp.ammoPickUp
+[2019.04.09-18.16.27:033][744]LogSlate: Window 'ammoPickUp* - Generic Asset Editor' being destroyed
+[2019.04.09-18.16.27:039][744]LogSlate: Window 'ammoPickUp* - Generic Asset Editor' being destroyed
+[2019.04.09-18.16.33:602][ 25]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.09-18.16.42:939][577]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/SFX/ammoPickUp.ammoPickUp
+[2019.04.09-18.16.54:094][240]LogSlate: Window 'ammoPickUp - Generic Asset Editor' being destroyed
+[2019.04.09-18.16.54:099][240]LogSlate: Window 'ammoPickUp - Generic Asset Editor' being destroyed
+[2019.04.09-18.17.12:683][351]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/SFX/battleMusic.battleMusic
+[2019.04.09-18.17.36:086][739]LogSlate: Window 'battleMusic - Generic Asset Editor' being destroyed
+[2019.04.09-18.17.36:103][739]LogSlate: Window 'battleMusic - Generic Asset Editor' being destroyed
+[2019.04.09-18.17.39:690][947]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/SFX/ammoPickUp.ammoPickUp
+[2019.04.09-18.18.09:125][ 12]Cmd: TRANSACTION UNDO
+[2019.04.09-18.18.09:126][ 12]LogEditorTransaction: Undo Edit File Path
+[2019.04.09-18.18.21:005][456]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.04.09-18.18.21:062][457]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.09-18.18.21:140][458]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.04.09-18.18.21:155][458]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.04.09-18.21.07:192][578]LogSlate: Window 'ammoPickUp - Generic Asset Editor' being destroyed
+[2019.04.09-18.21.07:200][578]LogSlate: Window 'ammoPickUp - Generic Asset Editor' being destroyed
+[2019.04.09-18.21.38:941][144]LogFactory: FactoryCreateFile: FileMediaSource with AvfFileMediaSourceFactory (0 0 ../../../../../../Users/thompz/Documents/GitHub/MARSHMALLOWS-WOOO/MarshMellow/Content/SFX/MP3s/ammoPickUp.mp3)
+[2019.04.09-18.21.42:801][232]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.09-18.24.54:883][730]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.023
+[2019.04.09-18.26.17:456][171]AssetReimport: New page: Outstanding source content changes 10:26:17 AM
+[2019.04.09-18.26.17:459][171]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/ammoPickUp.wav)
+[2019.04.09-18.26.17:511][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/ammoPickUp" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/ammoPickUp.uasset" SILENT=true
+[2019.04.09-18.26.17:522][171]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ammoPickUpDD49AEAC4F453FBF23E6A9BBD83F1E0E.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/ammoPickUp.uasset'
+[2019.04.09-18.26.20:551][352]AssetReimport: Importing new asset /Game/SFX/MP3s/ammoPickUp.
+[2019.04.09-18.28.11:091][855]AssetReimport: New page: Outstanding source content changes 10:28:11 AM
+[2019.04.09-18.28.11:168][855]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/battleMusic.wav)
+[2019.04.09-18.28.11:370][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/battleMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/battleMusic.uasset" SILENT=true
+[2019.04.09-18.28.11:399][856]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/battleMusic3987C7F04E790FB7624A168D4F95C000.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/battleMusic.uasset'
+[2019.04.09-18.28.14:561][986]AssetReimport: Importing new asset /Game/SFX/MP3s/battleMusic.
+[2019.04.09-18.33.57:626][ 13]AssetReimport: New page: Outstanding source content changes 10:33:57 AM
+[2019.04.09-18.33.57:631][ 13]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/playerWalking.wav)
+[2019.04.09-18.33.57:667][ 14]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/pickUp.wav)
+[2019.04.09-18.33.57:673][ 14]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuSelect.wav)
+[2019.04.09-18.33.57:717][ 14]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuMusicNoDrums.wav)
+[2019.04.09-18.33.57:832][ 15]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuMusic.wav)
+[2019.04.09-18.33.57:902][ 16]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/gunshot.wav)
+[2019.04.09-18.33.57:909][ 16]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/firstAidPickUp.wav)
+[2019.04.09-18.33.57:957][ 16]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/explorationMusic.wav)
+[2019.04.09-18.33.58:042][ 17]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyWalking.wav)
+[2019.04.09-18.33.58:065][ 18]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyMeleeAttack.wav)
+[2019.04.09-18.33.58:071][ 18]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 C:/Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyDeath.wav)
+[2019.04.09-18.33.58:120][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/playerWalking" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/playerWalking.uasset" SILENT=true
+[2019.04.09-18.33.58:131][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/playerWalking0A66B87145756BEED10DE2BB0CB537FB.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/playerWalking.uasset'
+[2019.04.09-18.33.58:155][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/pickUp" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/pickUp.uasset" SILENT=true
+[2019.04.09-18.33.58:166][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/pickUpE78F837348A474A5FC8458A9B730A24A.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/pickUp.uasset'
+[2019.04.09-18.33.58:188][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/menuSelect" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuSelect.uasset" SILENT=true
+[2019.04.09-18.33.58:199][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/menuSelectBD798C3B4F8C91725A097080A81FD2AE.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuSelect.uasset'
+[2019.04.09-18.33.58:228][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/menuMusicNoDrums" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuMusicNoDrums.uasset" SILENT=true
+[2019.04.09-18.33.58:245][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/menuMusicNoDrumsE6701CDD42E54811254B90B19A2DD469.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuMusicNoDrums.uasset'
+[2019.04.09-18.33.58:275][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/menuMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuMusic.uasset" SILENT=true
+[2019.04.09-18.33.58:289][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/menuMusic81AC68714E71ECBEA80A72ADA50F699A.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/menuMusic.uasset'
+[2019.04.09-18.33.58:311][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/gunshot" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/gunshot.uasset" SILENT=true
+[2019.04.09-18.33.58:322][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/gunshotADF5132846648475005415A1C793F1F1.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/gunshot.uasset'
+[2019.04.09-18.33.58:339][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/firstAidPickUp" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/firstAidPickUp.uasset" SILENT=true
+[2019.04.09-18.33.58:349][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/firstAidPickUp6220B9F64778316E72D96087044917FE.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/firstAidPickUp.uasset'
+[2019.04.09-18.33.58:378][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/explorationMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/explorationMusic.uasset" SILENT=true
+[2019.04.09-18.33.58:392][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/explorationMusicBC0731AA4D76C0E8398F61BF46E5F89F.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/explorationMusic.uasset'
+[2019.04.09-18.33.58:411][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/enemyWalking" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyWalking.uasset" SILENT=true
+[2019.04.09-18.33.58:422][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/enemyWalking6F91B8084EB741F46301008BF218C7A6.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyWalking.uasset'
+[2019.04.09-18.33.58:440][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/enemyMeleeAttack" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyMeleeAttack.uasset" SILENT=true
+[2019.04.09-18.33.58:450][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/enemyMeleeAttack3EBF0A554AE3BB98A741DF98746118C2.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyMeleeAttack.uasset'
+[2019.04.09-18.33.58:468][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/MP3s/enemyDeath" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyDeath.uasset" SILENT=true
+[2019.04.09-18.33.58:478][ 18]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/enemyDeath7740ECBB44AD97DC041E43BEBAB8A251.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/MP3s/enemyDeath.uasset'
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/playerWalking.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/pickUp.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/menuSelect.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/menuMusicNoDrums.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/menuMusic.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/gunshot.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/firstAidPickUp.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/explorationMusic.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/enemyWalking.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/enemyMeleeAttack.
+[2019.04.09-18.34.01:491][194]AssetReimport: Importing new asset /Game/SFX/MP3s/enemyDeath.
+[2019.04.09-18.34.20:232][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/enemyDeath" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/enemyDeath.uasset" SILENT=true
+[2019.04.09-18.34.20:243][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/enemyDeath6598DC5E45277524FB0CAC9B731D3D34.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/enemyDeath.uasset'
+[2019.04.09-18.34.20:255][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/enemyMeleeAttack" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/enemyMeleeAttack.uasset" SILENT=true
+[2019.04.09-18.34.20:265][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/enemyMeleeAttackFACB79CD4341F8720E83B284AB821E13.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/enemyMeleeAttack.uasset'
+[2019.04.09-18.34.20:281][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/enemyWalking" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/enemyWalking.uasset" SILENT=true
+[2019.04.09-18.34.20:291][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/enemyWalking0B0C7C734F56071A0F78ABAB79CD1E35.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/enemyWalking.uasset'
+[2019.04.09-18.34.20:315][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/explorationMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/explorationMusic.uasset" SILENT=true
+[2019.04.09-18.34.20:330][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/explorationMusic7FFF34D4472F7949DCEE1C8E8A4D252D.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/explorationMusic.uasset'
+[2019.04.09-18.34.20:345][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/firstAidPickUp" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/firstAidPickUp.uasset" SILENT=true
+[2019.04.09-18.34.20:355][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/firstAidPickUp22BD06F944C157E2D9269899C19BA613.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/firstAidPickUp.uasset'
+[2019.04.09-18.34.20:369][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/gunshot" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/gunshot.uasset" SILENT=true
+[2019.04.09-18.34.20:379][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/gunshot4C0F019C4AFBC8FEF0CBC4B6132D82F8.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/gunshot.uasset'
+[2019.04.09-18.34.20:401][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/menuMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuMusic.uasset" SILENT=true
+[2019.04.09-18.34.20:415][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/menuMusic68170E7A44DFFE8BDC793FBE4732483E.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuMusic.uasset'
+[2019.04.09-18.34.20:438][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/menuMusicNoDrums" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuMusicNoDrums.uasset" SILENT=true
+[2019.04.09-18.34.20:454][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/menuMusicNoDrumsF1594BA24DAC4593626D378536083FA0.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuMusicNoDrums.uasset'
+[2019.04.09-18.34.20:467][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/menuSelect" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuSelect.uasset" SILENT=true
+[2019.04.09-18.34.20:478][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/menuSelectD5096CF041E3892D6354A6A94ADDEB09.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuSelect.uasset'
+[2019.04.09-18.34.20:491][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/pickUp" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/pickUp.uasset" SILENT=true
+[2019.04.09-18.34.20:502][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/pickUp4A6E8E4142D31EA1144EC1ABFAE978C8.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/pickUp.uasset'
+[2019.04.09-18.34.20:514][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/playerWalking" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/playerWalking.uasset" SILENT=true
+[2019.04.09-18.34.20:524][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/playerWalking8F6FD4984D7A4D1D46C609B7EB27F138.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/playerWalking.uasset'
+[2019.04.09-18.34.20:558][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/battleMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/battleMusic.uasset" SILENT=true
+[2019.04.09-18.34.20:584][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/battleMusic652EBC8541D50C4377A948A25C6F95E4.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/battleMusic.uasset'
+[2019.04.09-18.34.20:597][294]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/ammoPickUp" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/ammoPickUp.uasset" SILENT=true
+[2019.04.09-18.34.20:607][294]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/ammoPickUp36C5B3E540C24A201108AFBFF9404EC1.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/ammoPickUp.uasset'
+[2019.04.09-18.34.32:304][939]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/SFX/ammoPickUp.ammoPickUp
+[2019.04.09-18.34.41:493][484]LogSlate: Window 'ammoPickUp - Generic Asset Editor' being destroyed
+[2019.04.09-18.34.41:499][484]LogSlate: Window 'ammoPickUp - Generic Asset Editor' being destroyed
+[2019.04.09-18.35.09:348][891]LogSlate: Window 'Delete Assets' being destroyed
+[2019.04.09-18.35.09:866][891]LogLinker: Warning: Can't find file '/Game/SFX/enemyDeath'
+[2019.04.09-18.35.09:866][891]LogLinker: Warning: Can't find file '/Game/SFX/enemyDeath'
+[2019.04.09-18.35.09:866][891]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/SFX/enemyDeath.enemyDeath'
+[2019.04.09-18.35.26:462][883]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave battleMusic...
+[2019.04.09-18.35.26:469][883]LogTemp: Couldn't find amount to resample to.
+[2019.04.09-18.35.29:313][883]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 25491456 while cooking SoundWave /Game/SFX/WAvs/battleMusic.battleMusic.
+[2019.04.09-18.35.32:808][ 90]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/SFX/WAvs/battleMusic.battleMusic
+[2019.04.09-18.35.55:100][416]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/battleMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/battleMusic.uasset" SILENT=true
+[2019.04.09-18.35.55:170][416]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/battleMusic5728C3E4441BD94999D5DD924579F82F.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/battleMusic.uasset'
+[2019.04.09-18.35.59:160][655]LogSlate: Window 'battleMusic - Generic Asset Editor' being destroyed
+[2019.04.09-18.35.59:165][655]LogSlate: Window 'battleMusic - Generic Asset Editor' being destroyed
+[2019.04.09-18.36.24:893][195]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/SFX/WAvs/explorationMusic.explorationMusic
+[2019.04.09-18.36.31:570][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/explorationMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/explorationMusic.uasset" SILENT=true
+[2019.04.09-18.36.31:619][585]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/explorationMusic1E5A4995447D210A70F6AB9DF8B78B73.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/explorationMusic.uasset'
+[2019.04.09-18.36.36:646][839]LogSlate: Window 'explorationMusic - Generic Asset Editor' being destroyed
+[2019.04.09-18.36.36:667][839]LogSlate: Window 'explorationMusic - Generic Asset Editor' being destroyed
+[2019.04.09-18.36.43:560][ 12]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/SFX/WAvs/menuMusic.menuMusic
+[2019.04.09-18.36.50:444][182]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/menuMusic" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuMusic.uasset" SILENT=true
+[2019.04.09-18.36.50:600][182]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/menuMusic9C462B6841F93923AD0327B088572B99.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuMusic.uasset'
+[2019.04.09-18.36.58:375][485]LogSlate: Window 'menuMusic - Generic Asset Editor' being destroyed
+[2019.04.09-18.36.58:395][485]LogSlate: Window 'menuMusic - Generic Asset Editor' being destroyed
+[2019.04.09-18.37.03:817][772]LogAssetEditorManager: Opening Asset editor for SoundWave /Game/SFX/WAvs/menuMusicNoDrums.menuMusicNoDrums
+[2019.04.09-18.37.08:974][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SFX/WAvs/menuMusicNoDrums" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuMusicNoDrums.uasset" SILENT=true
+[2019.04.09-18.37.09:081][ 21]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/menuMusicNoDrumsBA669CB04BE3C93E7D14C3BEB8DDD556.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/SFX/WAvs/menuMusicNoDrums.uasset'
+[2019.04.09-18.37.10:786][109]LogSlate: Window 'menuMusicNoDrums - Generic Asset Editor' being destroyed
+[2019.04.09-18.37.10:796][109]LogSlate: Window 'menuMusicNoDrums - Generic Asset Editor' being destroyed
+[2019.04.09-18.38.07:673][829]LogAIModule: Creating AISystem for world Main
+[2019.04.09-18.38.07:677][829]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Main.Main
+[2019.04.09-18.38.07:732][829]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-18.38.07:732][829]LightingResults: New page: Lighting Build
+[2019.04.09-18.38.07:734][829]LoadErrors: New page: Loading map: Main.umap
+[2019.04.09-18.38.07:735][829]MapCheck: New page: Map Check
+[2019.04.09-18.38.07:735][829]LightingResults: New page: Lighting Build
+[2019.04.09-18.38.07:914][829]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-18.38.08:061][829]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-18.38.08:252][829]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 190.715ms to complete.
+[2019.04.09-18.38.08:254][829]LogFileHelpers: Loading map 'Main' took 0.524
+[2019.04.09-18.44.29:080][743]LogAIModule: Creating AISystem for world RuinsLevel
+[2019.04.09-18.44.29:104][743]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/RuinsLevel.RuinsLevel
+[2019.04.09-18.44.29:133][743]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/RuinsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-18.44.29:133][743]LightingResults: New page: Lighting Build
+[2019.04.09-18.44.29:133][743]LoadErrors: New page: Loading map: RuinsLevel.umap
+[2019.04.09-18.44.29:134][743]MapCheck: New page: Map Check
+[2019.04.09-18.44.29:134][743]LightingResults: New page: Lighting Build
+[2019.04.09-18.44.29:263][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-18.44.29:347][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-18.44.29:457][743]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.366ms to complete.
+[2019.04.09-18.44.29:457][743]LogFileHelpers: Loading map 'RuinsLevel' took 0.325
+[2019.04.09-18.44.33:519][836]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.09-18.44.33:542][836]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/MovementTest.MovementTest
+[2019.04.09-18.44.33:578][836]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/MovementTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-18.44.33:578][836]LightingResults: New page: Lighting Build
+[2019.04.09-18.44.33:578][836]LoadErrors: New page: Loading map: MovementTest.umap
+[2019.04.09-18.44.33:581][836]MapCheck: New page: Map Check
+[2019.04.09-18.44.33:581][836]LightingResults: New page: Lighting Build
+[2019.04.09-18.44.33:773][836]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-18.44.33:845][836]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-18.44.33:995][836]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.138ms to complete.
+[2019.04.09-18.44.33:997][836]LogFileHelpers: Loading map 'MovementTest' took 0.420
+[2019.04.09-18.44.35:418][915]LogAIModule: Creating AISystem for world Main
+[2019.04.09-18.44.35:421][915]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Main.Main
+[2019.04.09-18.44.35:447][915]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-18.44.35:448][915]LightingResults: New page: Lighting Build
+[2019.04.09-18.44.35:448][915]LoadErrors: New page: Loading map: Main.umap
+[2019.04.09-18.44.35:449][915]MapCheck: New page: Map Check
+[2019.04.09-18.44.35:450][915]LightingResults: New page: Lighting Build
+[2019.04.09-18.44.35:540][915]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-18.44.35:612][915]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-18.44.35:756][915]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 143.628ms to complete.
+[2019.04.09-18.44.35:762][915]LogFileHelpers: Loading map 'Main' took 0.315
+[2019.04.09-18.46.05:394][287]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/AI/EnemyAi.EnemyAI
+[2019.04.09-18.46.05:955][287]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2019.04.09-18.46.06:901][287]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.09-18.46.06:962][288]LogSlate: Took 0.000411 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.09-18.46.22:730][232]LogSlate: Window 'EnemyAI' being destroyed
+[2019.04.09-18.46.22:737][232]LogSlate: Window 'EnemyAI' being destroyed
+[2019.04.09-18.46.27:245][496]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/BluePrints/AI/EnemyBT.EnemyBT
+[2019.04.09-18.46.52:361][993]LogSlate: Window 'EnemyBT' being destroyed
+[2019.04.09-18.46.52:369][993]LogSlate: Window 'EnemyBT' being destroyed
+[2019.04.09-18.46.56:614][246]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/AI/CloseEnough.CloseEnough
+[2019.04.09-18.47.12:209][154]LogSlate: Window 'CloseEnough' being destroyed
+[2019.04.09-18.47.12:218][154]LogSlate: Window 'CloseEnough' being destroyed
+[2019.04.09-18.47.15:606][354]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/AI/ArgoCheck.ArgoCheck
+[2019.04.09-18.47.48:246][243]LogSlate: Window 'ArgoCheck' being destroyed
+[2019.04.09-18.47.48:253][243]LogSlate: Window 'ArgoCheck' being destroyed
+[2019.04.09-18.47.57:646][803]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.09-18.47.57:798][805]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.09-18.48.01:449][901]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Characters/Enemy.Enemy
+[2019.04.09-18.49.27:358][368]LogSlate: Window 'Enemy' being destroyed
+[2019.04.09-18.49.27:434][368]LogSlate: Window 'Enemy' being destroyed
+[2019.04.09-18.49.31:186][472]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Characters/MainCharacter.MainCharacter
+[2019.04.09-18.49.32:732][472]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.09-18.54.18:405][616]LogSlate: Took 0.013144 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.09-19.02.55:000][366]LogAIModule: Creating AISystem for world RuinsLevel
+[2019.04.09-19.02.55:021][366]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/RuinsLevel.RuinsLevel
+[2019.04.09-19.02.55:070][366]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/RuinsLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-19.02.55:070][366]LightingResults: New page: Lighting Build
+[2019.04.09-19.02.55:071][366]LoadErrors: New page: Loading map: RuinsLevel.umap
+[2019.04.09-19.02.55:072][366]MapCheck: New page: Map Check
+[2019.04.09-19.02.55:072][366]LightingResults: New page: Lighting Build
+[2019.04.09-19.02.55:240][366]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-19.02.55:339][366]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-19.02.55:521][366]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 182.439ms to complete.
+[2019.04.09-19.02.55:523][366]LogFileHelpers: Loading map 'RuinsLevel' took 0.453
+[2019.04.09-19.06.40:198][514]LogAIModule: Creating AISystem for world Main
+[2019.04.09-19.06.43:095][584]LogAssetEditorManager: Opening Asset editor for World /Game/Levels/Main.Main
+[2019.04.09-19.06.43:224][584]Cmd: MAP LOAD FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.09-19.06.43:227][584]LightingResults: New page: Lighting Build
+[2019.04.09-19.06.43:230][584]LoadErrors: New page: Loading map: Main.umap
+[2019.04.09-19.06.43:239][584]MapCheck: New page: Map Check
+[2019.04.09-19.06.43:239][584]LightingResults: New page: Lighting Build
+[2019.04.09-19.06.43:613][584]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.09-19.06.43:893][584]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.09-19.06.44:466][584]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 572.292ms to complete.
+[2019.04.09-19.06.44:471][584]LogFileHelpers: Loading map 'Main' took 1.251
+[2019.04.09-19.06.49:072][777]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.09-19.06.49:100][778]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.09-19.06.49:659][787]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/Main.Main:PersistentLevel.Main
+[2019.04.09-19.07.27:763][892]BlueprintLog: New page: Compile Main
+[2019.04.09-19.07.30:209][922]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.09-19.07.31:050][922]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/MainF67111184B04A414E13076A9226FF53B.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap'
+[2019.04.09-19.07.31:216][922]LogFileHelpers: Saving map 'Main' took 1.607
+[2019.04.09-19.07.47:202][601]LogTemp: Repeating last play command: Selected Viewport
+[2019.04.09-19.07.47:343][601]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.04.09-19.07.47:345][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.09-19.07.47:363][601]PIE: New page: PIE session: Main (Apr 9, 2019, 11:07:47 AM)
+[2019.04.09-19.07.47:363][601]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main
+[2019.04.09-19.07.47:367][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004232s)
+[2019.04.09-19.07.47:369][601]LogAIModule: Creating AISystem for world Main
+[2019.04.09-19.07.47:369][601]LogPlayLevel: PIE: World Init took: (0.002134s)
+[2019.04.09-19.07.47:369][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main.Main to /Game/Levels/UEDPIE_0_Main.Main (0.006842s)
+[2019.04.09-19.07.47:508][601]LogInit: XAudio2 using 'Speakers (2- USB Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.04.09-19.07.47:570][601]LogInit: FAudioDevice initialized.
+[2019.04.09-19.07.47:631][601]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.09-19.07.47:639][601]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main.Main up for play (max tick rate 60) at 2019.04.09-15.07.47
+[2019.04.09-19.07.47:639][601]LogWorld: Bringing up level for play took: 0.001325
+[2019.04.09-19.07.47:692][601]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 10 classes and 0 folders.
+[2019.04.09-19.07.47:694][601]LogScript: Warning: Script Msg: Divide by zero detected: -29.039337 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.09-19.07.47:748][601]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/Characters/MainCharacter.MainCharacter_C:ExecuteUbergraph_MainCharacter'!
+[2019.04.09-19.07.47:752][601]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.09-19.07.47:753][601]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main 0.435
+[2019.04.09-19.07.47:753][601]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.04.09-19.07.47:771][601]LogAudio: Warning: Detected orphaned looping sound 'menuMusic'.
+[2019.04.09-19.07.47:772][601]LogAudioDerivedData: Display: Building compressed audio format OGG hash OGG wave menuMusic...
+[2019.04.09-19.07.47:784][601]LogTemp: Couldn't find amount to resample to.
+[2019.04.09-19.07.51:284][601]LogAudioDerivedData: Display: Updated SoundWave->RawPCMDataSize from 0 to 13220352 while cooking SoundWave /Game/SFX/WAvs/menuMusic.menuMusic.
+[2019.04.09-19.07.53:300][666]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.09-19.08.12:040][316]LogNet: Browse: /Game/Levels/MovementTest
+[2019.04.09-19.08.12:044][316]LogLoad: LoadMap: /Game/Levels/MovementTest
+[2019.04.09-19.08.17:505][316]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.09-19.08.17:505][316]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.09-19.08.17:514][316]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 60) at 2019.04.09-15.08.17
+[2019.04.09-19.08.17:517][316]LogWorld: Bringing up level for play took: 0.010517
+[2019.04.09-19.08.17:519][316]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.09-19.08.17:543][316]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.09-19.08.17:543][316]LogLoad: Took 5.498317 seconds to LoadMap(/Game/Levels/MovementTest)
+[2019.04.09-19.08.19:505][404]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.09-19.08.28:521][688]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.28:546][689]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.28:582][690]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.28:617][691]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.28:650][692]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.28:680][693]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.28:713][694]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.28:744][695]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.28:790][696]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:533][716]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:562][717]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:603][718]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:642][719]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:677][720]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:706][721]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:740][722]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:772][723]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:804][724]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:837][725]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:866][726]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:895][727]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:932][728]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.29:967][729]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:000][730]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:031][731]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:069][732]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:099][733]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:136][734]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:170][735]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:209][736]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:271][737]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:305][738]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:342][739]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:400][740]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:432][741]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:470][742]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:500][743]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:552][744]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:613][745]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:643][746]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:684][747]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:712][748]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:751][749]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:786][750]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:818][751]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:851][752]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:888][753]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:918][754]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:955][755]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.30:984][756]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:024][757]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:088][758]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:122][759]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:163][760]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:223][761]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:255][762]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:288][763]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:322][764]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:364][765]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:395][766]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:431][767]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:462][768]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:498][769]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:525][770]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:566][771]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:596][772]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:633][773]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:666][774]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:701][775]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:734][776]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:768][777]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:800][778]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:840][779]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:875][780]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:911][781]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:946][782]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.31:988][783]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.32:041][784]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.32:082][785]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.32:920][808]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.32:945][809]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.32:985][810]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:012][811]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:052][812]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:078][813]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:119][814]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:147][815]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:186][816]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:214][817]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:253][818]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:283][819]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:320][820]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:352][821]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:389][822]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:427][823]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:460][824]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:525][825]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:560][826]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:599][827]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:658][828]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:692][829]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:730][830]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:792][831]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:823][832]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:864][833]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:891][834]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.33:928][835]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.33:961][836]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:002][837]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.34:034][838]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.34:068][839]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.34:097][840]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.34:135][841]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.34:162][842]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.34:203][843]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.34:234][844]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.34:270][845]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:309][846]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:347][847]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:392][848]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:429][849]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:465][850]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:500][851]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:532][852]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:563][853]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:590][854]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:625][855]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:650][856]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:679][857]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:739][858]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:772][859]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:805][860]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:833][861]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:873][862]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:902][863]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.34:950][864]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:019][865]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:082][866]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:108][867]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:148][868]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:177][869]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:216][870]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:244][871]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:283][872]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:315][873]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:350][874]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:384][875]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:419][876]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:447][877]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:486][878]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:513][879]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:554][880]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:580][881]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:622][882]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:650][883]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:690][884]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:718][885]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:757][886]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:784][887]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:824][888]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:852][889]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:896][890]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:961][891]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.35:994][892]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:032][893]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:095][894]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:127][895]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:167][896]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:226][897]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:262][898]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:303][899]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:367][900]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:399][901]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:439][902]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:470][903]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:507][904]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:535][905]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:576][906]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:606][907]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.36:944][915]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.36:985][916]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:043][917]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:078][918]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:123][919]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:185][920]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:212][921]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:254][922]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:282][923]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:321][924]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:347][925]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:388][926]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:416][927]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:455][928]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:482][929]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:521][930]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:547][931]LogBlueprintUserMessages: [MainCharacter_C_0] NPCTalks
+[2019.04.09-19.08.37:590][932]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:617][933]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:657][934]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:683][935]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:724][936]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:750][937]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:791][938]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:819][939]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:859][940]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:886][941]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:924][942]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:951][943]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.37:992][944]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:019][945]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:058][946]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:084][947]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:125][948]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:151][949]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:192][950]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:216][951]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:258][952]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:285][953]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:345][954]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:369][955]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:393][956]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:419][957]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:461][958]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:486][959]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:532][960]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:600][961]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:630][962]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:672][963]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:733][964]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:770][965]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:808][966]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:868][967]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:899][968]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:934][969]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.38:965][970]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:007][971]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:037][972]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:074][973]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:109][974]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:143][975]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:178][976]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:210][977]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:238][978]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:276][979]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:303][980]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:344][981]LogBlueprintUserMessages: [MainCharacter_C_0] Plane
+[2019.04.09-19.08.39:372][982]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:413][983]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:443][984]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:478][985]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:503][986]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:545][987]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:572][988]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:612][989]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:642][990]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:685][991]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:747][992]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:782][993]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:820][994]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:847][995]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:890][996]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.39:915][997]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:465][ 64]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:490][ 65]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:529][ 66]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:558][ 67]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:597][ 68]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:625][ 69]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:665][ 70]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:693][ 71]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:737][ 72]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:801][ 73]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:832][ 74]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:875][ 75]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:901][ 76]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:944][ 77]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.42:969][ 78]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.43:013][ 79]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.43:043][ 80]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.43:079][ 81]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.43:114][ 82]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.43:147][ 83]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:443][117]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:469][118]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:502][119]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:576][120]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:604][121]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:644][122]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:670][123]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:711][124]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:738][125]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:779][126]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:805][127]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:847][128]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:874][129]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:914][130]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:939][131]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.44:981][132]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:008][133]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:048][134]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:074][135]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:116][136]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:141][137]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:184][138]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:209][139]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:252][140]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.45:280][141]LogBlueprintUserMessages: [MainCharacter_C_0] 
+[2019.04.09-19.08.57:780][505]LogBlueprintUserMessages: [KeyItem_4] Hello
+[2019.04.09-19.08.59:916][569]LogBlueprintUserMessages: [KeyItem_5] Hello
+[2019.04.09-19.09.06:453][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-19.09.08:122][815]LogBlueprintUserMessages: [BackPack_C_1] Receiver doesn't accept this key item
+[2019.04.09-19.09.15:761][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.04.09-19.09.15:762][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-19.09.15:840][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.09-19.09.15:841][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main.Main:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main.Main:PersistentLevel.Main' with GeneratedClass '/Game/Levels/Main.Main_C' with ClassGeneratedBy '/Game/Levels/Main.Main:PersistentLevel.Main'
+[2019.04.09-19.09.15:962][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.09-19.09.16:019][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.04.09-19.09.19:403][148]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.09-19.09.54:063][417]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/items/PickUpController.PickUpController
+[2019.04.09-19.11.52:364][718]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.09-19.11.53:178][718]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/MainEF38635A47E4254534133B867E2A5DE1.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap'
+[2019.04.09-19.11.53:325][718]LogFileHelpers: Saving map 'Main' took 1.585
+[2019.04.09-19.11.55:076][785]LogSlate: Window 'PickUpController' being destroyed
+[2019.04.09-19.11.55:091][785]LogSlate: Window 'PickUpController' being destroyed
+[2019.04.09-19.11.55:622][785]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.04.09-19.11.57:235][843]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Main" FILE="../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.09-19.11.58:031][843]LogSavePackage: Moving '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Saved/Main8E8A21EC4CF40512FC3C35A2BFA0AFE0.tmp' to '../../../../../../Users/thompz/Documents/GitHub/GameDev2Project/MarshMellow/Content/Levels/Main.umap'
+[2019.04.09-19.12.00:904][970]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
+[2019.04.09-19.12.00:907][970]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.09-19.12.01:605][971]Cmd: QUIT_EDITOR
+[2019.04.09-19.12.02:670][971]LogExit: Preparing to exit.
+[2019.04.09-19.12.03:659][971]LogExit: Editor shut down
+[2019.04.09-19.12.03:659][971]LogExit: Transaction tracking system shut down
+[2019.04.09-19.12.04:369][971]LogExit: Object subsystem successfully closed.
+[2019.04.09-19.12.04:398][971]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.09-19.12.04:407][971]LogD3D11RHI: Shutdown
+[2019.04.09-19.12.04:407][971]LogD3D11RHI: CleanupD3DDevice
+[2019.04.09-19.12.04:411][971]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.09-19.12.04:462][971]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.04.09-19.12.04:462][971]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.04.09-19.12.04:462][971]LogModuleManager: Shutting down and abandoning module BlueprintGraph (612)
+[2019.04.09-19.12.04:462][971]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (610)
+[2019.04.09-19.12.04:462][971]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2019.04.09-19.12.04:462][971]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.04.09-19.12.04:464][971]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.04.09-19.12.04:465][971]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.04.09-19.12.04:466][971]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.04.09-19.12.04:467][971]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.04.09-19.12.04:467][971]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.04.09-19.12.04:467][971]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.04.09-19.12.04:467][971]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.04.09-19.12.04:467][971]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.04.09-19.12.04:467][971]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.04.09-19.12.04:784][971]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.04.09-19.12.04:784][971]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.04.09-19.12.04:784][971]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.04.09-19.12.04:784][971]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.04.09-19.12.04:785][971]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.04.09-19.12.04:851][971]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.09-19.12.04:859][971]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.09-19.12.04:860][971]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.09-19.12.04:860][971]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.09-19.12.04:860][971]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.04.09-19.12.04:860][971]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.04.09-19.12.04:920][971]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.04.09-19.12.04:920][971]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.04.09-19.12.04:921][971]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.09-19.12.04:926][971]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.04.09-19.12.04:927][971]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.09-19.12.04:928][971]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.09-19.12.05:029][971]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.09-19.12.05:129][971]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.09-19.12.05:129][971]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.09-19.12.05:129][971]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.09-19.12.05:129][971]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.09-19.12.05:129][971]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.09-19.12.05:129][971]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.09-19.12.05:129][971]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.09-19.12.05:130][971]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.09-19.12.05:130][971]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.09-19.12.05:130][971]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.09-19.12.05:130][971]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.09-19.12.05:131][971]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.09-19.12.05:132][971]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.09-19.12.05:132][971]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.09-19.12.05:132][971]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.09-19.12.05:132][971]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.09-19.12.05:132][971]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.09-19.12.05:132][971]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.09-19.12.05:134][971]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.09-19.12.05:141][971]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.09-19.12.05:143][971]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.09-19.12.05:143][971]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.09-19.12.05:144][971]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.09-19.12.05:226][971]LogDerivedDataCache: Shutdown
+[2019.04.09-19.12.05:226][971]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.09-19.12.05:226][971]LogXGEController: Cleaning working directory: C:/Users/thompz/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.09-19.12.05:227][971]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.09-19.12.05:230][971]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.09-19.12.05:230][971]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.09-19.12.05:232][971]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.09-19.12.05:232][971]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.09-19.12.05:248][971]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.09-19.12.05:249][971]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.09-19.12.05:249][971]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.09-19.12.05:255][971]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.09-19.12.05:255][971]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2019.04.09-19.12.05:255][971]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB598CB6B-4BA4-418C-B742-8D82C2366ADC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=4c4980464a998323e2b518b7b9418929%7C99d159c103ec4e91a4b3ac6e44ca1423%7C2787f8b0-45ea-467b-a86b-9a03b99e6a83&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.09-19.12.05:255][971]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB598CB6B-4BA4-418C-B742-8D82C2366ADC%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=4c4980464a998323e2b518b7b9418929%7C99d159c103ec4e91a4b3ac6e44ca1423%7C2787f8b0-45ea-467b-a86b-9a03b99e6a83&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.09-19.12.05:283][971]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.09-19.12.05:285][971]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.09-19.12.05:285][971]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.09-19.12.05:287][971]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.09-19.12.05:296][971]LogExit: Exiting.
+[2019.04.09-19.12.05:324][971]Log file closed, 04/09/19 15:12:05
