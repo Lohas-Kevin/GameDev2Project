@@ -145,7 +145,7 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.007s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
 [2019.04.23-11.23.18:329][  0]LogInit: Selected Device Profile: [Windows]
@@ -2536,3 +2536,1258 @@ LogInit: Object subsystem initialized
 [2019.04.23-14.45.47:109][942]Cmd: QUIT_EDITOR
 [2019.04.23-14.45.47:309][942]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
 [2019.04.23-14.45.47:342][942]LogExit: Preparing to exit.
+
+[2019.04.23-14.28.28:281][174]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Interface/GameFlowInterface.GameFlowInterface
+[2019.04.23-14.28.28:581][174]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0021 seconds. Added 116 classes and 0 folders.
+[2019.04.23-14.28.30:080][174]LogSlate: Took 0.008524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.23-14.28.48:602][ 34]BlueprintLog: New page: Compile GameFlowInterface
+[2019.04.23-14.29.02:460][718]LogSlate: Took 0.011468 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.04.23-14.29.17:830][517]BlueprintLog: New page: Compile GameFlowInterface
+[2019.04.23-14.30.02:571][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.30.22:234][ 33]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/items/DocumentWithSpawn.DocumentWithSpawn
+[2019.04.23-14.30.24:783][ 34]LogSlate: Took 0.009898 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.23-14.30.55:025][292]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/items/Documents.Documents
+[2019.04.23-14.31.10:564][823]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.31.10:671][823]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.31.10:671][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.31.10:688][823]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:31:10 AM)
+[2019.04.23-14.31.10:688][823]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.31.10:703][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015279s)
+[2019.04.23-14.31.10:706][823]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.31.10:706][823]LogPlayLevel: PIE: World Init took: (0.002818s)
+[2019.04.23-14.31.10:706][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.018614s)
+[2019.04.23-14.31.10:831][823]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.31.10:897][823]LogInit: FAudioDevice initialized.
+[2019.04.23-14.31.10:917][823]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.31.11:187][823]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.31.11:196][823]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.31.11
+[2019.04.23-14.31.11:202][823]LogWorld: Bringing up level for play took: 0.009801
+[2019.04.23-14.31.11:233][823]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.04.23-14.31.11:235][823]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.31.11:278][823]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.31.11:287][823]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.334
+[2019.04.23-14.31.11:287][823]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.31.11:360][823]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.23-14.31.13:354][873]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.31.20:929][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.31.23:599][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.31.23:601][342]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.31.23:682][342]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.31.23:741][342]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.31.23:742][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.31.23:909][343]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.04.23-14.31.29:793][651]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.31.31:265][722]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Characters/MainCharacter.MainCharacter
+[2019.04.23-14.31.32:336][722]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.34.39:749][551]BlueprintLog: New page: Compile DocumentWithSpawn
+[2019.04.23-14.36.18:454][473]BlueprintLog: New page: Compile DocumentWithSpawn
+[2019.04.23-14.36.37:475][854]BlueprintLog: New page: Compile Documents
+[2019.04.23-14.36.37:856][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.36.37:858][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.36.37:860][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.36.37:863][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.36.37:883][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.36.37:886][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.36.37:889][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.36.37:893][854]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.36.47:303][571]BlueprintLog: New page: Compile DocumentWithSpawn
+[2019.04.23-14.37.01:961][434]BlueprintLog: New page: Compile MainCharacter
+[2019.04.23-14.37.02:249][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:251][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:253][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:255][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:565][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:567][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:569][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:572][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:574][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:643][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:646][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:649][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.02:651][434]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.58:663][339]BlueprintLog: New page: Compile MainCharacter
+[2019.04.23-14.37.58:910][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.58:912][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.58:914][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.58:916][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:163][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:166][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:169][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:172][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:173][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:239][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:241][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:243][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.37.59:245][339]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.38.39:266][679]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.39.10:596][110]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MovementTest_Auto133B20B0746018E20CA558DACA922764E.tmp' to '../../../../../../GameDev2Project/MarshMellow/Saved/Autosaves/Game/Levels/MovementTest_Auto1.umap'
+[2019.04.23-14.39.10:605][110]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MovementTest' took 0.381
+[2019.04.23-14.39.10:605][110]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.381
+[2019.04.23-14.39.10:609][110]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrints/Interface/GameFlowInterface] ([1] browsable assets)...
+[2019.04.23-14.39.10:609][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Interface/GameFlowInterface]
+[2019.04.23-14.39.10:624][110]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/GameFlowInterface_Auto191C2D7F84196030B2FAF1BA882C46E2E.tmp' to '../../../../../../GameDev2Project/MarshMellow/Saved/Autosaves/Game/BluePrints/Interface/GameFlowInterface_Auto1.uasset'
+[2019.04.23-14.39.10:628][110]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Characters/MainCharacter] ([1] browsable assets)...
+[2019.04.23-14.39.10:678][110]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Characters/MainCharacter.MainCharacter]
+[2019.04.23-14.39.10:678][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Characters/MainCharacter]
+[2019.04.23-14.39.11:037][110]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MainCharacter_Auto117F9D207474C1F2195591A80EB5463B9.tmp' to '../../../../../../GameDev2Project/MarshMellow/Saved/Autosaves/Game/BluePrints/Characters/MainCharacter_Auto1.uasset'
+[2019.04.23-14.39.11:042][110]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/items/Documents] ([1] browsable assets)...
+[2019.04.23-14.39.11:085][110]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/items/Documents.Documents]
+[2019.04.23-14.39.11:085][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/items/Documents]
+[2019.04.23-14.39.11:166][110]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/Documents_Auto1B2FD44C8430A21EB7B2AE4893CBA063B.tmp' to '../../../../../../GameDev2Project/MarshMellow/Saved/Autosaves/Game/BluePrints/items/Documents_Auto1.uasset'
+[2019.04.23-14.39.11:173][110]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/items/DocumentWithSpawn] ([1] browsable assets)...
+[2019.04.23-14.39.11:216][110]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/items/DocumentWithSpawn.DocumentWithSpawn]
+[2019.04.23-14.39.11:216][110]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/items/DocumentWithSpawn]
+[2019.04.23-14.39.11:270][110]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/DocumentWithSpawn_Auto15DF02D8144822D9A3BFBD297810D4F09.tmp' to '../../../../../../GameDev2Project/MarshMellow/Saved/Autosaves/Game/BluePrints/items/DocumentWithSpawn_Auto1.uasset'
+[2019.04.23-14.39.11:273][110]LogFileHelpers: Auto-saving content packages took 0.666
+[2019.04.23-14.39.45:017][974]LogEditorViewport: Clicking on Actor (LMB): GameController_C (GameController)
+[2019.04.23-14.39.47:444][251]LogEditorViewport: Clicking on Actor (LMB): DocumentWithSpawn_C (DocumentWithSpawn)
+[2019.04.23-14.39.51:850][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.39.51:959][702]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.39.52:016][702]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.39.52:016][702]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.39.52:017][702]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:39:52 AM)
+[2019.04.23-14.39.52:017][702]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.39.52:022][702]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005660s)
+[2019.04.23-14.39.52:023][702]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.39.52:023][702]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2019.04.23-14.39.52:024][702]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.006833s)
+[2019.04.23-14.39.52:076][702]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.39.52:101][702]LogInit: FAudioDevice initialized.
+[2019.04.23-14.39.52:110][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.39.52:237][702]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.39.52:241][702]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.39.52
+[2019.04.23-14.39.52:242][702]LogWorld: Bringing up level for play took: 0.003774
+[2019.04.23-14.39.52:255][702]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.39.52:273][702]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.39.52:295][702]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.658
+[2019.04.23-14.39.52:296][702]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.39.54:325][858]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.39.59:871][305]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.39.59:871][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.39.59:912][305]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.39.59:954][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.39.59:954][305]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.40.00:018][306]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.04.23-14.41.02:096][958]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.23-14.41.36:361][610]BlueprintLog: New page: Compile MainCharacter
+[2019.04.23-14.41.36:883][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.36:887][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.36:890][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.36:896][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:367][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:371][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:375][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:378][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:381][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:513][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:519][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:524][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.37:528][610]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.40:935][750]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.41.41:044][750]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.41.41:044][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.41.41:044][750]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:41:41 AM)
+[2019.04.23-14.41.41:045][750]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.41.41:059][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014062s)
+[2019.04.23-14.41.41:060][750]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.41.41:061][750]LogPlayLevel: PIE: World Init took: (0.001966s)
+[2019.04.23-14.41.41:061][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.016500s)
+[2019.04.23-14.41.41:169][750]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.41.41:232][750]LogInit: FAudioDevice initialized.
+[2019.04.23-14.41.41:247][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.41.41:437][750]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.41.41:444][750]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.41.41
+[2019.04.23-14.41.41:447][750]LogWorld: Bringing up level for play took: 0.007194
+[2019.04.23-14.41.41:463][750]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.41.41:502][750]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.41.41:539][750]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.585
+[2019.04.23-14.41.41:539][750]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.41.43:645][826]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.41.57:501][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.41.57:502][441]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.41.57:580][441]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.41.57:633][441]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.41.57:633][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.41.57:815][442]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.04.23-14.43.36:919][256]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.23-14.44.05:426][431]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.44.05:432][431]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.44.05:437][431]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.44.05:440][431]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.45.53:349][779]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.45.53:356][779]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.45.53:361][779]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.45.53:364][779]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.20:610][321]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.20:616][321]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.20:621][321]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.20:625][321]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.25:137][465]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.25:144][465]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.25:149][465]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.25:153][465]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.31:462][701]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.31:468][701]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.31:474][701]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.47.31:477][701]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.26:321][839]BlueprintLog: New page: Compile MainCharacter
+[2019.04.23-14.48.26:835][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.26:839][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.26:842][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.26:845][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:270][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:275][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:278][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:281][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:283][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:391][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:394][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:397][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.27:401][839]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.30:135][916]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.48.30:248][916]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.48.30:248][916]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.48.30:249][916]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:48:30 AM)
+[2019.04.23-14.48.30:249][916]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.48.30:263][916]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013671s)
+[2019.04.23-14.48.30:264][916]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.48.30:265][916]LogPlayLevel: PIE: World Init took: (0.002121s)
+[2019.04.23-14.48.30:265][916]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.016219s)
+[2019.04.23-14.48.30:379][916]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.48.30:436][916]LogInit: FAudioDevice initialized.
+[2019.04.23-14.48.30:453][916]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.48.30:760][916]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.48.30:769][916]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.48.30
+[2019.04.23-14.48.30:772][916]LogWorld: Bringing up level for play took: 0.009705
+[2019.04.23-14.48.30:788][916]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.30:832][916]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.48.30:871][916]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.081
+[2019.04.23-14.48.30:872][916]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.48.32:940][983]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.48.35:542][ 81]LogBlueprintUserMessages: [DocumentWithSpawn_2] Hello
+[2019.04.23-14.48.37:706][173]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.48.37:707][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.48.37:813][173]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.48.37:879][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.48.37:879][173]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.48.38:073][174]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.04.23-14.48.40:437][307]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.48.40:563][307]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.48.40:563][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.48.40:563][307]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:48:40 AM)
+[2019.04.23-14.48.40:564][307]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.48.40:580][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016407s)
+[2019.04.23-14.48.40:582][307]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.48.40:582][307]LogPlayLevel: PIE: World Init took: (0.001842s)
+[2019.04.23-14.48.40:582][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.018654s)
+[2019.04.23-14.48.40:705][307]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.48.40:773][307]LogInit: FAudioDevice initialized.
+[2019.04.23-14.48.40:796][307]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.48.41:072][307]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.48.41:080][307]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.48.41
+[2019.04.23-14.48.41:082][307]LogWorld: Bringing up level for play took: 0.007304
+[2019.04.23-14.48.41:098][307]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.41:136][307]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.48.41:173][307]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.221
+[2019.04.23-14.48.41:174][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.48.43:234][380]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.48.47:085][533]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.48.47:086][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.48.47:205][533]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.48.47:266][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.48.47:267][533]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.48.47:424][534]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.04.23-14.48.58:692][913]BlueprintLog: New page: Compile MainCharacter
+[2019.04.23-14.48.59:201][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:206][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:209][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:213][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:719][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:723][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:728][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:731][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:734][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:872][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:877][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:881][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.48.59:884][913]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.49.04:936][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Characters/MainCharacter" FILE="../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/Characters/MainCharacter.uasset" SILENT=true
+[2019.04.23-14.49.05:632][ 44]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MainCharacterD67919E048D61BD9D7966BACE90BB6E5.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/Characters/MainCharacter.uasset'
+[2019.04.23-14.49.10:464][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/items/Documents" FILE="../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/items/Documents.uasset" SILENT=true
+[2019.04.23-14.49.10:615][194]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/Documents173A33E74D2BFB134F7E4DB1B7B2F394.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/items/Documents.uasset'
+[2019.04.23-14.49.11:927][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/items/DocumentWithSpawn" FILE="../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/items/DocumentWithSpawn.uasset" SILENT=true
+[2019.04.23-14.49.12:059][237]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/DocumentWithSpawnF7AF5A7646AFC51349D4ED8BC2D74EC1.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/items/DocumentWithSpawn.uasset'
+[2019.04.23-14.49.13:881][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Interface/GameFlowInterface" FILE="../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/Interface/GameFlowInterface.uasset" SILENT=true
+[2019.04.23-14.49.13:919][303]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/GameFlowInterface092F2C2846A491BDF7AD9997811F06F7.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/Interface/GameFlowInterface.uasset'
+[2019.04.23-14.49.16:407][415]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.49.16:546][415]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.49.16:547][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.49.16:547][415]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:49:16 AM)
+[2019.04.23-14.49.16:547][415]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.49.16:565][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017774s)
+[2019.04.23-14.49.16:567][415]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.49.16:568][415]LogPlayLevel: PIE: World Init took: (0.002923s)
+[2019.04.23-14.49.16:568][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.021243s)
+[2019.04.23-14.49.16:701][415]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.49.16:755][415]LogInit: FAudioDevice initialized.
+[2019.04.23-14.49.16:771][415]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.49.17:003][415]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.49.17:010][415]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.49.17
+[2019.04.23-14.49.17:012][415]LogWorld: Bringing up level for play took: 0.007326
+[2019.04.23-14.49.17:028][415]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.49.17:067][415]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.49.17:073][415]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.12
+[2019.04.23-14.49.17:074][415]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.49.19:105][494]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.49.21:688][602]LogBlueprintUserMessages: [DocumentWithSpawn_2] Hello
+[2019.04.23-14.49.22:694][647]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.49.22:696][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.49.22:798][647]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.49.22:870][647]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.49.22:871][647]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.49.23:032][648]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.04.23-14.49.24:202][717]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.49.24:322][717]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.49.24:323][717]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.49.24:323][717]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:49:24 AM)
+[2019.04.23-14.49.24:323][717]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.49.24:337][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014650s)
+[2019.04.23-14.49.24:338][717]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.49.24:340][717]LogPlayLevel: PIE: World Init took: (0.001821s)
+[2019.04.23-14.49.24:340][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.016836s)
+[2019.04.23-14.49.24:447][717]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.49.24:496][717]LogInit: FAudioDevice initialized.
+[2019.04.23-14.49.24:511][717]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.49.24:625][717]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.49.24:635][717]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.49.24
+[2019.04.23-14.49.24:638][717]LogWorld: Bringing up level for play took: 0.010826
+[2019.04.23-14.49.24:654][717]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.49.24:691][717]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.49.24:697][717]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.256
+[2019.04.23-14.49.24:698][717]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.49.26:726][799]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.49.30:730][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.49.31:169][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.49.31:170][  1]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.49.31:271][  1]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.49.31:326][  1]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.49.31:327][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.49.31:516][  2]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.04.23-14.50.33:414][822]BlueprintLog: New page: Compile MainCharacter
+[2019.04.23-14.50.33:956][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.33:960][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.33:963][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.33:967][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:468][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:472][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:479][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:482][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:488][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:637][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:641][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:646][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.34:650][822]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.38:014][946]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.50.38:120][946]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.50.38:120][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.50.38:121][946]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:50:38 AM)
+[2019.04.23-14.50.38:121][946]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.50.38:133][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012220s)
+[2019.04.23-14.50.38:135][946]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.50.38:136][946]LogPlayLevel: PIE: World Init took: (0.002109s)
+[2019.04.23-14.50.38:136][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.014740s)
+[2019.04.23-14.50.38:246][946]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.50.38:296][946]LogInit: FAudioDevice initialized.
+[2019.04.23-14.50.38:313][946]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.50.38:500][946]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.50.38:508][946]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.50.38
+[2019.04.23-14.50.38:510][946]LogWorld: Bringing up level for play took: 0.007482
+[2019.04.23-14.50.38:525][946]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.38:560][946]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.50.38:595][946]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.359
+[2019.04.23-14.50.38:595][946]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.50.40:657][ 43]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.50.42:005][ 90]LogBlueprintUserMessages: [DocumentWithSpawn_2] Hello
+[2019.04.23-14.50.43:293][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.50.43:294][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.50.43:423][142]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.50.43:498][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.50.43:499][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.50.43:661][143]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2019.04.23-14.50.45:166][223]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.50.45:279][223]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.50.45:279][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.50.45:280][223]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:50:45 AM)
+[2019.04.23-14.50.45:280][223]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.50.45:292][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012117s)
+[2019.04.23-14.50.45:294][223]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.50.45:294][223]LogPlayLevel: PIE: World Init took: (0.001758s)
+[2019.04.23-14.50.45:294][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.014239s)
+[2019.04.23-14.50.45:396][223]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.50.45:455][223]LogInit: FAudioDevice initialized.
+[2019.04.23-14.50.45:480][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.50.45:688][223]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.50.45:696][223]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.50.45
+[2019.04.23-14.50.45:699][223]LogWorld: Bringing up level for play took: 0.008497
+[2019.04.23-14.50.45:715][223]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.50.45:756][223]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.50.45:792][223]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.839
+[2019.04.23-14.50.45:792][223]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.50.47:858][298]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.50.50:168][389]LogBlueprintUserMessages: [DocumentWithSpawn_2] Hello
+[2019.04.23-14.50.52:290][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.50.55:899][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.50.55:899][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.50.55:991][622]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.50.56:042][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.50.56:043][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.50.56:178][623]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2019.04.23-14.51.22:809][830]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MovementTest_Auto264079E94416E42BA96EE17BFD50C9A8C.tmp' to '../../../../../../GameDev2Project/MarshMellow/Saved/Autosaves/Game/Levels/MovementTest_Auto2.umap'
+[2019.04.23-14.51.22:826][830]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MovementTest' took 0.735
+[2019.04.23-14.51.22:826][830]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.735
+[2019.04.23-14.51.22:833][830]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BluePrints/Characters/MainCharacter] ([1] browsable assets)...
+[2019.04.23-14.51.22:901][830]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BluePrints/Characters/MainCharacter.MainCharacter]
+[2019.04.23-14.51.22:901][830]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrints/Characters/MainCharacter]
+[2019.04.23-14.51.23:660][830]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MainCharacter_Auto242A5BFB44F6B747B356A96BAF14F834C.tmp' to '../../../../../../GameDev2Project/MarshMellow/Saved/Autosaves/Game/BluePrints/Characters/MainCharacter_Auto2.uasset'
+[2019.04.23-14.51.23:672][830]LogFileHelpers: Auto-saving content packages took 0.841
+[2019.04.23-14.51.28:828][998]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MovementTest" FILE="../../../../../../GameDev2Project/MarshMellow/Content/Levels/MovementTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.23-14.51.29:511][998]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MovementTestD6AF952649E68DFEB187B8B04A2D5FB5.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/Levels/MovementTest.umap'
+[2019.04.23-14.51.35:339][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/Characters/MainCharacter" FILE="../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/Characters/MainCharacter.uasset" SILENT=true
+[2019.04.23-14.51.35:948][191]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MainCharacter78827B5C4D8ACF2EFDE759A42CAC0A35.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/Characters/MainCharacter.uasset'
+[2019.04.23-14.51.54:902][998]LogClass: Warning: Type mismatch in NewVar_0 of SKEL_DocumentWithSpawn_C - Previous (StructProperty) Current(ArrayProperty) for package:  FObjectReader
+[2019.04.23-14.52.16:445][100]BlueprintLog: New page: Compile DocumentWithSpawn
+[2019.04.23-14.52.17:128][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.52.17:133][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.52.17:137][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.52.17:140][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.52.17:174][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.52.17:179][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.52.17:186][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.52.17:190][100]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.53.52:354][529]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.23-14.54.28:343][156]BlueprintLog: New page: Compile DocumentWithSpawn
+[2019.04.23-14.54.29:002][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.54.29:009][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.54.29:015][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.54.29:020][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.54.29:060][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.54.29:068][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.54.29:076][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.54.29:080][156]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.01:317][627]BlueprintLog: New page: Compile DocumentWithSpawn
+[2019.04.23-14.55.02:043][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.02:048][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.02:052][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.02:056][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.02:099][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.02:106][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.02:116][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.02:123][627]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.02:550][638]BlueprintLog: New page: Compile DocumentWithSpawn
+[2019.04.23-14.55.03:261][638]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.03:266][638]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.03:270][638]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.03:273][638]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.03:301][638]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.03:304][638]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.03:308][638]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.03:311][638]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.55.08:445][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrints/items/DocumentWithSpawn" FILE="../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/items/DocumentWithSpawn.uasset" SILENT=true
+[2019.04.23-14.55.08:651][822]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/DocumentWithSpawn2916D3BB47D6BC0A94A545982B3810AC.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/BluePrints/items/DocumentWithSpawn.uasset'
+[2019.04.23-14.55.14:076][ 44]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/items/GameController.GameController
+[2019.04.23-14.55.29:229][649]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.23-14.55.36:253][983]BlueprintLog: New page: Compile GameController
+[2019.04.23-14.56.29:357][487]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.04.23-14.57.05:995][358]BlueprintLog: New page: Compile GameController
+[2019.04.23-14.57.24:160][168]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MovementTest" FILE="../../../../../../GameDev2Project/MarshMellow/Content/Levels/MovementTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.23-14.57.24:884][168]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MovementTest21B3C6F449E59703D811CC974200C1CD.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/Levels/MovementTest.umap'
+[2019.04.23-14.57.41:246][185]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-14.57.41:321][185]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.57.41:321][185]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-14.57.41:321][185]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 6:57:41 AM)
+[2019.04.23-14.57.41:321][185]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-14.57.41:330][185]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008314s)
+[2019.04.23-14.57.41:331][185]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-14.57.41:331][185]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2019.04.23-14.57.41:331][185]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.009708s)
+[2019.04.23-14.57.41:409][185]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-14.57.41:448][185]LogInit: FAudioDevice initialized.
+[2019.04.23-14.57.41:461][185]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.57.41:564][185]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-14.57.41:569][185]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 0) at 2019.04.23-10.57.41
+[2019.04.23-14.57.41:571][185]LogWorld: Bringing up level for play took: 0.004891
+[2019.04.23-14.57.41:585][185]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-14.57.41:611][185]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-14.57.41:616][185]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.662
+[2019.04.23-14.57.41:616][185]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.57.43:633][282]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-14.57.43:893][297]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.57.43:894][297]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-14.57.43:987][297]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-14.57.44:043][297]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-14.57.44:044][297]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-14.57.44:170][298]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2019.04.23-14.57.45:392][383]LogEditorViewport: Clicking on Actor (LMB): DocumentWithSpawn_C (DocumentWithSpawn)
+[2019.04.23-14.57.48:463][556]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.57.50:165][670]LogEditorViewport: Clicking on Actor (LMB): Ammo_C (Ammo)
+[2019.04.23-14.58.07:266][656]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.58.10:497][863]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.58.15:861][196]LogEditorViewport: Clicking on Actor (context menu): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2019.04.23-14.58.15:961][196]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-14.58.16:835][257]LogEditorViewport: Clicking on Actor (LMB): GameController_C (GameController)
+[2019.04.23-14.58.17:502][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.58.28:310][130]Cmd: MODE GRID=0
+[2019.04.23-14.58.29:114][180]Cmd: MODE GRID=1
+[2019.04.23-14.58.39:965][735]LogEditorViewport: Clicking on Actor (LMB): DocumentWithSpawn_C (DocumentWithSpawn)
+[2019.04.23-14.58.58:481][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.58.59:956][904]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.23-14.59.00:026][904]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-14.59.00:746][941]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.59.01:410][974]LogEditorViewport: Clicking on Actor (LMB): DocumentWithSpawn_C (DocumentWithSpawn)
+[2019.04.23-14.59.15:222][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.59.15:355][769]Cmd: MODE GRID=0
+[2019.04.23-14.59.15:670][776]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.23-14.59.15:739][776]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-14.59.17:110][847]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2019.04.23-14.59.19:124][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-14.59.19:270][955]Cmd: MODE GRID=1
+[2019.04.23-14.59.28:599][384]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Plane)
+[2019.04.23-14.59.28:700][384]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-14.59.29:528][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.59.30:522][485]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2019.04.23-14.59.34:090][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.59.36:489][829]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.59.37:295][875]LogEditorViewport: Clicking on Actor (LMB): KeyItem_Blueprint_C (KeyItem_3)
+[2019.04.23-14.59.48:653][533]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.59.49:830][597]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.59.50:379][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-14.59.50:908][658]LogEditorViewport: Clicking on Actor (LMB): KeyItem_Blueprint_C (KeyItem_3)
+[2019.04.23-15.01.49:024][629]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.02.14:131][978]LogEditorViewport: Clicking on Actor (LMB): DocumentWithSpawn_C (DocumentWithSpawn)
+[2019.04.23-15.02.19:255][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.02.28:606][742]LogEditorViewport: Clicking on Actor (LMB): KeyItem_Blueprint_C (KeyItem_3)
+[2019.04.23-15.02.35:865][163]LogEditorViewport: Clicking on Actor (LMB): DocumentWithSpawn_C (DocumentWithSpawn)
+[2019.04.23-15.02.39:499][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.02.45:540][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/MovementTest" FILE="../../../../../../GameDev2Project/MarshMellow/Content/Levels/MovementTest.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.04.23-15.02.46:086][729]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/MovementTest971A48924BE834F661F209A363F41185.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/Levels/MovementTest.umap'
+[2019.04.23-15.02.49:281][904]LogEditorViewport: Clicking on Actor (LMB): KeyItem_Blueprint_C (KeyItem_3)
+[2019.04.23-15.02.57:214][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.02.57:298][302]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-15.02.57:386][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.02.57:387][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-15.02.57:387][302]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 7:02:57 AM)
+[2019.04.23-15.02.57:387][302]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-15.02.57:399][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011467s)
+[2019.04.23-15.02.57:400][302]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-15.02.57:401][302]LogPlayLevel: PIE: World Init took: (0.001798s)
+[2019.04.23-15.02.57:401][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.013581s)
+[2019.04.23-15.02.57:502][302]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-15.02.57:553][302]LogInit: FAudioDevice initialized.
+[2019.04.23-15.02.57:568][302]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.02.57:677][302]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-15.02.57:685][302]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 60) at 2019.04.23-11.02.57
+[2019.04.23-15.02.57:687][302]LogWorld: Bringing up level for play took: 0.007561
+[2019.04.23-15.02.57:703][302]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-15.02.57:739][302]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-15.02.57:746][302]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest 0.793
+[2019.04.23-15.02.57:747][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.02.59:780][369]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-15.03.04:026][524]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.03.09:112][734]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2019.04.23-15.03.26:535][620]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-15.03.37:527][183]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.04.00:193][104]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-15.04.08:657][449]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.04.08:659][449]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.04.08:748][449]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-15.04.08:814][449]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-15.04.08:815][449]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.04.08:959][450]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.04.23-15.04.10:089][487]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-15.04.43:073][899]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.04.49:264][249]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Characters/Enemy.Enemy
+[2019.04.23-15.06.39:378][ 52]BlueprintLog: New page: Compile Enemy
+[2019.04.23-15.06.44:158][267]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.06.44:257][273]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-15.06.44:311][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.06.44:311][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-15.06.44:311][273]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 7:06:44 AM)
+[2019.04.23-15.06.44:311][273]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-15.06.44:316][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004779s)
+[2019.04.23-15.06.44:316][273]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-15.06.44:317][273]LogPlayLevel: PIE: World Init took: (0.000727s)
+[2019.04.23-15.06.44:317][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.005648s)
+[2019.04.23-15.06.44:362][273]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-15.06.44:386][273]LogInit: FAudioDevice initialized.
+[2019.04.23-15.06.44:395][273]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.06.44:484][273]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-15.06.44:488][273]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 60) at 2019.04.23-11.06.44
+[2019.04.23-15.06.44:489][273]LogWorld: Bringing up level for play took: 0.003783
+[2019.04.23-15.06.44:502][273]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-15.06.44:524][273]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-15.06.44:529][273]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.424
+[2019.04.23-15.06.44:529][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.06.46:606][386]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-15.06.49:862][581]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	EnemyAI_C /Game/Levels/UEDPIE_0_MovementTest.MovementTest:PersistentLevel.EnemyAI_C_1
+	Function /Game/BluePrints/AI/EnemyAi.EnemyAI_C:ExecuteUbergraph_EnemyAI:00B7
+[2019.04.23-15.06.49:862][581]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  EnemyAI Function:  Execute Ubergraph Enemy AI Graph:  EventGraph Node:  Set Value as Vector
+[2019.04.23-15.06.51:720][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.07.14:821][ 74]LogBlueprintUserMessages: [MainCharacter_C_0] Hello
+[2019.04.23-15.07.38:110][323]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-15.07.43:195][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.07.50:127][915]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/BluePrints/AI/EnemyBT.EnemyBT
+[2019.04.23-15.08.00:210][242]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.08.00:720][267]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.08.00:730][267]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.08.00:819][267]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-15.08.00:877][267]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-15.08.00:878][267]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.08.01:028][268]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.04.23-15.08.15:860][ 74]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/AI/EnemyAi.EnemyAI
+[2019.04.23-15.08.31:355][611]LogSlate: Window 'Message Log' being destroyed
+[2019.04.23-15.08.31:366][611]LogSlate: Window 'Message Log' being destroyed
+[2019.04.23-15.08.39:651][ 73]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-15.08.44:715][290]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Plane)
+[2019.04.23-15.08.47:220][403]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.09.10:170][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.09.14:153][792]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-15.09.14:252][798]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-15.09.14:384][798]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.09.14:392][798]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-15.09.14:392][798]PIE: New page: PIE session: MovementTest (Apr 23, 2019, 7:09:14 AM)
+[2019.04.23-15.09.14:393][798]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MovementTest
+[2019.04.23-15.09.14:405][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012427s)
+[2019.04.23-15.09.14:407][798]LogAIModule: Creating AISystem for world MovementTest
+[2019.04.23-15.09.14:407][798]LogPlayLevel: PIE: World Init took: (0.001785s)
+[2019.04.23-15.09.14:407][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MovementTest.MovementTest to /Game/Levels/UEDPIE_0_MovementTest.MovementTest (0.014534s)
+[2019.04.23-15.09.14:513][798]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-15.09.14:563][798]LogInit: FAudioDevice initialized.
+[2019.04.23-15.09.14:578][798]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.09.14:806][798]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-15.09.14:814][798]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MovementTest.MovementTest up for play (max tick rate 60) at 2019.04.23-11.09.14
+[2019.04.23-15.09.14:816][798]LogWorld: Bringing up level for play took: 0.008055
+[2019.04.23-15.09.14:830][798]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-15.09.14:868][798]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-15.09.14:874][798]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_MovementTest -0.078
+[2019.04.23-15.09.14:875][798]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.09.16:897][873]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-15.09.32:875][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.09.32:884][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-15.09.32:965][638]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-15.09.33:040][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-15.09.33:041][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MovementTest.MovementTest:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest' with GeneratedClass '/Game/Levels/MovementTest.MovementTest_C' with ClassGeneratedBy '/Game/Levels/MovementTest.MovementTest:PersistentLevel.MovementTest'
+[2019.04.23-15.09.33:155][639]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.04.23-15.09.45:916][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
