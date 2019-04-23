@@ -1,0 +1,1451 @@
+﻿Log file open, 04/22/19 14:40:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MarshMellow
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.294230
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.120s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.004s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.22-18.40.24:821][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.22-18.40.24:821][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.22-18.40.24:872][  0]LogHAL: Display: Platform has ~ 16 GB [16751534080 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.22-18.40.24:872][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.22-18.40.24:872][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.22-18.40.24:873][  0]LogInit: Computer: JESSIES-LAPTOP
+[2019.04.22-18.40.24:873][  0]LogInit: User: jessielichter
+[2019.04.22-18.40.24:873][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.22-18.40.24:873][  0]LogInit: High frequency timer resolution =2.531251 MHz
+[2019.04.22-18.40.24:873][  0]LogMemory: Memory total: Physical=15.6GB (16GB approx)
+[2019.04.22-18.40.24:873][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.22-18.40.24:873][  0]LogMemory: Process Physical Memory: 110.52 MB used, 110.52 MB peak
+[2019.04.22-18.40.24:873][  0]LogMemory: Process Virtual Memory: 101.52 MB used, 101.52 MB peak
+[2019.04.22-18.40.24:873][  0]LogMemory: Physical Memory: 9025.35 MB used,  6950.16 MB free, 15975.51 MB total
+[2019.04.22-18.40.24:873][  0]LogMemory: Virtual Memory: 4651.20 MB used,  6950.16 MB free, 134217728.00 MB total
+[2019.04.22-18.40.24:898][  0]LogInit: Using OS detected language (en-US).
+[2019.04.22-18.40.24:898][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.22-18.40.24:899][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.22-18.40.25:317][  0]LogStreaming: Display: Took  0.420s to InitEngineTextLocalization.
+[2019.04.22-18.40.25:317][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.22-18.40.25:362][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.22-18.40.25:362][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.22-18.40.25:627][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.22-18.40.25:627][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.22-18.40.25:688][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.04.22-18.40.25:688][  0]LogD3D11RHI:       2010/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.22-18.40.25:700][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.04.22-18.40.25:700][  0]LogD3D11RHI:       128/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.22-18.40.25:702][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.22-18.40.25:702][  0]LogD3D11RHI:       0/0/7987 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.22-18.40.25:702][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.22-18.40.25:750][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.22-18.40.25:750][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.04.22-18.40.25:750][  0]LogWindows: EnumDisplayDevices:
+[2019.04.22-18.40.25:750][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.22-18.40.25:751][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.22-18.40.25:751][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.22-18.40.25:752][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.22-18.40.25:752][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.04.22-18.40.25:752][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.22-18.40.25:752][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.22-18.40.25:752][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.04.22-18.40.25:800][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.22-18.40.25:820][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.22-18.40.25:821][  0]LogShaderCompilers: Guid format shader working directory is -61 characters bigger than the processId version (../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Intermediate/Shaders/WorkingDirectory/6212/).
+[2019.04.22-18.40.25:822][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jessie lichter/AppData/Local/Temp/UnrealShaderWorkingDir/DDF3F49B4643FDDA6AD30BBA4593459F/'.
+[2019.04.22-18.40.26:171][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.22-18.40.26:186][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.22-18.40.26:201][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.22-18.40.26:215][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.22-18.40.26:232][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.22-18.40.26:246][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.22-18.40.26:262][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.22-18.40.26:279][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.22-18.40.26:287][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:383][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.22-18.40.26:385][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.22-18.40.26:448][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.22-18.40.26:448][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.22-18.40.26:473][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.22-18.40.26:473][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.22-18.40.26:487][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.22-18.40.26:501][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.22-18.40.26:516][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.22-18.40.26:534][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.22-18.40.26:544][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.22-18.40.26:544][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.22-18.40.26:614][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.22-18.40.26:614][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.22-18.40.26:614][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.22-18.40.27:434][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.22-18.40.27:491][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.22-18.40.27:491][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.22-18.40.27:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.22-18.40.27:491][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.22-18.40.27:491][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.22-18.40.27:491][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.22-18.40.27:507][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.22-18.40.27:520][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jessie lichter/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.22-18.40.27:520][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.22-18.40.27:520][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.22-18.40.27:540][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.22-18.40.27:542][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.22-18.40.27:542][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.22-18.40.27:619][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2019.04.22-18.40.29:413][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.22-18.40.29:573][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.22-18.40.29:578][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.22-18.40.29:578][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.22-18.40.29:578][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.22-18.40.29:578][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.22-18.40.29:595][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.04.22-18.40.30:208][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.118841 seconds
+[2019.04.22-18.40.30:214][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.22-18.40.30:214][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.22-18.40.30:214][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.22-18.40.31:259][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.22-18.40.31:274][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.22-18.40.31:435][  0]SourceControl: Source control is disabled
+[2019.04.22-18.40.31:435][  0]SourceControl: Source control is disabled
+[2019.04.22-18.40.31:436][  0]SourceControl: Source control is disabled
+[2019.04.22-18.40.31:438][  0]SourceControl: Source control is disabled
+[2019.04.22-18.40.31:610][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.22-18.40.31:810][  0]LogOcInput: OculusInput pre-init called
+[2019.04.22-18.40.31:880][  0]LogEngine: Initializing Engine...
+[2019.04.22-18.40.31:882][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.22-18.40.31:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.22-18.40.31:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.22-18.40.31:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.22-18.40.31:883][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.22-18.40.32:141][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.22-18.40.32:158][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.22-18.40.32:232][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.22-18.40.32:270][  0]LogInit: FAudioDevice initialized.
+[2019.04.22-18.40.32:270][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.22-18.40.32:333][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/jessie lichter/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.22-18.40.32:343][  0]LogInit: Texture streaming: Enabled
+[2019.04.22-18.40.32:362][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.22-18.40.32:379][  0]LogInit: Transaction tracking system initialized
+[2019.04.22-18.40.32:406][  0]BlueprintLog: New page: Editor Load
+[2019.04.22-18.40.32:497][  0]LocalizationService: Localization service is disabled
+[2019.04.22-18.40.32:801][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.22-18.40.32:801][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.22-18.40.32:801][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.22-18.40.32:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.22-18.40.32:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.22-18.40.32:801][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.22-18.40.32:802][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.22-18.40.32:942][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/' took 0.06s
+[2019.04.22-18.40.32:942][  0]SourceControl: Source control is disabled
+[2019.04.22-18.40.32:943][  0]LightingResults: New page: Lighting Build
+[2019.04.22-18.40.32:947][  0]MapCheck: New page: Map Check
+[2019.04.22-18.40.32:947][  0]LightingResults: New page: Lighting Build
+[2019.04.22-18.40.33:719][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.22-18.40.33:743][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.22-18.40.33:771][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.22-18.40.33:891][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 118.954ms to complete.
+[2019.04.22-18.40.33:891][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.949
+[2019.04.22-18.40.34:041][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-18.40.34:055][  0]LogCollectionManager: Loaded 0 collections in 0.001822 seconds
+[2019.04.22-18.40.34:111][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Collections/' took 0.01s
+[2019.04.22-18.40.34:111][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Developers/jessielichter/Collections/' took 0.01s
+[2019.04.22-18.40.34:111][  0]LogFileCache: Scanning file cache for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Collections/' took 0.01s
+[2019.04.22-18.40.34:111][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.22-18.40.34:123][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2572 classes and 603 folders.
+[2019.04.22-18.40.34:139][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.22-18.40.34:496][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.22-18.40.34:511][  0]LogContentBrowser: Native class hierarchy updated for 'WorldBrowser' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2019.04.22-18.40.34:527][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.22-18.40.34:578][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.22-18.40.34:581][  0]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.22-18.40.34:599][  0]LogSlate: Took 0.007457 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.22-18.40.34:762][  0]LogRenderer: Reallocating scene render targets to support 904x396 Format 10 NumSamples 1 (Frame:1).
+[2019.04.22-18.40.34:949][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.22-18.40.34:949][  0]LogLoad: (Engine Initialization) Total time: 12.00 seconds
+[2019.04.22-18.40.34:949][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.22-18.40.34:968][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.22-18.40.35:010][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.22-18.40.36:921][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.40.37:055][102]LogSlate: Took 0.005299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.22-18.40.39:791][266]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.22-18.40.40:094][284]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/' took 5.11s
+[2019.04.22-18.40.48:250][773]LogAssetRegistry: Asset discovery search completed in 20.6533 seconds
+[2019.04.22-18.40.48:252][773]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
+[2019.04.22-18.41.06:774][867]LogSlate: Took 0.000548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.22-18.41.06:802][867]LogAssetEditorManager: Opening Asset editor for World /Game/GoldFinalMaps/Golden.Golden
+[2019.04.22-18.41.09:395][867]LogSlate: Window 'Save Content' being destroyed
+[2019.04.22-18.41.09:551][867]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Golden1EF9A93B4963B3106BDF50A56C1A1644.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/GoldFinalMaps/Golden.umap'
+[2019.04.22-18.41.09:559][867]LogFileHelpers: Saving map 'Golden' took 0.142
+[2019.04.22-18.41.09:562][867]LightingResults: New page: Lighting Build
+[2019.04.22-18.41.09:563][867]LoadErrors: New page: Loading map: Golden.umap
+[2019.04.22-18.41.09:571][867]MapCheck: New page: Map Check
+[2019.04.22-18.41.09:571][867]LightingResults: New page: Lighting Build
+[2019.04.22-18.41.09:600][867]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.22-18.41.09:600][867]LogAIModule: Creating AISystem for world Golden
+[2019.04.22-18.41.09:693][867]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.22-18.41.09:774][867]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 81.254ms to complete.
+[2019.04.22-18.41.09:776][867]LogFileHelpers: Loading map 'Golden' took 0.216
+[2019.04.22-18.41.25:091][579]LogSlate: Took 0.004686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.22-18.41.28:920][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.42.29:810][857]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.42.57:270][307]LogAIModule: Creating AISystem for world TestingPersistent
+[2019.04.22-18.42.57:280][307]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.22-18.42.57:307][307]LogAssetEditorManager: Opening Asset editor for World /Game/TestingMaps/TestingPersistent.TestingPersistent
+[2019.04.22-18.43.03:124][307]LogSlate: Window 'Save Content' being destroyed
+[2019.04.22-18.43.03:352][307]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Golden65CFAAC644C4AE1A5196F0B9B84FDB6F.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/GoldFinalMaps/Golden.umap'
+[2019.04.22-18.43.03:416][307]LogFileHelpers: Saving map 'Golden' took 0.282
+[2019.04.22-18.43.03:417][307]LightingResults: New page: Lighting Build
+[2019.04.22-18.43.03:417][307]LoadErrors: New page: Loading map: TestingPersistent.umap
+[2019.04.22-18.43.03:418][307]MapCheck: New page: Map Check
+[2019.04.22-18.43.03:418][307]LightingResults: New page: Lighting Build
+[2019.04.22-18.43.03:698][307]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.22-18.43.03:710][307]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.22-18.43.03:797][307]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.22-18.43.03:972][307]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 174.436ms to complete.
+[2019.04.22-18.43.03:974][307]LogFileHelpers: Loading map 'TestingPersistent' took 0.558
+[2019.04.22-18.43.07:509][500]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2019.04.22-18.43.09:892][638]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.43.31:672][937]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.43.37:297][270]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.43.44:102][675]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.43.47:630][884]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.44.00:644][662]LogAIModule: Creating AISystem for world Golden
+[2019.04.22-18.44.00:647][662]LogAssetEditorManager: Opening Asset editor for World /Game/GoldFinalMaps/Golden.Golden
+[2019.04.22-18.44.00:673][662]LightingResults: New page: Lighting Build
+[2019.04.22-18.44.00:673][662]LoadErrors: New page: Loading map: Golden.umap
+[2019.04.22-18.44.00:674][662]MapCheck: New page: Map Check
+[2019.04.22-18.44.00:675][662]LightingResults: New page: Lighting Build
+[2019.04.22-18.44.00:717][662]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.22-18.44.00:800][662]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.22-18.44.00:955][662]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 156.197ms to complete.
+[2019.04.22-18.44.00:957][662]LogFileHelpers: Loading map 'Golden' took 0.286
+[2019.04.22-18.44.02:503][726]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2019.04.22-18.44.06:110][939]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.44.09:424][136]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.44.13:983][408]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.44.20:318][786]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.44.23:552][978]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.44.55:213][877]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.49.10:762][837]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2019.04.22-18.49.12:784][951]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.49.14:162][ 13]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/GoldenB9A9A7AE47DA0966F56ADF859950188B.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/GoldFinalMaps/Golden.umap'
+[2019.04.22-18.49.19:252][274]LogRenderer: Reallocating scene render targets to support 908x396 Format 10 NumSamples 1 (Frame:5774).
+[2019.04.22-18.49.22:609][473]LogRenderer: Reallocating scene render targets to support 908x412 Format 10 NumSamples 1 (Frame:5914).
+[2019.04.22-18.49.22:649][474]LogRenderer: Reallocating scene render targets to support 908x424 Format 10 NumSamples 1 (Frame:5916).
+[2019.04.22-18.49.22:691][475]LogRenderer: Reallocating scene render targets to support 908x436 Format 10 NumSamples 1 (Frame:5918).
+[2019.04.22-18.49.22:734][476]LogRenderer: Reallocating scene render targets to support 908x448 Format 10 NumSamples 1 (Frame:5920).
+[2019.04.22-18.49.22:774][477]LogRenderer: Reallocating scene render targets to support 908x456 Format 10 NumSamples 1 (Frame:5922).
+[2019.04.22-18.49.22:820][478]LogRenderer: Reallocating scene render targets to support 908x468 Format 10 NumSamples 1 (Frame:5924).
+[2019.04.22-18.49.22:872][479]LogRenderer: Reallocating scene render targets to support 908x480 Format 10 NumSamples 1 (Frame:5926).
+[2019.04.22-18.49.22:921][480]LogRenderer: Reallocating scene render targets to support 908x488 Format 10 NumSamples 1 (Frame:5928).
+[2019.04.22-18.49.22:967][481]LogRenderer: Reallocating scene render targets to support 908x500 Format 10 NumSamples 1 (Frame:5930).
+[2019.04.22-18.49.23:035][482]LogRenderer: Reallocating scene render targets to support 908x508 Format 10 NumSamples 1 (Frame:5932).
+[2019.04.22-18.49.23:099][483]LogRenderer: Reallocating scene render targets to support 908x520 Format 10 NumSamples 1 (Frame:5934).
+[2019.04.22-18.49.23:162][484]LogRenderer: Reallocating scene render targets to support 908x528 Format 10 NumSamples 1 (Frame:5936).
+[2019.04.22-18.49.23:215][485]LogRenderer: Reallocating scene render targets to support 908x540 Format 10 NumSamples 1 (Frame:5938).
+[2019.04.22-18.49.23:269][486]LogRenderer: Reallocating scene render targets to support 908x548 Format 10 NumSamples 1 (Frame:5940).
+[2019.04.22-18.49.23:310][487]LogRenderer: Reallocating scene render targets to support 908x552 Format 10 NumSamples 1 (Frame:5942).
+[2019.04.22-18.49.32:809][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.49.33:246][ 62]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.04.22-18.49.59:667][591]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 16X16)
+[2019.04.22-18.49.59:674][591]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 16X16)
+[2019.04.22-18.49.59:678][591]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 16X16)
+[2019.04.22-18.49.59:683][591]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 16X16)
+[2019.04.22-18.49.59:687][591]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 16X16)
+[2019.04.22-18.49.59:692][591]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 16X16)
+[2019.04.22-18.49.59:696][591]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 16X16)
+[2019.04.22-18.49.59:701][591]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 16X16)
+[2019.04.22-18.49.59:706][591]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 16X16)
+[2019.04.22-18.49.59:711][591]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 16X16)
+[2019.04.22-18.49.59:714][591]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 16X16)
+[2019.04.22-18.49.59:719][591]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 16X16)
+[2019.04.22-18.49.59:723][591]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 16X16)
+[2019.04.22-18.49.59:728][591]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 16X16)
+[2019.04.22-18.49.59:733][591]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 16X16)
+[2019.04.22-18.49.59:737][591]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 16X16)
+[2019.04.22-18.49.59:765][591]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 128X128)
+[2019.04.22-18.50.03:852][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.50.08:030][ 47]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.04.22-18.50.08:606][ 76]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2019.04.22-18.50.08:657][ 76]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.50.10:162][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.22-18.50.10:178][164]PIE: New page: PIE session: Golden (Apr 22, 2019, 10:50:10 AM)
+[2019.04.22-18.50.10:178][164]LogPlayLevel: Creating play world package: /Game/GoldFinalMaps/UEDPIE_0_Golden
+[2019.04.22-18.50.10:192][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013477s)
+[2019.04.22-18.50.10:192][164]LogAIModule: Creating AISystem for world Golden
+[2019.04.22-18.50.10:193][164]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2019.04.22-18.50.10:193][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GoldFinalMaps/Golden.Golden to /Game/GoldFinalMaps/UEDPIE_0_Golden.Golden (0.015185s)
+[2019.04.22-18.50.10:239][164]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.22-18.50.10:272][164]LogInit: FAudioDevice initialized.
+[2019.04.22-18.50.10:274][164]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.50.11:556][164]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.22-18.50.11:566][164]LogWorld: Bringing World /Game/GoldFinalMaps/UEDPIE_0_Golden.Golden up for play (max tick rate 60) at 2019.04.22-14.50.11
+[2019.04.22-18.50.11:567][164]LogWorld: Bringing up level for play took: 0.003177
+[2019.04.22-18.50.11:594][164]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.04.22-18.50.11:596][164]LogScript: Warning: Script Msg: Divide by zero detected: 0.799988 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.22-18.50.11:620][164]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/Characters/MainCharacter.MainCharacter_C:ExecuteUbergraph_MainCharacter'!
+[2019.04.22-18.50.11:626][164]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.22-18.50.11:627][164]PIE: Play in editor start time for /Game/GoldFinalMaps/UEDPIE_0_Golden 1.108
+[2019.04.22-18.50.12:615][209]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:626][210]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:643][211]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:660][212]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:676][213]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:693][214]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:710][215]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:727][216]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:745][217]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:760][218]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:777][219]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:793][220]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:810][221]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:827][222]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:843][223]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:860][224]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:877][225]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:893][226]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:910][227]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:926][228]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:943][229]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:961][230]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:977][231]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.12:993][232]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-18.50.13:694][274]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.22-18.50.54:995][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-18.50.55:031][750]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.22-18.50.55:061][750]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-18.50.55:130][751]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.04.22-18.50.57:956][914]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.04.22-18.50.59:026][975]Cmd: DELETE
+[2019.04.22-18.50.59:026][975]Cmd: ACTOR DELETE
+[2019.04.22-18.50.59:041][975]LogEditorActor: Deleted Actor: Landscape
+[2019.04.22-18.50.59:113][975]LogEditorActor: Deleted 1 Actors (0.080 secs)
+[2019.04.22-18.51.05:032][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.51.11:688][704]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.51.22:222][327]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.51.22:404][335]LogTexture: Display: Building textures: Texture2D_18 (BGRA8, 32X32)
+[2019.04.22-18.51.22:410][335]LogTexture: Display: Building textures: Texture2D_19 (BGRA8, 32X32)
+[2019.04.22-18.51.22:414][335]LogTexture: Display: Building textures: Texture2D_20 (BGRA8, 32X32)
+[2019.04.22-18.51.22:418][335]LogTexture: Display: Building textures: Texture2D_21 (BGRA8, 32X32)
+[2019.04.22-18.51.22:423][335]LogTexture: Display: Building textures: Texture2D_22 (BGRA8, 32X32)
+[2019.04.22-18.51.22:427][335]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 32X32)
+[2019.04.22-18.51.22:431][335]LogTexture: Display: Building textures: Texture2D_24 (BGRA8, 32X32)
+[2019.04.22-18.51.22:435][335]LogTexture: Display: Building textures: Texture2D_25 (BGRA8, 32X32)
+[2019.04.22-18.51.22:439][335]LogTexture: Display: Building textures: Texture2D_26 (BGRA8, 32X32)
+[2019.04.22-18.51.22:443][335]LogTexture: Display: Building textures: Texture2D_27 (BGRA8, 32X32)
+[2019.04.22-18.51.22:447][335]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 32X32)
+[2019.04.22-18.51.22:452][335]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 32X32)
+[2019.04.22-18.51.22:455][335]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 32X32)
+[2019.04.22-18.51.22:460][335]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 32X32)
+[2019.04.22-18.51.22:464][335]LogTexture: Display: Building textures: Texture2D_32 (BGRA8, 32X32)
+[2019.04.22-18.51.22:468][335]LogTexture: Display: Building textures: Texture2D_33 (BGRA8, 32X32)
+[2019.04.22-18.51.22:499][335]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 256X256)
+[2019.04.22-18.51.24:618][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.51.25:310][473]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.04.22-18.51.25:570][486]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.04.22-18.51.25:598][486]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.51.27:586][601]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.22-18.51.27:587][601]PIE: New page: PIE session: Golden (Apr 22, 2019, 10:51:27 AM)
+[2019.04.22-18.51.27:587][601]LogPlayLevel: Creating play world package: /Game/GoldFinalMaps/UEDPIE_0_Golden
+[2019.04.22-18.51.27:616][601]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029241s)
+[2019.04.22-18.51.27:618][601]LogAIModule: Creating AISystem for world Golden
+[2019.04.22-18.51.27:619][601]LogPlayLevel: PIE: World Init took: (0.002176s)
+[2019.04.22-18.51.27:619][601]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GoldFinalMaps/Golden.Golden to /Game/GoldFinalMaps/UEDPIE_0_Golden.Golden (0.031871s)
+[2019.04.22-18.51.27:742][601]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.22-18.51.27:834][601]LogInit: FAudioDevice initialized.
+[2019.04.22-18.51.27:835][601]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.51.27:874][601]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.22-18.51.27:882][601]LogWorld: Bringing World /Game/GoldFinalMaps/UEDPIE_0_Golden.Golden up for play (max tick rate 60) at 2019.04.22-14.51.27
+[2019.04.22-18.51.27:882][601]LogWorld: Bringing up level for play took: 0.006014
+[2019.04.22-18.51.27:898][601]LogScript: Warning: Script Msg: Divide by zero detected: -1.927673 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.22-18.51.27:932][601]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/Characters/MainCharacter.MainCharacter_C:ExecuteUbergraph_MainCharacter'!
+[2019.04.22-18.51.27:936][601]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.22-18.51.27:936][601]PIE: Play in editor start time for /Game/GoldFinalMaps/UEDPIE_0_Golden -0.582
+[2019.04.22-18.51.28:649][629]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:671][630]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:689][631]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:706][632]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:728][633]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:748][634]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:774][635]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:796][636]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:841][637]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:864][638]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:909][639]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:932][640]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:974][641]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.28:994][642]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:041][643]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:061][644]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:109][645]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:134][646]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:175][647]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:197][648]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:244][649]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:266][650]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:309][651]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:333][652]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:375][653]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:396][654]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:442][655]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:466][656]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.51.29:999][672]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.22-18.51.54:397][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-18.51.54:440][922]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.22-18.51.54:490][922]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-18.51.54:559][923]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.04.22-18.52.00:087][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.52.20:540][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.53.11:785][ 68]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-18.53.12:788][128]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2019.04.22-18.53.15:524][290]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2019.04.22-18.53.21:292][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.53.35:322][474]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.04.22-18.53.36:044][515]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.04.22-18.53.36:067][515]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.53.42:880][908]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape1)
+[2019.04.22-18.53.43:260][930]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.04.22-18.53.43:285][930]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.53.49:811][271]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.53.59:241][522]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape1)
+[2019.04.22-18.53.59:267][522]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.54.00:333][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.22-18.54.00:334][583]PIE: New page: PIE session: Golden (Apr 22, 2019, 10:54:00 AM)
+[2019.04.22-18.54.00:334][583]LogPlayLevel: Creating play world package: /Game/GoldFinalMaps/UEDPIE_0_Golden
+[2019.04.22-18.54.00:343][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009743s)
+[2019.04.22-18.54.00:344][583]LogAIModule: Creating AISystem for world Golden
+[2019.04.22-18.54.00:344][583]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2019.04.22-18.54.00:345][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GoldFinalMaps/Golden.Golden to /Game/GoldFinalMaps/UEDPIE_0_Golden.Golden (0.010893s)
+[2019.04.22-18.54.00:385][583]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.22-18.54.00:416][583]LogInit: FAudioDevice initialized.
+[2019.04.22-18.54.00:416][583]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.54.00:447][583]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.22-18.54.00:451][583]LogWorld: Bringing World /Game/GoldFinalMaps/UEDPIE_0_Golden.Golden up for play (max tick rate 60) at 2019.04.22-14.54.00
+[2019.04.22-18.54.00:451][583]LogWorld: Bringing up level for play took: 0.002509
+[2019.04.22-18.54.00:464][583]LogScript: Warning: Script Msg: Divide by zero detected: 154.359009 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.22-18.54.00:476][583]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/Characters/MainCharacter.MainCharacter_C:ExecuteUbergraph_MainCharacter'!
+[2019.04.22-18.54.00:478][583]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.22-18.54.00:478][583]PIE: Play in editor start time for /Game/GoldFinalMaps/UEDPIE_0_Golden -0.04
+[2019.04.22-18.54.01:170][613]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:186][614]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:203][615]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:220][616]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:236][617]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:253][618]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:270][619]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:287][620]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:304][621]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:320][622]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:337][623]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:354][624]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:370][625]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:387][626]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:404][627]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:420][628]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:437][629]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:454][630]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:469][631]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:486][632]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:504][633]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:520][634]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:536][635]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:553][636]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:569][637]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:586][638]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:603][639]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:620][640]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:636][641]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:653][642]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:670][643]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:686][644]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:703][645]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:720][646]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:737][647]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:753][648]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:770][649]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:786][650]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:803][651]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:820][652]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:836][653]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:853][654]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:870][655]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:887][656]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:903][657]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:920][658]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:937][659]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:953][660]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.01:969][661]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape1
+[2019.04.22-18.54.02:670][703]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.22-18.54.16:765][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-18.54.16:806][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.22-18.54.16:858][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-18.54.16:921][549]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.04.22-18.54.24:584][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.54.47:032][152]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.54.47:082][152]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/FinalMarshmallowModels/assets/iceCreamScoop.fbx)
+[2019.04.22-18.54.47:114][152]LogFbx: Loading FBX Scene from ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/FinalMarshmallowModels/assets/iceCreamScoop.fbx
+[2019.04.22-18.54.47:128][152]LogFbx: FBX Scene Loaded Succesfully
+[2019.04.22-18.54.55:232][152]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.04.22-18.54.55:614][152]LogMaterial: Display: Missing cached shader map for material iceCreamTopID, compiling. 
+[2019.04.22-18.54.55:669][152]LogFbx: Warning: Triangulating static mesh IceCreamTop
+[2019.04.22-18.54.55:760][152]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.22-18.54.55:760][152]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.22-18.54.55:760][152]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.22-18.54.55:778][152]LogStaticMesh: Building static mesh iceCreamScoop_IceCreamTop...
+[2019.04.22-18.54.55:802][152]LogStaticMesh: Built static mesh [0.02s] /Game/iceCreamScoop_IceCreamTop.iceCreamScoop_IceCreamTop
+[2019.04.22-18.54.55:826][152]LogMaterial: Display: Missing cached shader map for material IceCreamBottomID, compiling. 
+[2019.04.22-18.54.55:841][152]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.22-18.54.55:848][152]LogFbx: Warning: Triangulating static mesh IceCreamBottom
+[2019.04.22-18.54.56:405][152]LogStaticMesh: Building static mesh iceCreamScoop_IceCreamBottom...
+[2019.04.22-18.54.56:576][152]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.22-18.54.56:576][152]LogStaticMesh: Built static mesh [0.17s] /Game/iceCreamScoop_IceCreamBottom.iceCreamScoop_IceCreamBottom
+[2019.04.22-18.55.04:059][388]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.22-18.55.32:632][933]Cmd: TRANSACTION UNDO
+[2019.04.22-18.55.32:632][933]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2019.04.22-18.56.14:943][394]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-18.56.19:058][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-18.56.53:073][566]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/FinalGold_BuiltData10E474FC447A5CB31EF062AD42E93E6F.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldFinalMaps/FinalGold_BuiltData.uasset'
+[2019.04.22-18.57.01:668][566]LogSlate: Window 'Message' being destroyed
+[2019.04.22-18.57.01:687][566]EditorErrors: New page: Save Output
+[2019.04.22-18.57.01:687][566]EditorErrors: Warning: Can't save ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldFinalMaps/Golden.umap: Graph is linked to external private object Unknown
+[2019.04.22-18.57.01:705][566]LogFileHelpers: Saving map 'Golden' took 8.622
+[2019.04.22-18.57.05:374][566]LogSlate: Window 'Message' being destroyed
+[2019.04.22-18.57.07:829][689]LogSlate: Window 'Message Log' being destroyed
+[2019.04.22-18.57.07:836][689]LogSlate: Window 'Message Log' being destroyed
+[2019.04.22-18.57.18:353][267]LogMetaData: Removing '/Game/Jessie_AllThingsGold/iceCreamScoop_IceCreamBottom.iceCreamScoop_IceCreamBottom' ref from Metadata '/Game/iceCreamScoop_IceCreamBottom.PackageMetaData'
+[2019.04.22-18.57.18:358][267]LogMetaData: Removing '/Game/Jessie_AllThingsGold/iceCreamScoop_IceCreamTop.iceCreamScoop_IceCreamTop' ref from Metadata '/Game/iceCreamScoop_IceCreamTop.PackageMetaData'
+[2019.04.22-18.57.18:449][267]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/IceCreamBottomID2A8EE6E549A6D9DD954371B7447C11F4.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/IceCreamBottomID.uasset'
+[2019.04.22-18.57.18:490][267]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottom304F7ABD4BC2555EA93BB39CE7C45F2D.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/iceCreamScoop_IceCreamBottom.uasset'
+[2019.04.22-18.57.18:532][267]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamTopDFC7289B4D696CB30138D099AEDB1526.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/iceCreamScoop_IceCreamTop.uasset'
+[2019.04.22-18.57.18:582][267]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamTopID4A07AFBB424C631EFF484695BD4CF732.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/iceCreamTopID.uasset'
+[2019.04.22-18.57.37:603][361]LogMetaData: Removing '/Game/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamBottom.iceCreamScoop_IceCreamBottom' ref from Metadata '/Game/Jessie_AllThingsGold/iceCreamScoop_IceCreamBottom.PackageMetaData'
+[2019.04.22-18.57.37:608][361]LogMetaData: Removing '/Game/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamTop.iceCreamScoop_IceCreamTop' ref from Metadata '/Game/Jessie_AllThingsGold/iceCreamScoop_IceCreamTop.PackageMetaData'
+[2019.04.22-18.57.37:669][361]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottom5243CD6E477883CAD411B8927C561972.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamBottom.uasset'
+[2019.04.22-18.57.37:711][361]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamTop165FD20A4E075D1CC99F1281E176CB5F.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamTop.uasset'
+[2019.04.22-18.57.58:987][593]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamTopIDE7E5306C4083C4D24AB0E9AA83ADF4AA.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/iceCreamTopID.uasset'
+[2019.04.22-18.57.59:035][593]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/IceCreamBottomIDC9D47DAA40FC7AC8C959E2B7668249C8.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/IceCreamBottomID.uasset'
+[2019.04.22-18.57.59:330][593]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamTop93BDBA264B972CC3D317A28E5BFD9CFD.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamTop.uasset'
+[2019.04.22-18.57.59:362][593]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottomAD6AFEC04F4401DB527216A658CEDFCD.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamBottom.uasset'
+[2019.04.22-18.58.04:468][883]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/IceCreamBottomID2421E42047C2F28A55732CBD7F83D0D1.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/IceCreamBottomID.uasset'
+[2019.04.22-18.58.04:519][883]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamTopIDA6D0A18C41F0683C9D0083A09733D792.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/iceCreamTopID.uasset'
+[2019.04.22-18.58.04:807][883]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottom9F80BFF84E5E932979747C9004BCD68A.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamBottom.uasset'
+[2019.04.22-18.58.04:833][883]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamTop5CD8532549309D162F6FA28DDE74B513.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamTop.uasset'
+[2019.04.22-18.58.56:442][467]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/SP texture sets for Unreal/iceCream texture map/iceCreamScoop_IceCreamBottomID_BaseColor.png)
+[2019.04.22-18.58.56:570][467]LogTexture: Display: Building textures: iceCreamScoop_IceCreamBottomID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.22-18.58.57:032][467]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/SP texture sets for Unreal/iceCream texture map/iceCreamScoop_IceCreamBottomID_Normal.png)
+[2019.04.22-18.58.57:242][467]LogTexture: Display: Building textures: iceCreamScoop_IceCreamBottomID_Normal (BC5, 2048X2048)
+[2019.04.22-18.58.57:542][467]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/SP texture sets for Unreal/iceCream texture map/iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMetallic.png)
+[2019.04.22-18.58.57:659][467]LogTexture: Display: Building textures: iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.22-18.58.58:258][467]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/SP texture sets for Unreal/iceCream texture map/iceCreamScoop_iceCreamTopID_BaseColor.png)
+[2019.04.22-18.58.58:414][467]LogTexture: Display: Building textures: iceCreamScoop_iceCreamTopID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.22-18.58.59:184][467]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/SP texture sets for Unreal/iceCream texture map/iceCreamScoop_iceCreamTopID_Normal.png)
+[2019.04.22-18.58.59:416][467]LogTexture: Display: Building textures: iceCreamScoop_iceCreamTopID_Normal (BC5, 2048X2048)
+[2019.04.22-18.58.59:712][467]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/jessie lichter/Desktop/SP texture sets for Unreal/iceCream texture map/iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetallic.png)
+[2019.04.22-18.58.59:853][467]LogTexture: Display: Building textures: iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.22-18.59.22:836][748]LogSlate: Took 0.010918 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.22-18.59.29:008][ 86]Cmd: r.Streaming.PoolSize 3500
+[2019.04.22-18.59.29:008][ 86]r.Streaming.PoolSize = "3500"
+[2019.04.22-18.59.29:014][ 86]LogContentStreaming: Texture pool size now 3500 MB
+[2019.04.22-19.00.47:955][481]LogSlate: Window 'Message' being destroyed
+[2019.04.22-19.00.47:965][481]EditorErrors: New page: Save Output
+[2019.04.22-19.00.47:965][481]EditorErrors: Warning: Can't save ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/GoldFinalMaps/Golden_Auto1.umap: Graph is linked to external private object Unknown
+[2019.04.22-19.00.47:980][481]LogFileHelpers: Editor autosave (incl. sublevels) failed for file '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/GoldFinalMaps/Golden_Auto1.umap' which belongs to world '/Game/Jessie_AllThingsGold/GoldFinalMaps/Golden'. Aborting autosave.
+[2019.04.22-19.00.47:987][481]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_BaseColor] ([1] browsable assets)...
+[2019.04.22-19.00.47:998][481]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_BaseColor.iceCreamScoop_IceCreamBottomID_BaseColor]
+[2019.04.22-19.00.47:998][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_BaseColor]
+[2019.04.22-19.00.48:019][481]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottomID_B0E724FDB482A2B1B1052008594EA6198.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_BaseColor_Auto1.uasse'
+[2019.04.22-19.00.48:021][481]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2019.04.22-19.00.48:030][481]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMetallic.iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMetallic]
+[2019.04.22-19.00.48:030][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMetallic]
+[2019.04.22-19.00.48:051][481]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottomID_O948533FF43384DEC9FF5C69407E2BCE1.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMet'
+[2019.04.22-19.00.48:054][481]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_BaseColor] ([1] browsable assets)...
+[2019.04.22-19.00.48:063][481]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_BaseColor.iceCreamScoop_iceCreamTopID_BaseColor]
+[2019.04.22-19.00.48:063][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_BaseColor]
+[2019.04.22-19.00.48:086][481]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_iceCreamTopID_Base48CD3B83485B6224B8D6D69DCE0546AA.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_BaseColor_Auto1.uasset'
+[2019.04.22-19.00.48:089][481]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_Normal] ([1] browsable assets)...
+[2019.04.22-19.00.48:098][481]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_Normal.iceCreamScoop_IceCreamBottomID_Normal]
+[2019.04.22-19.00.48:099][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_Normal]
+[2019.04.22-19.00.48:125][481]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottomID_N5F1EA245462A9F9E70EBAA89AE56E2A8.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_Normal_Auto1.uasset'
+[2019.04.22-19.00.48:127][481]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_Normal] ([1] browsable assets)...
+[2019.04.22-19.00.48:137][481]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_Normal.iceCreamScoop_iceCreamTopID_Normal]
+[2019.04.22-19.00.48:137][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_Normal]
+[2019.04.22-19.00.48:165][481]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_iceCreamTopID_NormA11318B64178E95306BE4BA67316599B.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_Normal_Auto1.uasset'
+[2019.04.22-19.00.48:168][481]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetallic] ([1] browsable assets)...
+[2019.04.22-19.00.48:178][481]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetallic.iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetallic]
+[2019.04.22-19.00.48:178][481]OBJ SavePackage: Finished generating thumbnails for package [/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetallic]
+[2019.04.22-19.00.48:207][481]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_iceCreamTopID_OcclACB7DD954A93BB4F0978509C93567148.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetall'
+[2019.04.22-19.00.48:209][481]LogFileHelpers: Auto-saving content packages took 0.225
+[2019.04.22-19.00.50:107][591]LogSlate: Window 'Message Log' being destroyed
+[2019.04.22-19.00.50:112][591]LogSlate: Window 'Message Log' being destroyed
+[2019.04.22-19.01.01:245][790]LogSlate: Window 'Message' being destroyed
+[2019.04.22-19.01.01:251][790]LogSavePackage: Warning: 
+Referencers of LandscapeMaterialInstanceConstant /Game/GoldFinalMaps/Golden.LandscapeMaterialInstanceConstant_68:
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	Landscape /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_0 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_1 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_2 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_3 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_4 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_5 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_6 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_7 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_8 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_9 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_10 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_11 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_12 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_13 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_14 (1 refs)
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:296][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_15 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_16 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_17 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_18 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_19 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_20 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_21 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_22 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_23 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_24 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_25 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_26 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_27 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_28 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_29 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_30 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_31 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_32 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_33 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_34 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_35 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_36 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_37 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_38 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_39 (1 refs)
+[2019.04.22-19.01.01:297][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_40 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_41 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_42 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_43 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_44 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_45 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_46 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_47 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_48 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_49 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_50 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_51 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_52 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_53 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_54 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_55 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_56 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_57 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_58 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_59 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_60 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_61 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_62 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 	LandscapeComponent /Game/Jessie_AllThingsGold/GoldFinalMaps/Golden.Golden:PersistentLevel.Landscape_1.LandscapeComponent_63 (1 refs)
+[2019.04.22-19.01.01:298][790]LogSavePackage: Warning: 		0) ObjectProperty /Script/Landscape.LandscapeComponent:MobileCombinationMaterialInstance
+[2019.04.22-19.01.01:315][790]EditorErrors: New page: Save Output
+[2019.04.22-19.01.01:315][790]EditorErrors: Warning: Can't save ../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldFinalMaps/Golden.umap: Graph is linked to external private object LandscapeMaterialInstanceConstant /Game/GoldFinalMaps/Golden.LandscapeMaterialInstanceConstant_68 (MobileCombinationMaterialInstance)
+[2019.04.22-19.02.36:021][784]LogSlate: Window 'Message Log' being destroyed
+[2019.04.22-19.02.36:027][784]LogSlate: Window 'Message Log' being destroyed
+[2019.04.22-19.02.38:039][905]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2019.04.22-19.02.42:712][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.03.25:128][697]LogAssetEditorManager: Opening Asset editor for World /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel.GoldenLevel
+[2019.04.22-19.03.27:052][697]LogSlate: Window 'Save Content' being destroyed
+[2019.04.22-19.03.27:086][697]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/GoldenD01B3F7F42405653FB053B84F0F6E47A.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/GoldFinalMaps/Golden.umap'
+[2019.04.22-19.03.27:318][697]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/GoldenLevelFACB6E8B4EF999868915F4AA17347075.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel.umap'
+[2019.04.22-19.03.27:322][697]LogFileHelpers: Saving map 'GoldenLevel' took 0.231
+[2019.04.22-19.03.27:663][697]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottomID_BA3A20FC049670F3921523483E6BE3312.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_BaseColor.uasset'
+[2019.04.22-19.03.28:576][697]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottomID_N7203B26148F47B470120D88B6B215A54.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_Normal.uasset'
+[2019.04.22-19.03.28:922][697]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_IceCreamBottomID_O5769379542BB782A65EEEF8043C95724.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMetallic.uasset'
+[2019.04.22-19.03.29:482][697]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_iceCreamTopID_Base2F426D0F4D92889C80293287D05E80D6.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_BaseColor.uasset'
+[2019.04.22-19.03.30:554][697]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_iceCreamTopID_Norm58290432452D8A92A858C1977E55EE09.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_Normal.uasset'
+[2019.04.22-19.03.31:022][697]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/iceCreamScoop_iceCreamTopID_OcclC8C498FB44F9113A692535B15A5978CD.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/GoldenModels/GoldenMaterials/GoldenTextures/iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetallic.uasset'
+[2019.04.22-19.03.31:028][697]LightingResults: New page: Lighting Build
+[2019.04.22-19.03.31:029][697]LoadErrors: New page: Loading map: GoldenLevel.umap
+[2019.04.22-19.03.31:034][697]MapCheck: New page: Map Check
+[2019.04.22-19.03.31:034][697]LightingResults: New page: Lighting Build
+[2019.04.22-19.03.31:062][697]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.22-19.03.31:062][697]LogAIModule: Creating AISystem for world GoldenLevel
+[2019.04.22-19.03.31:182][697]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.22-19.03.31:360][697]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 177.038ms to complete.
+[2019.04.22-19.03.31:362][697]LogFileHelpers: Loading map 'GoldenLevel' took 0.334
+[2019.04.22-19.03.45:038][484]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-19.03.54:084][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.04.07:069][290]LogTexture: Display: Building textures: T_Sky_01_05_Sunset (RGBA16F, 8192X8192)
+[2019.04.22-19.05.41:410][693]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-19.06.07:108][826]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-19.06.11:778][105]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-19.06.22:048][720]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-19.06.26:546][984]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/GoldenLevelFD1F8A514BF06AF074B804AB6835C50A.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel.umap'
+[2019.04.22-19.06.37:996][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.06.38:607][677]LogRenderer: Reallocating scene render targets to support 924x552 Format 10 NumSamples 1 (Frame:6859).
+[2019.04.22-19.06.38:681][678]LogRenderer: Reallocating scene render targets to support 932x552 Format 10 NumSamples 1 (Frame:6861).
+[2019.04.22-19.06.38:733][679]LogRenderer: Reallocating scene render targets to support 944x552 Format 10 NumSamples 1 (Frame:6863).
+[2019.04.22-19.06.38:779][680]LogRenderer: Reallocating scene render targets to support 948x552 Format 10 NumSamples 1 (Frame:6865).
+[2019.04.22-19.06.38:826][681]LogRenderer: Reallocating scene render targets to support 952x552 Format 10 NumSamples 1 (Frame:6867).
+[2019.04.22-19.06.42:646][846]LogRenderer: Reallocating scene render targets to support 952x560 Format 10 NumSamples 1 (Frame:7069).
+[2019.04.22-19.06.42:700][847]LogRenderer: Reallocating scene render targets to support 952x568 Format 10 NumSamples 1 (Frame:7071).
+[2019.04.22-19.07.06:804][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.07.10:616][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.07.19:183][711]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-19.07.36:055][646]Cmd: TRANSACTION UNDO
+[2019.04.22-19.07.36:055][646]LogEditorTransaction: Undo Move Actors
+[2019.04.22-19.07.42:642][  1]Cmd: TRANSACTION UNDO
+[2019.04.22-19.07.42:642][  1]LogEditorTransaction: Undo Move Actors
+[2019.04.22-19.07.43:640][ 59]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2019.04.22-19.08.05:689][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.08.06:244][  9]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/GoldenLevelADCF3E3E4389B3879583708ADE7D3FF6.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel.umap'
+[2019.04.22-19.08.09:334][ 47]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2019.04.22-19.08.17:630][158]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 32X32)
+[2019.04.22-19.08.17:642][158]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 32X32)
+[2019.04.22-19.08.17:652][158]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 32X32)
+[2019.04.22-19.08.17:674][158]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 32X32)
+[2019.04.22-19.08.17:686][158]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 32X32)
+[2019.04.22-19.08.17:696][158]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 32X32)
+[2019.04.22-19.08.17:708][158]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 32X32)
+[2019.04.22-19.08.17:741][158]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 32X32)
+[2019.04.22-19.08.17:752][158]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 32X32)
+[2019.04.22-19.08.17:763][158]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 32X32)
+[2019.04.22-19.08.17:774][158]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 32X32)
+[2019.04.22-19.08.17:805][158]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 32X32)
+[2019.04.22-19.08.17:816][158]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 32X32)
+[2019.04.22-19.08.17:827][158]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 32X32)
+[2019.04.22-19.08.17:840][158]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2019.04.22-19.08.17:871][158]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 32X32)
+[2019.04.22-19.08.17:988][158]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 256X256)
+[2019.04.22-19.08.23:136][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.08.26:658][497]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.08.29:499][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.08.39:338][126]LogSlate: Window 'Color Picker' being destroyed
+[2019.04.22-19.08.55:438][ 48]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.04.22-19.08.56:075][ 82]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2019.04.22-19.08.56:128][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-19.08.57:798][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.22-19.08.57:798][169]PIE: New page: PIE session: GoldenLevel (Apr 22, 2019, 11:08:57 AM)
+[2019.04.22-19.08.57:798][169]LogPlayLevel: Creating play world package: /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel
+[2019.04.22-19.08.57:817][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018464s)
+[2019.04.22-19.08.57:818][169]LogAIModule: Creating AISystem for world GoldenLevel
+[2019.04.22-19.08.57:818][169]LogPlayLevel: PIE: World Init took: (0.001484s)
+[2019.04.22-19.08.57:818][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel.GoldenLevel to /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel.GoldenLevel (0.020216s)
+[2019.04.22-19.08.57:889][169]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.22-19.08.57:941][169]LogInit: FAudioDevice initialized.
+[2019.04.22-19.08.57:941][169]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-19.08.57:972][169]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.22-19.08.57:977][169]LogWorld: Bringing World /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel.GoldenLevel up for play (max tick rate 60) at 2019.04.22-15.08.57
+[2019.04.22-19.08.57:978][169]LogWorld: Bringing up level for play took: 0.003913
+[2019.04.22-19.08.57:992][169]LogScript: Warning: Script Msg: Divide by zero detected: -0.600098 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.22-19.08.58:011][169]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/Characters/MainCharacter.MainCharacter_C:ExecuteUbergraph_MainCharacter'!
+[2019.04.22-19.08.58:013][169]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.22-19.08.58:013][169]PIE: Play in editor start time for /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel -0.505
+[2019.04.22-19.08.58:780][200]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:800][201]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:818][202]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:839][203]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:870][204]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:899][205]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:918][206]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:950][207]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:969][208]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.58:989][209]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:019][210]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:047][211]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:073][212]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:094][213]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:119][214]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:146][215]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:171][216]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:198][217]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:224][218]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:248][219]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:276][220]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:308][221]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:341][222]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:365][223]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:391][224]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:410][225]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:430][226]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:448][227]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:470][228]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:492][229]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:511][230]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:531][231]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.08.59:553][232]LogBlueprintUserMessages: [MainCharacter_C_0] Landscape
+[2019.04.22-19.09.00:137][263]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.22-19.09.09:988][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-19.09.10:027][853]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.22-19.09.10:062][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-19.09.10:127][854]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.04.22-19.09.18:663][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.11.01:843][583]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.11.07:594][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.11.10:808][ 95]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.11.30:392][250]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.04.22-19.11.38:235][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.11.57:527][626]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2019.04.22-19.11.58:586][648]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2019.04.22-19.17.22:078][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.18.18:129][352]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-19.18.18:532][352]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/GoldenLevel_Auto13CD2B58C44536CC0E322B2AB6DE77A77.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel_Auto1.umap'
+[2019.04.22-19.18.18:539][352]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel' took 0.350
+[2019.04.22-19.18.18:540][352]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.350
+[2019.04.22-19.26.34:970][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.26.43:289][ 60]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.22-19.26.43:342][ 60]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.22-19.26.43:343][ 60]PIE: New page: PIE session: GoldenLevel (Apr 22, 2019, 11:26:43 AM)
+[2019.04.22-19.26.43:343][ 60]LogPlayLevel: Creating play world package: /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel
+[2019.04.22-19.26.43:358][ 60]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015672s)
+[2019.04.22-19.26.43:359][ 60]LogAIModule: Creating AISystem for world GoldenLevel
+[2019.04.22-19.26.43:360][ 60]LogPlayLevel: PIE: World Init took: (0.001144s)
+[2019.04.22-19.26.43:360][ 60]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel.GoldenLevel to /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel.GoldenLevel (0.017060s)
+[2019.04.22-19.26.43:441][ 60]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.22-19.26.43:483][ 60]LogInit: FAudioDevice initialized.
+[2019.04.22-19.26.43:493][ 60]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-19.26.43:574][ 60]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.22-19.26.43:581][ 60]LogWorld: Bringing World /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel.GoldenLevel up for play (max tick rate 60) at 2019.04.22-15.26.43
+[2019.04.22-19.26.43:581][ 60]LogWorld: Bringing up level for play took: 0.005798
+[2019.04.22-19.26.43:597][ 60]PIE: Play in editor start time for /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel 1.078
+[2019.04.22-19.26.43:707][ 60]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.22-19.27.24:797][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-19.27.24:834][515]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.22-19.27.24:885][515]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.22-19.27.24:933][516]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.22-19.27.35:244][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.27.50:622][  9]LogActorFactory: Actor Factory created Pillar_50x500
+[2019.04.22-19.27.51:976][ 60]LogActorFactory: Actor Factory created Pillar_50x500
+[2019.04.22-19.28.04:075][561]Cmd: DELETE
+[2019.04.22-19.28.04:075][561]Cmd: ACTOR DELETE
+[2019.04.22-19.28.04:126][561]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.22-19.28.04:218][561]LogEditorActor: Deleted 1 Actors (0.142 secs)
+[2019.04.22-19.28.08:005][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.28.08:194][749]LogActorFactory: Actor Factory created Wall_400x400
+[2019.04.22-19.28.09:261][801]LogActorFactory: Actor Factory created Wall_400x400
+[2019.04.22-19.28.11:444][914]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_C (BP_Sky)
+[2019.04.22-19.28.20:431][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall_400x400)
+[2019.04.22-19.28.21:668][470]Cmd: DELETE
+[2019.04.22-19.28.21:668][470]Cmd: ACTOR DELETE
+[2019.04.22-19.28.21:687][470]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.22-19.28.21:733][470]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2019.04.22-19.28.25:224][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.28.30:005][930]LogActorFactory: Actor Factory created Wall_400x400
+[2019.04.22-19.28.30:006][930]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2019.04.22-19.28.31:201][  1]LogActorFactory: Actor Factory created Wall_400x400
+[2019.04.22-19.28.31:234][  1]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2019.04.22-19.28.32:926][ 82]Cmd: DELETE
+[2019.04.22-19.28.32:926][ 82]Cmd: ACTOR DELETE
+[2019.04.22-19.28.32:946][ 82]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.22-19.28.32:947][ 82]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.22-19.28.32:991][ 82]LogEditorActor: Deleted 2 Actors (0.065 secs)
+[2019.04.22-19.28.34:147][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.28.35:197][203]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2019.04.22-19.28.35:938][247]LogActorFactory: Actor Factory created Wall_Door_400x400
+[2019.04.22-19.28.40:939][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.28.41:038][543]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.22-19.28.41:094][543]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.22-19.28.41:094][543]PIE: New page: PIE session: GoldenLevel (Apr 22, 2019, 11:28:41 AM)
+[2019.04.22-19.28.41:094][543]LogPlayLevel: Creating play world package: /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel
+[2019.04.22-19.28.41:109][543]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015378s)
+[2019.04.22-19.28.41:110][543]LogAIModule: Creating AISystem for world GoldenLevel
+[2019.04.22-19.28.41:110][543]LogPlayLevel: PIE: World Init took: (0.000969s)
+[2019.04.22-19.28.41:110][543]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel.GoldenLevel to /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel.GoldenLevel (0.016551s)
+[2019.04.22-19.28.41:169][543]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.22-19.28.41:212][543]LogInit: FAudioDevice initialized.
+[2019.04.22-19.28.41:223][543]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-19.28.41:304][543]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.22-19.28.41:310][543]LogWorld: Bringing World /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel.GoldenLevel up for play (max tick rate 60) at 2019.04.22-15.28.41
+[2019.04.22-19.28.41:310][543]LogWorld: Bringing up level for play took: 0.004520
+[2019.04.22-19.28.41:326][543]PIE: Play in editor start time for /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel 0.808
+[2019.04.22-19.28.52:630][210]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.22-19.28.52:678][210]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.22-19.28.52:722][210]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.22-19.28.52:847][211]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.04.22-19.29.01:726][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.29.19:123][729]LogActorFactory: Actor Factory created iceCreamScoop_IceCreamTop
+[2019.04.22-19.29.19:124][729]LogActorFactory: Actor Factory created iceCreamScoop_IceCreamBottom
+[2019.04.22-19.29.20:017][782]LogActorFactory: Actor Factory created iceCreamScoop_IceCreamTop
+[2019.04.22-19.29.20:056][782]LogActorFactory: Actor Factory created iceCreamScoop_IceCreamBottom
+[2019.04.22-19.29.30:051][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.29.39:128][872]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.04.22-19.29.40:141][922]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (iceCreamScoop_IceCreamTop)
+[2019.04.22-19.29.52:600][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.30.09:831][956]Cmd: DELETE
+[2019.04.22-19.30.09:831][956]Cmd: ACTOR DELETE
+[2019.04.22-19.30.09:874][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.22-19.30.09:874][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.04.22-19.30.09:976][956]LogEditorActor: Deleted 2 Actors (0.145 secs)
+[2019.04.22-19.30.40:254][436]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.22-19.30.40:940][436]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/GoldenLevel_Auto2F42F72F54117D8D74A68D29549605D06.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/Autosaves/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel_Auto2.umap'
+[2019.04.22-19.30.40:947][436]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel' took 0.563
+[2019.04.22-19.30.40:947][436]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.563
+[2019.04.22-19.31.45:019][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.31.48:272][548]LogSavePackage: Moving '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Saved/GoldenLevel8235B26B4DA744A0C6C02494E80AFDD6.tmp' to '../../../../../../Users/jessie lichter/Desktop/spring2019/Game Development 2/GitProjects/GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel.umap'
+[2019.04.22-19.31.51:049][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.22-19.31.51:561][635]LogSlate: Window 'MarshMellow - Unreal Editor' being destroyed
+[2019.04.22-19.31.51:991][636]Cmd: QUIT_EDITOR
+[2019.04.22-19.31.53:096][636]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.22-19.31.53:159][636]LogExit: Preparing to exit.
+[2019.04.22-19.31.54:048][636]LogExit: Editor shut down
+[2019.04.22-19.31.54:048][636]LogExit: Transaction tracking system shut down
+[2019.04.22-19.31.55:309][636]LogExit: Object subsystem successfully closed.
+[2019.04.22-19.31.55:366][636]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.22-19.31.55:389][636]LogD3D11RHI: Shutdown
+[2019.04.22-19.31.55:389][636]LogD3D11RHI: CleanupD3DDevice
+[2019.04.22-19.31.55:445][636]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.22-19.31.55:551][636]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (620)
+[2019.04.22-19.31.55:551][636]LogModuleManager: Shutting down and abandoning module MeshBuilder (618)
+[2019.04.22-19.31.55:551][636]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.04.22-19.31.55:551][636]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.04.22-19.31.55:552][636]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.04.22-19.31.55:552][636]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.04.22-19.31.55:552][636]LogModuleManager: Shutting down and abandoning module WorldBrowser (608)
+[2019.04.22-19.31.55:553][636]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2019.04.22-19.31.55:557][636]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2019.04.22-19.31.55:557][636]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2019.04.22-19.31.55:557][636]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2019.04.22-19.31.55:558][636]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.04.22-19.31.55:559][636]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.04.22-19.31.55:559][636]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.04.22-19.31.55:560][636]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.04.22-19.31.55:560][636]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.04.22-19.31.55:560][636]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.04.22-19.31.55:560][636]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.04.22-19.31.55:560][636]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.04.22-19.31.55:560][636]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.04.22-19.31.55:560][636]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.04.22-19.31.55:561][636]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.04.22-19.31.55:561][636]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.04.22-19.31.55:561][636]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.04.22-19.31.55:562][636]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.04.22-19.31.55:562][636]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.04.22-19.31.55:562][636]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.04.22-19.31.55:564][636]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.04.22-19.31.55:564][636]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.04.22-19.31.55:567][636]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.04.22-19.31.55:567][636]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.04.22-19.31.55:567][636]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.04.22-19.31.55:569][636]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.04.22-19.31.55:570][636]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.04.22-19.31.55:570][636]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.04.22-19.31.55:570][636]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.04.22-19.31.55:570][636]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.04.22-19.31.55:570][636]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.04.22-19.31.55:571][636]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.04.22-19.31.55:573][636]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.04.22-19.31.55:575][636]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.04.22-19.31.55:577][636]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.04.22-19.31.55:578][636]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.04.22-19.31.55:578][636]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.04.22-19.31.55:578][636]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.04.22-19.31.55:578][636]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.04.22-19.31.55:578][636]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.04.22-19.31.56:249][636]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.04.22-19.31.56:249][636]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.04.22-19.31.56:249][636]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.04.22-19.31.56:249][636]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.04.22-19.31.56:249][636]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.04.22-19.31.56:250][636]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.04.22-19.31.56:251][636]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.04.22-19.31.56:252][636]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.04.22-19.31.56:252][636]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.04.22-19.31.56:252][636]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.04.22-19.31.56:252][636]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.04.22-19.31.56:253][636]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.04.22-19.31.56:253][636]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.04.22-19.31.56:253][636]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.04.22-19.31.56:253][636]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.04.22-19.31.56:254][636]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.04.22-19.31.56:254][636]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.04.22-19.31.56:255][636]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.04.22-19.31.56:256][636]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.04.22-19.31.56:256][636]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.04.22-19.31.56:256][636]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.04.22-19.31.56:257][636]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.04.22-19.31.56:312][636]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.04.22-19.31.56:313][636]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.04.22-19.31.56:313][636]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.04.22-19.31.56:315][636]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.04.22-19.31.56:315][636]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.04.22-19.31.56:316][636]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.04.22-19.31.56:316][636]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.04.22-19.31.56:317][636]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.04.22-19.31.56:318][636]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.04.22-19.31.56:318][636]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.04.22-19.31.56:323][636]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.04.22-19.31.56:325][636]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.04.22-19.31.56:327][636]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.04.22-19.31.56:327][636]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.22-19.31.56:328][636]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.22-19.31.56:329][636]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.22-19.31.56:329][636]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.22-19.31.56:329][636]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.22-19.31.56:329][636]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.22-19.31.56:330][636]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.22-19.31.56:330][636]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.22-19.31.56:331][636]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.22-19.31.56:331][636]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.22-19.31.56:331][636]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.22-19.31.56:331][636]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.22-19.31.56:331][636]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.22-19.31.56:331][636]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.22-19.31.56:332][636]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.22-19.31.56:332][636]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.22-19.31.56:333][636]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.22-19.31.56:333][636]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.04.22-19.31.56:333][636]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.04.22-19.31.56:513][636]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.04.22-19.31.56:514][636]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.04.22-19.31.56:514][636]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.04.22-19.31.56:514][636]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.04.22-19.31.56:515][636]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.04.22-19.31.56:516][636]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.04.22-19.31.56:516][636]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.04.22-19.31.56:517][636]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.04.22-19.31.56:517][636]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.04.22-19.31.56:523][636]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.04.22-19.31.56:523][636]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.04.22-19.31.56:524][636]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.22-19.31.56:525][636]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.04.22-19.31.56:525][636]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.04.22-19.31.56:525][636]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.04.22-19.31.56:527][636]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.04.22-19.31.56:527][636]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.04.22-19.31.56:527][636]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.04.22-19.31.56:528][636]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.04.22-19.31.56:528][636]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.04.22-19.31.56:528][636]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.04.22-19.31.56:528][636]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.04.22-19.31.56:528][636]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.04.22-19.31.56:528][636]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.04.22-19.31.56:529][636]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.04.22-19.31.56:529][636]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.04.22-19.31.56:530][636]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.04.22-19.31.56:530][636]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.04.22-19.31.56:530][636]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.04.22-19.31.56:531][636]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.04.22-19.31.56:531][636]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.04.22-19.31.56:531][636]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.04.22-19.31.56:531][636]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.22-19.31.56:532][636]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.22-19.31.56:634][636]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.22-19.31.56:735][636]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.22-19.31.56:735][636]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.22-19.31.56:736][636]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.22-19.31.56:736][636]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.22-19.31.56:736][636]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.22-19.31.56:737][636]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.22-19.31.56:738][636]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.22-19.31.56:741][636]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.22-19.31.56:742][636]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.22-19.31.56:742][636]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.22-19.31.56:743][636]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.22-19.31.56:745][636]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.22-19.31.56:749][636]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.22-19.31.56:750][636]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.22-19.31.56:750][636]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.22-19.31.56:750][636]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.22-19.31.56:750][636]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.22-19.31.56:751][636]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.22-19.31.56:755][636]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.22-19.31.56:762][636]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.22-19.31.56:762][636]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.22-19.31.56:762][636]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.22-19.31.56:763][636]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.22-19.31.56:763][636]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.22-19.31.56:763][636]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.22-19.31.56:763][636]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.22-19.31.56:763][636]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.22-19.31.56:764][636]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.22-19.31.56:764][636]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.22-19.31.56:767][636]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.22-19.31.56:768][636]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.22-19.31.56:769][636]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.22-19.31.56:769][636]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.22-19.31.56:769][636]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.22-19.31.56:770][636]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.22-19.31.56:774][636]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.22-19.31.56:774][636]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.22-19.31.56:776][636]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.22-19.31.56:777][636]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.22-19.31.56:782][636]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.22-19.31.56:782][636]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.22-19.31.56:782][636]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.22-19.31.56:782][636]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.22-19.31.56:782][636]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.22-19.31.56:782][636]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.22-19.31.56:782][636]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.22-19.31.56:783][636]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.22-19.31.56:783][636]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.22-19.31.56:783][636]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.22-19.31.56:784][636]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.22-19.31.56:784][636]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.22-19.31.56:785][636]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.22-19.31.56:786][636]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.22-19.31.56:786][636]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.22-19.31.56:787][636]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.22-19.31.56:787][636]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.22-19.31.56:788][636]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.22-19.31.56:804][636]LogDerivedDataCache: Shutdown
+[2019.04.22-19.31.56:804][636]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.22-19.31.56:804][636]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.22-19.31.56:805][636]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.22-19.31.56:805][636]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.22-19.31.56:806][636]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.22-19.31.56:806][636]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.22-19.31.56:806][636]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.22-19.31.56:807][636]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.22-19.31.56:807][636]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.22-19.31.56:807][636]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.22-19.31.56:807][636]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.22-19.31.56:808][636]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.22-19.31.56:809][636]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.22-19.31.56:809][636]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.22-19.31.56:825][636]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.22-19.31.56:825][636]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.22-19.31.56:839][636]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.22-19.31.56:839][636]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.22-19.31.56:903][636]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.22-19.31.56:904][636]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.22-19.31.56:904][636]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.22-19.31.56:904][636]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.22-19.31.56:904][636]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.22-19.31.56:904][636]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.22-19.31.56:904][636]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.22-19.31.56:904][636]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.22-19.31.56:905][636]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.22-19.31.56:907][636]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.22-19.31.56:945][636]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.22-19.31.56:947][636]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.22-19.31.56:947][636]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B07D5705B-4FE1-9B0F-ED07-B98A36547D30%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=52c8d69c47c3b558f96bdeaad69b44a8%7C1e4490187f7d4590821fe5ea33366920%7Ca0ac2db9-04c3-40ba-9c12-a7ac0bed75b1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.22-19.31.56:954][636]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.22-19.31.56:956][636]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.22-19.31.56:956][636]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.22-19.31.56:956][636]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.22-19.31.56:956][636]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.22-19.31.56:956][636]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.22-19.31.56:956][636]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.22-19.31.56:957][636]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.22-19.31.56:957][636]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.22-19.31.56:957][636]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.22-19.31.56:958][636]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.22-19.31.56:958][636]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.22-19.31.56:958][636]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.22-19.31.56:959][636]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.22-19.31.56:959][636]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.22-19.31.56:961][636]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.22-19.31.56:961][636]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.22-19.31.56:961][636]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.22-19.31.56:961][636]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.22-19.31.56:962][636]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.22-19.31.56:962][636]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.22-19.31.56:963][636]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.22-19.31.56:963][636]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.22-19.31.56:963][636]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.22-19.31.56:963][636]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.22-19.31.56:963][636]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.22-19.31.56:963][636]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.22-19.31.56:963][636]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.22-19.31.56:963][636]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.22-19.31.56:964][636]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.22-19.31.56:975][636]LogExit: Exiting.
+[2019.04.22-19.31.57:043][636]Log file closed, 04/22/19 15:31:57
