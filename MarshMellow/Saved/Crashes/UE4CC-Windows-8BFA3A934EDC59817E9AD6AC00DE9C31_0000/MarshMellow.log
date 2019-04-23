@@ -1,0 +1,678 @@
+﻿Log file open, 04/23/19 15:06:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: MarshMellow
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.310999
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.126s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.005s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.23-19.06.32:526][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.23-19.06.32:526][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.23-19.06.32:591][  0]LogHAL: Display: Platform has ~ 16 GB [16918192128 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.23-19.06.32:591][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.23-19.06.32:591][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.23-19.06.32:592][  0]LogInit: Computer: DESKTOP-N2EB70C
+[2019.04.23-19.06.32:592][  0]LogInit: User: cheny43
+[2019.04.23-19.06.32:592][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.04.23-19.06.32:592][  0]LogInit: High frequency timer resolution =2.531250 MHz
+[2019.04.23-19.06.32:592][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2019.04.23-19.06.32:592][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.23-19.06.32:592][  0]LogMemory: Process Physical Memory: 110.64 MB used, 110.64 MB peak
+[2019.04.23-19.06.32:592][  0]LogMemory: Process Virtual Memory: 101.55 MB used, 101.55 MB peak
+[2019.04.23-19.06.32:592][  0]LogMemory: Physical Memory: 7196.25 MB used,  8938.20 MB free, 16134.45 MB total
+[2019.04.23-19.06.32:592][  0]LogMemory: Virtual Memory: 4651.32 MB used,  8938.20 MB free, 134217728.00 MB total
+[2019.04.23-19.06.32:617][  0]LogInit: Using OS detected language (en-US).
+[2019.04.23-19.06.32:617][  0]LogInit: Using OS detected locale (en-US).
+[2019.04.23-19.06.32:618][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.04.23-19.06.32:993][  0]LogStreaming: Display: Took  0.376s to InitEngineTextLocalization.
+[2019.04.23-19.06.32:993][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.23-19.06.33:038][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.23-19.06.33:038][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.23-19.06.33:283][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.23-19.06.33:283][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.23-19.06.33:347][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960M' (Feature Level 11_0)
+[2019.04.23-19.06.33:347][  0]LogD3D11RHI:       2010/0/8067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.23-19.06.33:359][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.04.23-19.06.33:359][  0]LogD3D11RHI:       128/0/8067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.04.23-19.06.33:361][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.23-19.06.33:361][  0]LogD3D11RHI:       0/0/8067 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.23-19.06.33:361][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.23-19.06.33:407][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.23-19.06.33:407][  0]LogD3D11RHI:     GPU DeviceId: 0x139b (for the marketing name, search the web for "GPU Device Id")
+[2019.04.23-19.06.33:407][  0]LogWindows: EnumDisplayDevices:
+[2019.04.23-19.06.33:407][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.04.23-19.06.33:407][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.23-19.06.33:408][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.04.23-19.06.33:408][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2019.04.23-19.06.33:408][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960M
+[2019.04.23-19.06.33:408][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2019.04.23-19.06.33:408][  0]LogD3D11RHI:      Driver Date: Unknown
+[2019.04.23-19.06.33:408][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2019.04.23-19.06.33:447][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.23-19.06.33:464][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.23-19.06.33:465][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../GameDev2Project/MarshMellow/Intermediate/Shaders/WorkingDirectory/14828/).
+[2019.04.23-19.06.33:465][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/cheny43/AppData/Local/Temp/UnrealShaderWorkingDir/1C8D96C24291C50EE5B53CAB7F0DC29F/'.
+[2019.04.23-19.06.33:816][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.23-19.06.33:833][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.23-19.06.33:848][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.23-19.06.33:866][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.23-19.06.33:883][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.23-19.06.33:900][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.23-19.06.33:915][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.23-19.06.33:931][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.23-19.06.33:938][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:022][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.23-19.06.34:023][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.23-19.06.34:089][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.23-19.06.34:089][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.23-19.06.34:116][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.23-19.06.34:116][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.23-19.06.34:129][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.23-19.06.34:142][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.23-19.06.34:155][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.23-19.06.34:169][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.23-19.06.34:178][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.23-19.06.34:178][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.23-19.06.34:254][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.23-19.06.34:254][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.23-19.06.34:254][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.23-19.06.35:097][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.23-19.06.35:156][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/cheny43/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.23-19.06.35:156][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/cheny43/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.23-19.06.35:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../GameDev2Project/MarshMellow/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.23-19.06.35:156][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.23-19.06.35:156][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../GameDev2Project/MarshMellow/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.23-19.06.35:156][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.23-19.06.35:172][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.23-19.06.35:185][  0]LogDerivedDataCache: Using Local data cache path C:/Users/cheny43/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.04.23-19.06.35:185][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.23-19.06.35:185][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.23-19.06.35:203][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.23-19.06.35:205][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.23-19.06.35:205][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.23-19.06.35:289][  0]LogAssetRegistry: FAssetRegistry took 0.0266 seconds to start up
+[2019.04.23-19.06.37:165][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.23-19.06.37:228][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.23-19.06.37:234][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.23-19.06.37:234][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.23-19.06.37:234][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.23-19.06.37:234][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.23-19.06.37:342][  0]LogNetVersion: MarshMellow 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3750370364)
+[2019.04.23-19.06.37:990][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.142296 seconds
+[2019.04.23-19.06.37:999][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.04.23-19.06.37:999][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.04.23-19.06.37:999][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.23-19.06.38:989][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.23-19.06.39:002][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.23-19.06.39:164][  0]SourceControl: Source control is disabled
+[2019.04.23-19.06.39:164][  0]SourceControl: Source control is disabled
+[2019.04.23-19.06.39:166][  0]SourceControl: Source control is disabled
+[2019.04.23-19.06.39:167][  0]SourceControl: Source control is disabled
+[2019.04.23-19.06.39:335][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.23-19.06.39:411][  0]LogOcInput: OculusInput pre-init called
+[2019.04.23-19.06.39:480][  0]LogEngine: Initializing Engine...
+[2019.04.23-19.06.39:481][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.23-19.06.39:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.23-19.06.39:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.23-19.06.39:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.23-19.06.39:482][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.23-19.06.39:734][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.23-19.06.39:749][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.23-19.06.39:763][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-19.06.39:939][  0]LogInit: FAudioDevice initialized.
+[2019.04.23-19.06.39:939][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.23-19.06.39:993][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/cheny43/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.23-19.06.40:014][  0]LogInit: Texture streaming: Enabled
+[2019.04.23-19.06.40:033][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.23-19.06.40:050][  0]LogInit: Transaction tracking system initialized
+[2019.04.23-19.06.40:077][  0]BlueprintLog: New page: Editor Load
+[2019.04.23-19.06.40:177][  0]LocalizationService: Localization service is disabled
+[2019.04.23-19.06.40:236][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.04.23-19.06.40:236][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2019.04.23-19.06.40:236][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2019.04.23-19.06.40:489][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.23-19.06.40:489][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.23-19.06.40:489][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.23-19.06.40:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.23-19.06.40:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.23-19.06.40:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.23-19.06.40:489][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.23-19.06.40:639][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev2Project/MarshMellow/Content/' took 0.10s
+[2019.04.23-19.06.40:639][  0]SourceControl: Source control is disabled
+[2019.04.23-19.06.40:639][  0]Cmd: MAP LOAD FILE="../../../../../../GameDev2Project/MarshMellow/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.23-19.06.40:646][  0]LightingResults: New page: Lighting Build
+[2019.04.23-19.06.40:650][  0]MapCheck: New page: Map Check
+[2019.04.23-19.06.40:650][  0]LightingResults: New page: Lighting Build
+[2019.04.23-19.06.41:592][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2019.04.23-19.06.41:610][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.23-19.06.41:636][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.23-19.06.41:720][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 83.906ms to complete.
+[2019.04.23-19.06.41:720][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.080
+[2019.04.23-19.06.41:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-19.06.41:869][  0]LogCollectionManager: Loaded 0 collections in 0.002219 seconds
+[2019.04.23-19.06.41:938][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev2Project/MarshMellow/Saved/Collections/' took 0.01s
+[2019.04.23-19.06.41:938][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev2Project/MarshMellow/Content/Developers/cheny43/Collections/' took 0.01s
+[2019.04.23-19.06.41:938][  0]LogFileCache: Scanning file cache for directory 'C:/GameDev2Project/MarshMellow/Content/Collections/' took 0.01s
+[2019.04.23-19.06.41:938][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.04.23-19.06.41:958][  0]LogContentBrowser: Native class hierarchy populated in 0.0191 seconds. Added 2572 classes and 603 folders.
+[2019.04.23-19.06.41:975][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.23-19.06.42:428][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.04.23-19.06.42:444][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.23-19.06.42:602][  0]LogSlate: Took 0.000311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.23-19.06.42:605][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.23-19.06.42:621][  0]LogSlate: Took 0.005698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.23-19.06.42:788][  0]LogRenderer: Reallocating scene render targets to support 848x436 Format 10 NumSamples 1 (Frame:1).
+[2019.04.23-19.06.42:981][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.04.23-19.06.42:981][  0]LogLoad: (Engine Initialization) Total time: 12.75 seconds
+[2019.04.23-19.06.42:981][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.23-19.06.43:000][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.04.23-19.06.43:050][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.23-19.06.43:211][  2]LogSlate: Took 0.005565 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.23-19.06.43:510][  5]LogAssetRegistry: Asset discovery search completed in 8.2433 seconds
+[2019.04.23-19.06.43:513][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.23-19.06.43:513][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2019.04.23-19.06.45:746][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.06.48:132][280]LogFileCache: Retrieving MD5 hashes for directory 'C:/GameDev2Project/MarshMellow/Content/' took 5.12s
+[2019.04.23-19.06.52:422][537]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.23-19.06.52:540][537]LogLinker: Warning: Can't find file '/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1_BuiltData'
+[2019.04.23-19.06.52:540][537]LogLinker: Warning: Can't find file for asset '/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1_BuiltData' while loading ../../../../../../GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1.umap.
+[2019.04.23-19.06.52:540][537]LoadErrors: Error: /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1 : Can't find file for asset. /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1_BuiltData
+[2019.04.23-19.06.54:432][537]LogLinker: Warning: Can't find file '/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1_BuiltData'
+[2019.04.23-19.06.54:433][537]LogLinker: Warning: Can't find file for asset '/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1_BuiltData' while loading ../../../../../../GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1.umap.
+[2019.04.23-19.06.54:857][537]LogLinker: Warning: Can't find file '/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1_BuiltData'
+[2019.04.23-19.06.54:857][537]LoadErrors: Failed to load /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1_BuiltData.GoldenLevel1_BuiltData Referenced by PersistentLevel
+[2019.04.23-19.06.54:857][537]LogLinker: Warning: Can't find file for asset '/Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1_BuiltData' while loading NULL.
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_103 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_111 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_119 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_127 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_31 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_39 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_47 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_63 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_55 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_126 (BGRA8, 256X256)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_71 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_79 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_87 (BGRA8, 32X32)
+[2019.04.23-19.06.55:015][537]LogTexture: Display: Building textures: Texture2D_95 (BGRA8, 32X32)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: iceCreamScoop_iceCreamTopID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: iceCreamScoop_iceCreamTopID_Normal (BC5, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: NowFinal_pupilID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: T_Large_Variation_Mask_M (AutoDXT, 1024X1024)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: T_Wetness_R (AutoDXT, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: gumdrop_GummyID_Normal (BC5, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: gumdrop_GummyID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: gumdrop_GummyID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: T_Grass_Composite_01_BC (AutoDXT, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorOuterID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.06.57:223][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorOuterID_Normal (BC5, 2048X2048)
+[2019.04.23-19.06.57:240][537]LogStaticMesh: Building static mesh iceCreamScoop_IceCreamTop...
+[2019.04.23-19.06.57:269][537]LogStaticMesh: Built static mesh [0.03s] /Game/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamTop.iceCreamScoop_IceCreamTop
+[2019.04.23-19.06.57:513][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorOuterID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.06.57:513][537]LogTexture: Display: Building textures: iceCreamScoop_iceCreamTopID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: iceCreamScoop_IceCreamBottomID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: iceCreamScoop_IceCreamBottomID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: iceCreamScoop_IceCreamBottomID_Normal (BC5, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: T_Grass_Composite_01_M (AutoDXT, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: T_Grass_Composite_01_N (BC5, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: NowFinal_pupilID_Normal (BC5, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorFrontID_Normal (BC5, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorFrontID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: NowFinal_OuterEyeID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.07.02:058][537]LogTexture: Display: Building textures: NowFinal_OuterEyeID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.07.02:071][537]LogMaterial: Display: Missing cached shader map for material iceCreamTopID, compiling. 
+[2019.04.23-19.07.06:976][537]LogTexture: Display: Building textures: NowFinal_OuterEyeID_Normal (BC5, 2048X2048)
+[2019.04.23-19.07.06:976][537]LogTexture: Display: Building textures: waffy_waffID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:976][537]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.23-19.07.06:976][537]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.23-19.07.06:976][537]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.04.23-19.07.06:976][537]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.04.23-19.07.06:976][537]LogTexture: Display: Building textures: waffy_waffID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: waffy_waffID_Normal (BC5, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: NowFinal_pupilID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: NowFinal_OutEyePhong_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: NowFinal_OutEyePhong_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorSideBackID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorSideBackID_Normal (BC5, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorSideBackID_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: Cake_Wall_lambert1_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: Cake_Wall_lambert1_Normal (BC5, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: Cake_Wall_lambert1_OcclusionRoughnessMetallic (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: WaffleDoorSet_DoorFrontID_BaseColor (AutoDXT, 2048X2048)
+[2019.04.23-19.07.06:977][537]LogTexture: Display: Building textures: T_Wind_N (BC5, 1024X1024)
+[2019.04.23-19.07.08:460][537]LogMaterial: Display: Missing cached shader map for material lambert1, compiling. 
+[2019.04.23-19.07.08:506][537]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.04.23-19.07.08:506][537]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.04.23-19.07.08:506][537]LogStaticMesh: Building static mesh gumdrop...
+[2019.04.23-19.07.08:520][537]LogStaticMesh: Built static mesh [0.01s] /Game/Jessie_AllThingsGold/GoldenModels/gumdrop.gumdrop
+[2019.04.23-19.07.08:526][537]LogMaterial: Display: Missing cached shader map for material cupcakeID, compiling. 
+[2019.04.23-19.07.08:597][537]LogStaticMesh: Building static mesh cupcakeHouseBase...
+[2019.04.23-19.07.08:656][537]LogStaticMesh: Built static mesh [0.06s] /Game/Jessie_AllThingsGold/GoldenModels/cupcakeHouseBase.cupcakeHouseBase
+[2019.04.23-19.07.08:668][537]LogStaticMesh: Building static mesh SM_Grass_Cluster_02...
+[2019.04.23-19.07.08:671][537]LogStaticMesh: Built static mesh [0.00s] /Game/CustomizableGrass/StaticMesh/SM_Grass_Cluster_02.SM_Grass_Cluster_02
+[2019.04.23-19.07.08:676][537]LogStaticMesh: Building static mesh SM_Grass_Cluster_03...
+[2019.04.23-19.07.08:679][537]LogStaticMesh: Built static mesh [0.00s] /Game/CustomizableGrass/StaticMesh/SM_Grass_Cluster_03.SM_Grass_Cluster_03
+[2019.04.23-19.07.08:745][537]LogMaterial: Display: Missing cached shader map for material M_Landscape, compiling. 
+[2019.04.23-19.07.08:790][537]LogMaterial: Display: Missing cached shader map for material M_Landscape, compiling. 
+[2019.04.23-19.07.08:841][537]LogMaterial: Display: Missing cached shader map for material M_Landscape, compiling. 
+[2019.04.23-19.07.08:911][537]LogMaterial: Display: Missing cached shader map for material M_Landscape, compiling. 
+[2019.04.23-19.07.11:171][537]LogShaderCompilers: Display: Shaders left to compile 224
+[2019.04.23-19.07.11:499][537]LogShaderCompilers: Display: Shaders left to compile 214
+[2019.04.23-19.07.11:865][537]LogShaderCompilers: Display: Shaders left to compile 204
+[2019.04.23-19.07.12:203][537]LogShaderCompilers: Display: Shaders left to compile 194
+[2019.04.23-19.07.12:344][537]LogStaticMesh: Building static mesh Cake_Wall...
+[2019.04.23-19.07.12:348][537]LogStaticMesh: Built static mesh [0.00s] /Game/Jessie_AllThingsGold/GoldenModels/Cake_Wall.Cake_Wall
+[2019.04.23-19.07.12:422][537]LogStaticMesh: Building static mesh iceCreamScoop_IceCreamBottom...
+[2019.04.23-19.07.12:578][537]LogStaticMesh: Built static mesh [0.16s] /Game/Jessie_AllThingsGold/GoldenModels/iceCreamScoop_IceCreamBottom.iceCreamScoop_IceCreamBottom
+[2019.04.23-19.07.12:619][537]LogStaticMesh: Building static mesh WaffleDoorSet_Door...
+[2019.04.23-19.07.12:625][537]LogStaticMesh: Built static mesh [0.01s] /Game/Jessie_AllThingsGold/GoldenModels/WaffleDoorSet_Door.WaffleDoorSet_Door
+[2019.04.23-19.07.12:627][537]LogStaticMesh: Building static mesh WaffleDoorSet_DoorOuter...
+[2019.04.23-19.07.12:635][537]LogStaticMesh: Built static mesh [0.01s] /Game/Jessie_AllThingsGold/GoldenModels/WaffleDoorSet_DoorOuter.WaffleDoorSet_DoorOuter
+[2019.04.23-19.07.12:667][537]LogStaticMesh: Building static mesh waffy...
+[2019.04.23-19.07.12:772][537]LogStaticMesh: Built static mesh [0.10s] /Game/Jessie_AllThingsGold/GoldenModels/waffy.waffy
+[2019.04.23-19.07.12:788][537]LogMaterial: Display: Missing cached shader map for material OuterEyeID, compiling. 
+[2019.04.23-19.07.12:875][537]LogMaterial: Display: Missing cached shader map for material M_Grass_Master, compiling. 
+[2019.04.23-19.07.13:010][537]LogMaterial: Display: Missing cached shader map for material GummyID, compiling. 
+[2019.04.23-19.07.13:068][537]LogMaterial: Display: Missing cached shader map for material IceCreamBottomID, compiling. 
+[2019.04.23-19.07.13:102][537]LogMaterial: Display: Missing cached shader map for material DoorOuterID, compiling. 
+[2019.04.23-19.07.13:141][537]LogMaterial: Display: Missing cached shader map for material waffID, compiling. 
+[2019.04.23-19.07.13:195][537]LogSkeletalMesh: Building Skeletal Mesh MarshmallowNPCv2...
+[2019.04.23-19.07.13:214][537]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/Character/Marshmallow_NPC/MarshmallowNPCv2.MarshmallowNPCv2
+[2019.04.23-19.07.13:256][537]LogMaterial: Display: Missing cached shader map for material OutEyePhong, compiling. 
+[2019.04.23-19.07.13:426][537]LogShaderCompilers: Display: Shaders left to compile 602
+[2019.04.23-19.07.13:426][537]LogMaterial: Display: Missing cached shader map for material pupilID, compiling. 
+[2019.04.23-19.07.13:612][537]LogMaterial: Display: Missing cached shader map for material DoorSideBackID, compiling. 
+[2019.04.23-19.07.13:667][537]LogMaterial: Display: Missing cached shader map for material Cake_Wall_M, compiling. 
+[2019.04.23-19.07.13:697][537]LogMaterial: Display: Missing cached shader map for material DoorFrontID, compiling. 
+[2019.04.23-19.07.13:726][537]LogAIModule: Creating AISystem for world GoldenLevel1
+[2019.04.23-19.07.13:767][537]LogAssetEditorManager: Opening Asset editor for World /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1.GoldenLevel1
+[2019.04.23-19.07.13:806][537]Cmd: MAP LOAD FILE="../../../../../../GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.23-19.07.13:806][537]LightingResults: New page: Lighting Build
+[2019.04.23-19.07.13:807][537]LoadErrors: New page: Loading map: GoldenLevel1.umap
+[2019.04.23-19.07.13:809][537]MapCheck: New page: Map Check
+[2019.04.23-19.07.13:809][537]LightingResults: New page: Lighting Build
+[2019.04.23-19.07.14:136][537]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.23-19.07.14:263][537]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.23-19.07.14:447][537]LogShaderCompilers: Display: Shaders left to compile 736
+[2019.04.23-19.07.14:447][537]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 183.729ms to complete.
+[2019.04.23-19.07.14:447][537]LogFileHelpers: Loading map 'GoldenLevel1' took 0.643
+[2019.04.23-19.07.15:755][592]LogShaderCompilers: Display: Shaders left to compile 726
+[2019.04.23-19.07.16:336][626]LogShaderCompilers: Display: Shaders left to compile 716
+[2019.04.23-19.07.16:357][627]LogShaderCompilers: Display: Shaders left to compile 706
+[2019.04.23-19.07.19:257][801]LogShaderCompilers: Display: Shaders left to compile 696
+[2019.04.23-19.07.19:323][805]LogShaderCompilers: Display: Shaders left to compile 686
+[2019.04.23-19.07.20:258][861]LogShaderCompilers: Display: Shaders left to compile 676
+[2019.04.23-19.07.21:183][916]LogShaderCompilers: Display: Shaders left to compile 666
+[2019.04.23-19.07.22:332][985]LogShaderCompilers: Display: Shaders left to compile 656
+[2019.04.23-19.07.23:417][ 49]LogShaderCompilers: Display: Shaders left to compile 646
+[2019.04.23-19.07.24:179][ 95]LogShaderCompilers: Display: Shaders left to compile 636
+[2019.04.23-19.07.24:277][ 99]LogSlate: Took 0.008281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.04.23-19.07.25:604][180]LogShaderCompilers: Display: Shaders left to compile 626
+[2019.04.23-19.07.25:856][195]LogShaderCompilers: Display: Shaders left to compile 616
+[2019.04.23-19.07.27:322][283]LogShaderCompilers: Display: Shaders left to compile 606
+[2019.04.23-19.07.28:923][379]LogShaderCompilers: Display: Shaders left to compile 596
+[2019.04.23-19.07.29:931][439]LogShaderCompilers: Display: Shaders left to compile 586
+[2019.04.23-19.07.31:517][534]LogShaderCompilers: Display: Shaders left to compile 576
+[2019.04.23-19.07.33:737][667]LogShaderCompilers: Display: Shaders left to compile 566
+[2019.04.23-19.07.34:238][697]LogShaderCompilers: Display: Shaders left to compile 556
+[2019.04.23-19.07.35:556][776]LogShaderCompilers: Display: Shaders left to compile 546
+[2019.04.23-19.07.37:136][871]LogShaderCompilers: Display: Shaders left to compile 536
+[2019.04.23-19.07.37:470][891]LogShaderCompilers: Display: Shaders left to compile 526
+[2019.04.23-19.07.38:270][939]LogShaderCompilers: Display: Shaders left to compile 516
+[2019.04.23-19.07.38:549][955]LogShaderCompilers: Display: Shaders left to compile 506
+[2019.04.23-19.07.40:134][ 49]Cmd: r.Streaming.PoolSize 3500
+[2019.04.23-19.07.40:137][ 49]r.Streaming.PoolSize = "3500"
+[2019.04.23-19.07.40:164][ 51]LogContentStreaming: Texture pool size now 3500 MB
+[2019.04.23-19.07.40:186][ 53]LogShaderCompilers: Display: Shaders left to compile 496
+[2019.04.23-19.07.40:976][100]LogShaderCompilers: Display: Shaders left to compile 486
+[2019.04.23-19.07.41:376][124]LogShaderCompilers: Display: Shaders left to compile 476
+[2019.04.23-19.07.43:432][225]LogShaderCompilers: Display: Shaders left to compile 466
+[2019.04.23-19.07.46:367][324]LogShaderCompilers: Display: Shaders left to compile 456
+[2019.04.23-19.07.47:358][380]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (MarshmallowNPCv2)
+[2019.04.23-19.07.49:907][456]LogShaderCompilers: Display: Shaders left to compile 446
+[2019.04.23-19.07.50:396][477]LogShaderCompilers: Display: Shaders left to compile 436
+[2019.04.23-19.07.57:503][836]LogShaderCompilers: Display: Shaders left to compile 426
+[2019.04.23-19.07.57:503][836]LogShaderCompilers: Display: Shaders left to compile 416
+[2019.04.23-19.07.57:951][853]LogShaderCompilers: Display: Shaders left to compile 406
+[2019.04.23-19.07.58:794][901]LogShaderCompilers: Display: Shaders left to compile 396
+[2019.04.23-19.07.59:033][915]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.08.03:703][180]LogShaderCompilers: Display: Shaders left to compile 386
+[2019.04.23-19.08.04:658][215]LogShaderCompilers: Display: Shaders left to compile 376
+[2019.04.23-19.08.07:032][331]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.08.07:380][351]LogShaderCompilers: Display: Shaders left to compile 366
+[2019.04.23-19.08.07:613][365]LogShaderCompilers: Display: Shaders left to compile 356
+[2019.04.23-19.08.08:345][408]LogShaderCompilers: Display: Shaders left to compile 346
+[2019.04.23-19.08.11:231][574]LogShaderCompilers: Display: Shaders left to compile 336
+[2019.04.23-19.08.11:447][587]LogShaderCompilers: Display: Shaders left to compile 326
+[2019.04.23-19.08.13:482][709]LogShaderCompilers: Display: Shaders left to compile 316
+[2019.04.23-19.08.14:520][769]LogShaderCompilers: Display: Shaders left to compile 306
+[2019.04.23-19.08.14:593][772]LogShaderCompilers: Display: Shaders left to compile 296
+[2019.04.23-19.08.17:128][922]LogShaderCompilers: Display: Shaders left to compile 286
+[2019.04.23-19.08.17:983][969]LogShaderCompilers: Display: Shaders left to compile 276
+[2019.04.23-19.08.18:598][  6]LogShaderCompilers: Display: Shaders left to compile 266
+[2019.04.23-19.08.19:953][ 87]LogShaderCompilers: Display: Shaders left to compile 256
+[2019.04.23-19.08.21:666][190]LogShaderCompilers: Display: Shaders left to compile 246
+[2019.04.23-19.08.21:732][194]LogShaderCompilers: Display: Shaders left to compile 236
+[2019.04.23-19.08.22:712][252]LogShaderCompilers: Display: Shaders left to compile 226
+[2019.04.23-19.08.23:978][327]LogShaderCompilers: Display: Shaders left to compile 216
+[2019.04.23-19.08.24:737][373]LogShaderCompilers: Display: Shaders left to compile 206
+[2019.04.23-19.08.26:442][472]LogShaderCompilers: Display: Shaders left to compile 196
+[2019.04.23-19.08.28:021][567]LogShaderCompilers: Display: Shaders left to compile 186
+[2019.04.23-19.08.28:870][618]LogShaderCompilers: Display: Shaders left to compile 176
+[2019.04.23-19.08.30:190][697]LogShaderCompilers: Display: Shaders left to compile 166
+[2019.04.23-19.08.32:816][854]LogShaderCompilers: Display: Shaders left to compile 156
+[2019.04.23-19.08.33:868][917]LogShaderCompilers: Display: Shaders left to compile 146
+[2019.04.23-19.08.34:433][951]LogShaderCompilers: Display: Shaders left to compile 136
+[2019.04.23-19.08.35:999][ 45]LogShaderCompilers: Display: Shaders left to compile 126
+[2019.04.23-19.08.36:573][ 63]LogShaderCompilers: Display: Shaders left to compile 116
+[2019.04.23-19.08.39:290][226]LogShaderCompilers: Display: Shaders left to compile 106
+[2019.04.23-19.08.39:635][241]LogShaderCompilers: Display: Shaders left to compile 96
+[2019.04.23-19.08.39:847][253]LogShaderCompilers: Display: Shaders left to compile 86
+[2019.04.23-19.08.42:531][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.08.42:588][416]LogShaderCompilers: Display: Shaders left to compile 76
+[2019.04.23-19.08.43:273][457]LogShaderCompilers: Display: Shaders left to compile 66
+[2019.04.23-19.08.43:573][475]LogShaderCompilers: Display: Shaders left to compile 56
+[2019.04.23-19.08.45:860][611]LogShaderCompilers: Display: Shaders left to compile 46
+[2019.04.23-19.08.47:189][690]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.04.23-19.08.48:056][742]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.04.23-19.08.49:098][804]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.04.23-19.08.50:913][913]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.04.23-19.09.05:582][786]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.09.16:217][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.09.17:987][523]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.23-19.09.19:308][601]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.23-19.09.30:226][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.09.32:296][379]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2019.04.23-19.09.32:334][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.23-19.09.32:350][379]PIE: New page: PIE session: GoldenLevel1 (Apr 23, 2019, 11:09:32 AM)
+[2019.04.23-19.09.32:351][379]LogPlayLevel: Creating play world package: /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel1
+[2019.04.23-19.09.32:370][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019104s)
+[2019.04.23-19.09.32:371][379]LogAIModule: Creating AISystem for world GoldenLevel1
+[2019.04.23-19.09.32:371][379]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2019.04.23-19.09.32:371][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1.GoldenLevel1 to /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel1.GoldenLevel1 (0.020662s)
+[2019.04.23-19.09.32:402][379]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.23-19.09.32:425][379]LogInit: FAudioDevice initialized.
+[2019.04.23-19.09.32:437][379]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-19.09.37:593][379]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2019.04.23-19.09.37:602][379]LogWorld: Bringing World /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel1.GoldenLevel1 up for play (max tick rate 60) at 2019.04.23-15.09.37
+[2019.04.23-19.09.37:603][379]LogWorld: Bringing up level for play took: 0.005453
+[2019.04.23-19.09.37:635][379]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 10 classes and 0 folders.
+[2019.04.23-19.09.37:637][379]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-19.09.37:661][379]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/Characters/MainCharacter.MainCharacter_C:ExecuteUbergraph_MainCharacter'!
+[2019.04.23-19.09.37:667][379]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/BluePrints/UI/HUD.HUD_C:ExecuteUbergraph_HUD'!
+[2019.04.23-19.09.37:672][379]PIE: Play in editor start time for /Game/Jessie_AllThingsGold/ActualGoldenLevel/UEDPIE_0_GoldenLevel1 5.985
+[2019.04.23-19.09.37:858][379]LogRenderer: Reallocating scene render targets to support 1024x576 Format 10 NumSamples 1 (Frame:1).
+[2019.04.23-19.09.39:888][494]LogParticles: Warning: Particle Notify: Particle system is null for particle notify 'PlayParticleEffect' in anim: '/Game/ParagonRevenant/Characters/Heroes/Revenant/Animations/LevelStart_Montage.LevelStart_Montage'
+[2019.04.23-19.10.03:619][917]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.23-19.10.03:660][917]LogSlate: Window 'MarshMellow Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2019.04.23-19.10.03:720][917]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.23-19.10.03:809][918]Cmd: SELECT NONE
+[2019.04.23-19.10.03:811][918]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.04.23-19.10.07:393][122]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-19.10.07:470][124]LogScript: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:BlueprintUpdateAnimation
+	Function /Game/ParagonRevenant/Characters/Heroes/Revenant/Revenant_AnimBlueprint.Revenant_AnimBlueprint_C:ExecuteUbergraph_Revenant_AnimBlueprint
+
+[2019.04.23-19.10.08:458][175]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BluePrints/Characters/NPC.NPC
+[2019.04.23-19.10.09:513][175]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2019.04.23-19.10.10:608][175]LogSlate: Took 0.005230 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.23-19.10.10:848][176]LogSlate: Took 0.006464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.23-19.10.45:036][182]BlueprintLog: New page: Compile NPC
+[2019.04.23-19.10.53:467][653]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2019.04.23-19.11.05:254][355]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.23-19.11.15:204][946]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.23-19.11.16:887][ 46]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.23-19.11.19:836][222]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2019.04.23-19.11.28:985][751]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.11.47:410][778]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (MarshmallowNPCv2)
+[2019.04.23-19.11.48:470][837]Cmd: DELETE
+[2019.04.23-19.11.48:470][837]Cmd: ACTOR DELETE
+[2019.04.23-19.11.48:488][837]LogEditorActor: Deleted Actor: SkeletalMeshActor
+[2019.04.23-19.11.48:524][837]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2019.04.23-19.11.49:968][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.11.55:518][236]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.12.00:819][540]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.12.04:617][752]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.12.08:680][982]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.12.13:519][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.12.19:827][618]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.12.21:799][727]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.04.23-19.12.25:643][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.12.26:185][953]LogSavePackage: Moving '../../../../../../GameDev2Project/MarshMellow/Saved/GoldenLevel1ABD7F55446C1190ADA571EB7F050AC22.tmp' to '../../../../../../GameDev2Project/MarshMellow/Content/Jessie_AllThingsGold/ActualGoldenLevel/GoldenLevel1.umap'
+[2019.04.23-19.12.38:554][612]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.23-19.12.52:883][409]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton MarshmallowNPCv2_Skeleton, removing AnimBP from actor.
+[2019.04.23-19.12.52:884][409]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton MarshmallowNPCv2_Skeleton, removing AnimBP from actor.
+[2019.04.23-19.12.52:884][409]LogAnimation: Warning: AnimBP ThirdPerson_AnimBP_C is incompatible with skeleton MarshmallowNPCv2_Skeleton, removing AnimBP from actor.
+[2019.04.23-19.12.56:757][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.23-19.13.00:871][752]LogEditorTransaction: Undo Set Scale
+[2019.04.23-19.13.02:289][752]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.382 s
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: === Handled ensure: ===
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: 
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: 
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: Stack: 
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: [Callstack] 0x00007ffc870171f6 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: [Callstack] 0x00007ffc86d50c92 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: [Callstack] 0x00007ffc86d6b356 UE4Editor-Core.dll!UnknownFunction []
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6d67eedf UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:289][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6d624514 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc668f41a9 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc668f4ee5 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc668a1a51 UE4Editor-DetailCustomizations.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc8684d0d2 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc86813f79 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc868b6a2e UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc866c93b0 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc86661444 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c5b0014 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c228d70 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c1bf869 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c5b4833 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c59b550 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c54b524 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c5a0f0a UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c15b41b UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c1e843e UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c235d9d UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6d624dc6 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6d6501fb UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6d636535 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6d6a2dc5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6d6e9b6d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6d67c81f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6c1c05b8 UE4Editor-Kismet.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc866624df UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc866a437e UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6ded3a8e UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc6dec1a08 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc866270ac UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc866a606c UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffc86699846 UE4Editor-Slate.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffccfe1ce45 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffccfe10270 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffccfe1f4c5 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffccfe0c209 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffce9076d41 USER32.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffce9076713 USER32.dll!UnknownFunction []
+[2019.04.23-19.13.02:290][752]LogOutputDevice: Error: [Callstack] 0x00007ffccfe20646 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.04.23-19.13.02:291][752]LogOutputDevice: Error: [Callstack] 0x00007ff695b854e5 UE4Editor.exe!UnknownFunction []
+[2019.04.23-19.13.02:291][752]LogOutputDevice: Error: [Callstack] 0x00007ff695b95b3c UE4Editor.exe!UnknownFunction []
+[2019.04.23-19.13.02:291][752]LogOutputDevice: Error: [Callstack] 0x00007ff695b95bba UE4Editor.exe!UnknownFunction []
+[2019.04.23-19.13.02:291][752]LogOutputDevice: Error: [Callstack] 0x00007ff695ba3dac UE4Editor.exe!UnknownFunction []
+[2019.04.23-19.13.02:291][752]LogOutputDevice: Error: [Callstack] 0x00007ff695ba5aaa UE4Editor.exe!UnknownFunction []
+[2019.04.23-19.13.02:291][752]LogOutputDevice: Error: [Callstack] 0x00007ffce7184034 KERNEL32.DLL!UnknownFunction []
+[2019.04.23-19.13.02:291][752]LogOutputDevice: Error: [Callstack] 0x00007ffce9ba3691 ntdll.dll!UnknownFunction []
+[2019.04.23-19.13.02:291][752]LogOutputDevice: Error: 
+[2019.04.23-19.13.02:301][752]LogStats:                SubmitErrorReport -  0.000 s
